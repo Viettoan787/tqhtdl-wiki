@@ -1,0 +1,50 @@
+[
+  {
+    "id": "burn",
+    "name": "Thiêu đốt",
+    "name_cn": "灼烧",
+    "description": "Mỗi lượt gây sát thương phép bằng 50% ATK của người gây hiệu ứng, tối đa 3 tầng.",
+    "duration": "2 lượt",
+    "dispellable": true
+  },
+  {
+    "id": "stun",
+    "name": "Choáng",
+    "name_cn": "眩晕",
+    "description": "Mục tiêu không thể hành động (không tấn công, không dùng kỹ năng chủ động).",
+    "duration": "1 lượt",
+    "dispellable": false
+  },
+  {
+    "id": "shield",
+    "name": "Khiên",
+    "name_cn": "护盾",
+    "description": "Hấp thụ sát thương nhận vào trước khi trừ HP. Khiên không cộng dồn, lấy giá trị cao hơn.",
+    "duration": "Đến khi vỡ",
+    "dispellable": true
+  },
+  {
+    "id": "heal_block",
+    "name": "Cấm hồi máu",
+    "name_cn": "禁疗",
+    "description": "Mục tiêu không thể được hồi HP bởi bất kỳ nguồn nào.",
+    "duration": "2 lượt",
+    "dispellable": true
+  },
+  {
+    "id": "soul_mark",
+    "name": "Ấn Hồn",
+    "name_cn": "魂印",
+    "description": "Đánh dấu mục tiêu. Khi tướng Hồn tấn công mục tiêu mang Ấn Hồn, sát thương tăng 30%.",
+    "duration": "3 lượt",
+    "dispellable": true
+  },
+  {
+    "id": "crit_up",
+    "name": "Tăng bạo kích",
+    "name_cn": "暴击提升",
+    "description": "Tỷ lệ bạo kích tăng 25%, sát thương bạo kích tăng 15%.",
+    "duration": "2 lượt",
+    "dispellable": true
+  }
+]

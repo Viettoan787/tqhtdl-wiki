@@ -1,0 +1,38 @@
+[
+  {
+    "id": "gia_cat_dan",
+    "name": "Gia Cát Đản",
+    "name_cn": "诸葛亮",
+    "type": "normal",
+    "faction": "Thục",
+    "role": "Pháp sư / Hỗ trợ",
+    "quality": "SSR",
+    "image": "/assets/images/gia-cat-dan.svg",
+    "description": "Quân sư huyền thoại của Thục Hán, tinh thông mưu lược và trận pháp. Sở trường sát thương phép và bảo vệ đồng minh.",
+    "stats": {
+      "hp": 8200,
+      "atk": 1450,
+      "def": 680,
+      "spd": 112
+    },
+    "skills": ["skill_khong_cheng", "skill_hoa_cong", "skill_bat_tran"]
+  },
+  {
+    "id": "ma_sieu_hon",
+    "name": "Ma Siêu · Hồn",
+    "name_cn": "马超·魂",
+    "type": "soul",
+    "faction": "Tây Lương",
+    "role": "Đấu sĩ / Sát thủ",
+    "quality": "UR",
+    "image": "/assets/images/ma-sieu-hon.svg",
+    "description": "Biến thể Hồn Tướng của Ma Siêu. Sức mạnh tăng vọt khi khai thác Ấn Hồn và hạ gục mục tiêu yếu máu.",
+    "stats": {
+      "hp": 9100,
+      "atk": 1980,
+      "def": 720,
+      "spd": 128
+    },
+    "skills": ["skill_hon_don", "skill_hon_the", "skill_hon_lang"]
+  }
+]
