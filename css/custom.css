@@ -1,4 +1,279 @@
-/* —— Effect keywords (inline in skill text) —— */
+/* —— Category navigation —— */
+.category-nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .category-nav {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+  padding: 0.625rem 0.75rem;
+  text-align: left;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
+}
+
+.category-card:hover:not(:disabled) {
+  border-color: #cbd5e1;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+}
+
+.category-card--active {
+  border-color: #3b82f6;
+  background: #eff6ff;
+  box-shadow: 0 0 0 1px #3b82f6;
+}
+
+.category-card--disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.category-card__label {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: #334155;
+  line-height: 1.3;
+}
+
+.category-card--active .category-card__label {
+  color: #1d4ed8;
+}
+
+.category-card__badge {
+  font-size: 0.625rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+/* —— Faction blocks —— */
+.faction-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .faction-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.faction-block {
+  border-radius: 0.75rem;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.faction-block__title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem;
+  color: #1e293b;
+}
+
+.faction-block__heroes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.faction-block__empty {
+  font-size: 0.875rem;
+  color: #64748b;
+  margin: 0;
+}
+
+/* Country backgrounds */
+.faction-nguy {
+  background: #dbeafe;
+}
+
+.faction-thuc {
+  background: #dcfce7;
+}
+
+.faction-ngo {
+  background: #fee2e2;
+}
+
+.faction-quan-hung {
+  background: #f3e8ff;
+}
+
+.faction-pill {
+  font-size: 0.75rem;
+  padding: 0.125rem 0.5rem;
+  border-radius: 9999px;
+  font-weight: 500;
+}
+
+.faction-pill.faction-nguy {
+  background: #bfdbfe;
+  color: #1e40af;
+}
+
+.faction-pill.faction-thuc {
+  background: #bbf7d0;
+  color: #166534;
+}
+
+.faction-pill.faction-ngo {
+  background: #fecaca;
+  color: #991b1b;
+}
+
+.faction-pill.faction-quan-hung {
+  background: #e9d5ff;
+  color: #6b21a8;
+}
+
+/* —— Hero cards —— */
+.hero-card {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  width: 100%;
+  padding: 0.625rem;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: box-shadow 0.15s, transform 0.15s;
+}
+
+.hero-card:hover,
+.hero-card:focus-visible {
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.1);
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.hero-card__image-wrap {
+  flex-shrink: 0;
+  width: 4.5rem;
+  height: 6rem;
+  border-radius: 0.375rem;
+  overflow: hidden;
+  background: #f1f5f9;
+}
+
+.hero-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-card__body {
+  min-width: 0;
+  flex: 1;
+}
+
+.hero-card__badge {
+  display: inline-block;
+  font-size: 0.625rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #6b21a8;
+  background: #f3e8ff;
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.hero-card__name {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.hero-card__name-cn {
+  font-size: 0.75rem;
+  color: #64748b;
+  margin: 0.125rem 0 0;
+}
+
+/* —— Skill cards —— */
+.skill-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: #f8fafc;
+}
+
+.skill-card__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.skill-card__name {
+  font-weight: 600;
+  color: #0f172a;
+  margin: 0;
+  font-size: 0.9375rem;
+}
+
+.skill-card__name-cn {
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
+
+.skill-card__desc {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: #475569;
+  margin: 0;
+}
+
+.skill-tag {
+  margin-left: auto;
+  font-size: 0.6875rem;
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.25rem;
+  font-weight: 500;
+}
+
+.skill-tag--passive {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.skill-tag--active {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.skill-tag--ultimate {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.skill-tag--default {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+/* —— Effect keywords —— */
 .effect-keyword {
   display: inline;
   padding: 0 0.15em;
@@ -6,31 +281,29 @@
   font: inherit;
   font-weight: 600;
   line-height: inherit;
-  color: #93c5fd;
-  background: rgba(147, 197, 253, 0.12);
+  color: #1d4ed8;
+  background: rgba(59, 130, 246, 0.1);
   border: none;
-  border-bottom: 1px dashed rgba(147, 197, 253, 0.45);
+  border-bottom: 1px dashed rgba(59, 130, 246, 0.45);
   border-radius: 2px;
   cursor: pointer;
-  text-decoration: none;
-  transition: background 0.12s, color 0.12s;
+  transition: background 0.12s;
 }
 
 .effect-keyword:hover,
 .effect-keyword:focus-visible {
-  color: #e0f2fe;
-  background: rgba(147, 197, 253, 0.22);
+  background: rgba(59, 130, 246, 0.18);
   outline: none;
 }
 
 .effect-keyword--unknown {
-  color: #94a3b8;
-  background: rgba(148, 163, 184, 0.1);
-  border-bottom-color: rgba(148, 163, 184, 0.35);
+  color: #64748b;
+  background: rgba(100, 116, 139, 0.1);
+  border-bottom-color: rgba(100, 116, 139, 0.35);
   font-weight: 500;
 }
 
-/* —— Effect popover / bottom sheet —— */
+/* —— Effect popover —— */
 .effect-backdrop {
   position: fixed;
   inset: 0;
@@ -45,7 +318,7 @@
 
 @media (max-width: 640px) {
   .effect-backdrop:not(.hidden) {
-    background: rgba(15, 23, 42, 0.25);
+    background: rgba(15, 23, 42, 0.2);
   }
 }
 
@@ -59,20 +332,17 @@
 .effect-popup__panel {
   position: relative;
   padding: 0.75rem 2rem 0.75rem 0.875rem;
-  background: #f8fafc;
+  background: #fff;
   color: #1e293b;
   border: 1px solid #e2e8f0;
   border-radius: 0.5rem;
-  box-shadow:
-    0 4px 6px -1px rgba(15, 23, 42, 0.08),
-    0 2px 4px -2px rgba(15, 23, 42, 0.06);
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.1);
 }
 
 .effect-popup__title {
   margin: 0 0 0.35rem;
   font-size: 0.875rem;
   font-weight: 600;
-  line-height: 1.35;
   color: #0f172a;
 }
 
@@ -102,20 +372,16 @@
   cursor: pointer;
 }
 
-.effect-popup__close:hover,
-.effect-popup__close:focus-visible {
+.effect-popup__close:hover {
   color: #64748b;
   background: #f1f5f9;
-  outline: none;
 }
 
-/* Desktop: anchored popover */
 .effect-popup[data-mode='popover'] {
   top: 0;
   left: 0;
 }
 
-/* Mobile: bottom sheet */
 .effect-popup[data-mode='sheet'] {
   inset: auto 0 0 0;
   max-width: none;
@@ -125,27 +391,8 @@
 
 .effect-popup[data-mode='sheet'] .effect-popup__panel {
   border-radius: 0.75rem 0.75rem 0 0;
-  padding: 1rem 2.25rem 1rem 1rem;
-  box-shadow: 0 -4px 24px rgba(15, 23, 42, 0.12);
 }
 
 body.effect-sheet-open {
   overflow: hidden;
-}
-
-/* Filter buttons */
-[data-hero-filters] [data-filter].filter-active {
-  background-color: rgba(245, 158, 11, 0.2);
-  border-color: rgba(245, 158, 11, 0.6);
-  color: #fcd34d;
-}
-
-[data-hero-filters] [data-filter]:not(.filter-active) {
-  border-color: rgb(51 65 85);
-  color: rgb(148 163 184);
-}
-
-[data-hero-filters] [data-filter]:not(.filter-active):hover {
-  border-color: rgb(100 116 139);
-  color: rgb(226 232 240);
 }

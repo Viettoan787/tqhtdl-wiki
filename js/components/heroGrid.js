@@ -1,16 +1,17 @@
 /**
- * Hero card grid with type filter.
+ * Võ Tướng — heroes grouped by country (faction).
  */
 
 import { getHeroes } from '../data/loader.js';
 
-let currentFilter = 'all';
-let onHeroSelect = null;
+const COUNTRIES = [
+  { id: 'nguy', label: 'Ngụy', class: 'faction-nguy' },
+  { id: 'thuc', label: 'Thục', class: 'faction-thuc' },
+  { id: 'ngo', label: 'Ngô', class: 'faction-ngo' },
+  { id: 'quan-hung', label: 'Quần Hùng', class: 'faction-quan-hung' },
+];
 
-const TYPE_BADGES = {
-  normal: { label: 'Thường', class: 'bg-slate-700 text-slate-200' },
-  soul: { label: 'Hồn', class: 'bg-purple-900/80 text-purple-200 ring-1 ring-purple-500/50' },
-};
+let onHeroSelect = null;
 
 /**
  * @param {HTMLElement} container
@@ -19,37 +20,16 @@ const TYPE_BADGES = {
 export function initHeroGrid(container, onSelect) {
   onHeroSelect = onSelect;
   renderHeroGrid(container);
-  initFilters(container);
 }
 
-function initFilters(container) {
-  const filterBar = container.closest('section')?.querySelector('[data-hero-filters]');
-  if (!filterBar) return;
+export function renderHeroGrid(container) {
+  const heroes = getHeroes();
 
-  filterBar.addEventListener('click', (e) => {
-    const btn = e.target.closest('[data-filter]');
-    if (!btn) return;
-
-    currentFilter = btn.dataset.filter;
-    filterBar.querySelectorAll('[data-filter]').forEach((b) => {
-      b.classList.toggle('filter-active', b === btn);
-    });
-    renderHeroGrid(container);
-  });
-}
-
-function renderHeroGrid(container) {
-  const heroes = getHeroes().filter(
-    (h) => currentFilter === 'all' || h.type === currentFilter
-  );
-
-  if (!heroes.length) {
-    container.innerHTML =
-      '<p class="col-span-full text-center text-slate-400 py-12">Không có tướng phù hợp bộ lọc.</p>';
-    return;
-  }
-
-  container.innerHTML = heroes.map((hero) => renderHeroCard(hero)).join('');
+  container.innerHTML = `
+    <div class="faction-grid">
+      ${COUNTRIES.map((country) => renderFactionBlock(country, heroes)).join('')}
+    </div>
+  `;
 
   container.querySelectorAll('[data-hero-id]').forEach((card) => {
     card.addEventListener('click', () => {
@@ -60,40 +40,43 @@ function renderHeroGrid(container) {
   });
 }
 
-function renderHeroCard(hero) {
-  const badge = TYPE_BADGES[hero.type] ?? TYPE_BADGES.normal;
-  const qualityClass =
-    hero.quality === 'UR'
-      ? 'text-purple-300'
-      : hero.quality === 'SSR'
-        ? 'text-amber-300'
-        : 'text-slate-300';
+function renderFactionBlock(country, heroes) {
+  const factionHeroes = heroes.filter((h) => h.country === country.id);
 
+  return `
+    <section class="faction-block ${country.class}" aria-label="${country.label}">
+      <h3 class="faction-block__title">${country.label}</h3>
+      <div class="faction-block__heroes">
+        ${
+          factionHeroes.length
+            ? factionHeroes.map((h) => renderHeroCard(h)).join('')
+            : '<p class="faction-block__empty">Chưa có tướng.</p>'
+        }
+      </div>
+    </section>
+  `;
+}
+
+function renderHeroCard(hero) {
   return `
     <button
       type="button"
       data-hero-id="${hero.id}"
-      class="hero-card group text-left rounded-xl border border-slate-700/60 bg-slate-800/50 overflow-hidden
-             hover:border-amber-500/50 hover:shadow-lg hover:shadow-amber-900/20
-             focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 transition-all"
+      class="hero-card"
       aria-label="Xem chi tiết ${hero.name}"
     >
-      <div class="aspect-[5/7] overflow-hidden bg-slate-900">
+      <div class="hero-card__image-wrap">
         <img
           src="${hero.image}"
           alt="${hero.name}"
-          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          class="hero-card__image"
           loading="lazy"
         />
       </div>
-      <div class="p-3 sm:p-4">
-        <div class="flex items-center gap-2 mb-1">
-          <span class="text-xs px-1.5 py-0.5 rounded ${badge.class}">${badge.label}</span>
-          <span class="text-xs font-bold ${qualityClass}">${hero.quality}</span>
-        </div>
-        <h3 class="font-bold text-slate-100 truncate">${hero.name}</h3>
-        <p class="text-xs text-slate-500 truncate">${hero.name_cn ?? ''}</p>
-        <p class="text-xs text-slate-400 mt-1">${hero.faction} · ${hero.role}</p>
+      <div class="hero-card__body">
+        <span class="hero-card__badge">Hồn Tướng</span>
+        <h4 class="hero-card__name">${hero.name}</h4>
+        ${hero.name_cn ? `<p class="hero-card__name-cn">${hero.name_cn}</p>` : ''}
       </div>
     </button>
   `;

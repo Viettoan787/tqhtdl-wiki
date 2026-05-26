@@ -1,13 +1,15 @@
 /**
- * App entry — Tam Quốc Wiki MVP
+ * App entry — Tam Quốc Wiki
  */
 
 import { loadData } from './data/loader.js';
+import { initCategoryNav } from './components/categoryNav.js';
 import { initHeroGrid } from './components/heroGrid.js';
 import { initHeroModal, openHeroModal } from './components/heroModal.js';
 import { initEffectPopup, hideEffectPopup } from './components/effectPopup.js';
 
 async function init() {
+  const categoryNavEl = document.getElementById('category-nav');
   const gridEl = document.getElementById('hero-grid');
   const loadingEl = document.getElementById('loading');
   const errorEl = document.getElementById('error');
@@ -24,7 +26,11 @@ async function init() {
       openHeroModal(hero);
     });
 
-    gridEl?.classList.remove('hidden');
+    initCategoryNav(categoryNavEl, () => {
+      hideEffectPopup();
+    });
+
+    document.querySelector('[data-category-panel="vo-tuong"]')?.classList.remove('hidden');
   } catch (err) {
     console.error(err);
     loadingEl?.classList.add('hidden');
