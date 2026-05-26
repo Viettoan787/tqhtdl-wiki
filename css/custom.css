@@ -396,3 +396,21 @@
 body.effect-sheet-open {
   overflow: hidden;
 }
+
+/* —— Skill slots (fixed order) —— */
+.skill-slot {
+  margin-top: 1rem;
+}
+
+.skill-slot__title {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 0.5rem;
+}
+
+.skill-slot__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}

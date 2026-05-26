@@ -58,6 +58,7 @@ function renderFactionBlock(country, heroes) {
 }
 
 function renderHeroCard(hero) {
+  const badge = hero.type === 'soul' ? 'Hồn Tướng' : 'Võ Tướng';
   return `
     <button
       type="button"
@@ -74,7 +75,7 @@ function renderHeroCard(hero) {
         />
       </div>
       <div class="hero-card__body">
-        <span class="hero-card__badge">Hồn Tướng</span>
+        <span class="hero-card__badge">${badge}</span>
         <h4 class="hero-card__name">${hero.name}</h4>
         ${hero.name_cn ? `<p class="hero-card__name-cn">${hero.name_cn}</p>` : ''}
       </div>

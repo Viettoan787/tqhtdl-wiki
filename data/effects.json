@@ -46,5 +46,15 @@
     "description": "Tỷ lệ bạo kích tăng 25%, sát thương bạo kích tăng 15%.",
     "duration": "2 lượt",
     "dispellable": true
+  },
+  {
+    "id": "nhuoc_diem_bao_lo",
+    "name": "Nhược Điểm Bạo Lộ",
+    "description": "Tỷ lệ kháng bạo cuối cùng giảm 20%, khi chịu sát thương bạo kích của phổ công, chịu thêm sát thương chuẩn bằng 10% sinh lực tối đa của bản thân, sát thương này vô thị hộ thuẫn, sau khi có hiệu lực giảm 1 tầng, tối đa tồn tại đồng thời 5 tầng."
+  },
+  {
+    "id": "cu_nghia",
+    "name": "Cử Nghĩa",
+    "description": "Phổ công của võ tướng phe ta và nộ công của Gia Cát Đản ưu tiên chọn võ tướng có dấu ấn [Cử Nghĩa], dấu ấn [Cử Nghĩa] đồng thời chỉ tồn tại một cái, và không thể bị chống cự hoặc khu tán, trong chiến đấu thủ lĩnh không thể kích hoạt (nếu dấu ấn [Cử Nghĩa] nằm trên kẻ địch không thể chịu sát thương hoặc không thể bị chọn làm mục tiêu, thì sẽ không kích hoạt hiệu quả ưu tiên công kích; dưới trạng thái [Cử Nghĩa] khi mục tiêu tiến vào trạng thái ẩn nặc (tàng hình), thì khiến dấu ấn [Cử Nghĩa] ngẫu nhiên chuyển dời sang một võ tướng địch khác, sự chuyển dời này tối đa kích hoạt 2 lần); đơn vị địch sở hữu [Cử Nghĩa], mỗi 2 lần chịu phổ công, võ tướng vị trí số 1 phe ta lập tức phóng thích 1 lần phổ công (không tính vào điều kiện phóng thích phổ công thêm của [Đại Nghĩa Đạp Phá], không hồi phục nộ khí), mỗi hiệp tối đa kích hoạt 3 lần."
   }
 ]

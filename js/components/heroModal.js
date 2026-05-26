@@ -58,7 +58,7 @@ function renderModalContent(hero) {
           <img src="${hero.image}" alt="${hero.name}" class="w-full h-full object-cover" />
         </div>
         <div class="mt-3 flex flex-wrap gap-2 justify-center md:justify-start">
-          <span class="hero-card__badge">Hồn Tướng</span>
+          <span class="hero-card__badge">${hero.type === 'soul' ? 'Hồn Tướng' : 'Võ Tướng'}</span>
           <span class="faction-pill ${factionClass}">${hero.faction}</span>
         </div>
       </div>

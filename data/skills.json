@@ -1,50 +1,293 @@
 [
   {
-    "id": "skill_khong_cheng",
-    "name": "Không Thành Kế",
-    "name_cn": "空城计",
+    "id": "gia_cat_dan_pho_cong_1",
+    "name": "Phổ Công — Hình thái 1",
+    "type": "active",
+    "cooldown": null,
+    "description": "Hình thái 1 của Phổ Công. Khi chịu cơ chế liên quan đến bạo kích của phổ công, có thể kích hoạt hiệu ứng [Nhược Điểm Bạo Lộ]."
+  },
+  {
+    "id": "gia_cat_dan_pho_cong_2",
+    "name": "Phổ Công — Hình thái 2",
+    "type": "active",
+    "cooldown": null,
+    "description": "Hình thái 2 của Phổ Công. Ưu tiên cơ chế mục tiêu/đấu lực theo dấu ấn [Cử Nghĩa]."
+  },
+  {
+    "id": "gia_cat_dan_no_cong",
+    "name": "Nộ Công",
+    "type": "active",
+    "cooldown": null,
+    "description": "Nộ Công của Gia Cát Đản ưu tiên cơ chế theo dấu ấn [Cử Nghĩa] (xem chú thích hiệu ứng để biết chi tiết)."
+  },
+  {
+    "id": "gia_cat_dan_bi_dong_3_sao",
+    "name": "Bị động 3 sao",
     "type": "passive",
     "cooldown": null,
-    "description": "Khi HP dưới 30%, nhận [Khiên] bằng 150% ATK và miễn nhiễm [Choáng] trong 1 lượt. Hồi chiêu 4 lượt."
+    "description": "Mô tả mẫu (MVP). Dữ liệu chi tiết sẽ được cập nhật sau."
   },
   {
-    "id": "skill_hoa_cong",
-    "name": "Hỏa Công",
-    "name_cn": "火攻",
-    "type": "active",
-    "cooldown": 3,
-    "description": "Gây 180% sát thương phép lên 1 kẻ địch và áp dụng [Thiêu đốt] (2 tầng). Nếu mục tiêu đang mang [Thiêu đốt], thêm [Choáng] 1 lượt."
-  },
-  {
-    "id": "skill_bat_tran",
-    "name": "Bát Trận Đồ",
-    "name_cn": "八阵图",
-    "type": "ultimate",
-    "cooldown": 5,
-    "description": "Gây 120% sát thương phép lên toàn phe địch. Đồng minh nhận [Khiên] bằng 80% ATK của Gia Cát Đản trong 2 lượt."
-  },
-  {
-    "id": "skill_hon_don",
-    "name": "Hồn Độn Nhất Kích",
-    "name_cn": "魂沌一击",
-    "type": "active",
-    "cooldown": 2,
-    "description": "Gây 200% sát thương vật lý lên 1 kẻ địch, áp dụng [Ấn Hồn]. Nếu mục tiêu HP dưới 40%, nhận [Tăng bạo kích]."
-  },
-  {
-    "id": "skill_hon_the",
-    "name": "Hồn Thể Bất Diệt",
-    "name_cn": "魂体不灭",
+    "id": "gia_cat_dan_bi_dong_5_sao",
+    "name": "Bị động 5 sao",
     "type": "passive",
     "cooldown": null,
-    "description": "Mỗi lần hạ gục kẻ địch mang [Ấn Hồn], hồi 15% HP tối đa. Miễn nhiễm [Cấm hồi máu]."
+    "description": "Mô tả mẫu (MVP). Dữ liệu chi tiết sẽ được cập nhật sau."
   },
   {
-    "id": "skill_hon_lang",
-    "name": "Lang Hồn Phá Thiên",
-    "name_cn": "狼魂破天",
+    "id": "gia_cat_dan_vo_song_1",
+    "name": "Vô Song 1",
     "type": "ultimate",
-    "cooldown": 4,
-    "description": "Tấn công 3 lần liên tiếp (mỗi lần 90% ATK) lên kẻ địch HP thấp nhất. Mỗi đòn trúng [Ấn Hồn] gây thêm [Thiêu đốt]."
+    "cooldown": null,
+    "description": "Mô tả mẫu (MVP)."
+  },
+  {
+    "id": "gia_cat_dan_vo_song_3",
+    "name": "Vô Song 3",
+    "type": "ultimate",
+    "cooldown": null,
+    "description": "Mô tả mẫu (MVP)."
+  },
+  {
+    "id": "gia_cat_dan_vo_song_5",
+    "name": "Vô Song 5",
+    "type": "ultimate",
+    "cooldown": null,
+    "description": "Mô tả mẫu (MVP)."
+  },
+  {
+    "id": "gia_cat_dan_duyen_phan_1",
+    "name": "Duyên Phận 1",
+    "type": "passive",
+    "cooldown": null,
+    "description": "Mô tả mẫu (MVP)."
+  },
+
+  {
+    "id": "chieu_lam_cao_phi_pho_cong",
+    "name": "Phổ Công",
+    "type": "active",
+    "cooldown": null,
+    "description": "Mô tả mẫu cho Hồn Tướng (UR) — dữ liệu chi tiết sẽ được cập nhật sau."
+  },
+  {
+    "id": "chieu_lam_cao_phi_no_cong",
+    "name": "Nộ Công",
+    "type": "active",
+    "cooldown": null,
+    "description": "Mô tả mẫu cho Hồn Tướng (UR) — dữ liệu chi tiết sẽ được cập nhật sau."
+  },
+  {
+    "id": "chieu_lam_cao_phi_long_hon_ky",
+    "name": "Long Hồn Kỹ",
+    "type": "active",
+    "cooldown": null,
+    "description": "Mô tả mẫu cho Hồn Tướng (UR) — dữ liệu chi tiết sẽ được cập nhật sau."
+  },
+  {
+    "id": "chieu_lam_cao_phi_vo_song_1",
+    "name": "Vô Song 1",
+    "type": "ultimate",
+    "cooldown": null,
+    "description": "Mô tả mẫu."
+  },
+  {
+    "id": "chieu_lam_cao_phi_vo_song_3",
+    "name": "Vô Song 3",
+    "type": "ultimate",
+    "cooldown": null,
+    "description": "Mô tả mẫu."
+  },
+  {
+    "id": "chieu_lam_cao_phi_vo_song_5",
+    "name": "Vô Song 5",
+    "type": "ultimate",
+    "cooldown": null,
+    "description": "Mô tả mẫu."
+  },
+  {
+    "id": "chieu_lam_cao_phi_duyen_phan_1",
+    "name": "Duyên Phận 1",
+    "type": "passive",
+    "cooldown": null,
+    "description": "Mô tả mẫu."
+  },
+  {
+    "id": "chieu_lam_cao_phi_duyen_phan_2",
+    "name": "Duyên Phận 2",
+    "type": "passive",
+    "cooldown": null,
+    "description": "Mô tả mẫu."
+  },
+
+  {
+    "id": "than_uy_ma_sieu_pho_cong",
+    "name": "Phổ Công",
+    "type": "active",
+    "cooldown": null,
+    "description": "Mô tả mẫu cho Hồn Tướng (UR) — dữ liệu chi tiết sẽ được cập nhật sau."
+  },
+  {
+    "id": "than_uy_ma_sieu_no_cong",
+    "name": "Nộ Công",
+    "type": "active",
+    "cooldown": null,
+    "description": "Mô tả mẫu cho Hồn Tướng (UR) — dữ liệu chi tiết sẽ được cập nhật sau."
+  },
+  {
+    "id": "than_uy_ma_sieu_long_hon_ky",
+    "name": "Long Hồn Kỹ",
+    "type": "active",
+    "cooldown": null,
+    "description": "Mô tả mẫu cho Hồn Tướng (UR) — dữ liệu chi tiết sẽ được cập nhật sau."
+  },
+  {
+    "id": "than_uy_ma_sieu_vo_song_1",
+    "name": "Vô Song 1",
+    "type": "ultimate",
+    "cooldown": null,
+    "description": "Mô tả mẫu."
+  },
+  {
+    "id": "than_uy_ma_sieu_vo_song_3",
+    "name": "Vô Song 3",
+    "type": "ultimate",
+    "cooldown": null,
+    "description": "Mô tả mẫu."
+  },
+  {
+    "id": "than_uy_ma_sieu_vo_song_5",
+    "name": "Vô Song 5",
+    "type": "ultimate",
+    "cooldown": null,
+    "description": "Mô tả mẫu."
+  },
+  {
+    "id": "than_uy_ma_sieu_duyen_phan_1",
+    "name": "Duyên Phận 1",
+    "type": "passive",
+    "cooldown": null,
+    "description": "Mô tả mẫu."
+  },
+  {
+    "id": "than_uy_ma_sieu_duyen_phan_2",
+    "name": "Duyên Phận 2",
+    "type": "passive",
+    "cooldown": null,
+    "description": "Mô tả mẫu."
+  },
+
+  {
+    "id": "ngu_hoang_ton_quyen_pho_cong",
+    "name": "Phổ Công",
+    "type": "active",
+    "cooldown": null,
+    "description": "Mô tả mẫu cho Hồn Tướng (UR) — dữ liệu chi tiết sẽ được cập nhật sau."
+  },
+  {
+    "id": "ngu_hoang_ton_quyen_no_cong",
+    "name": "Nộ Công",
+    "type": "active",
+    "cooldown": null,
+    "description": "Mô tả mẫu cho Hồn Tướng (UR) — dữ liệu chi tiết sẽ được cập nhật sau."
+  },
+  {
+    "id": "ngu_hoang_ton_quyen_long_hon_ky",
+    "name": "Long Hồn Kỹ",
+    "type": "active",
+    "cooldown": null,
+    "description": "Mô tả mẫu cho Hồn Tướng (UR) — dữ liệu chi tiết sẽ được cập nhật sau."
+  },
+  {
+    "id": "ngu_hoang_ton_quyen_vo_song_1",
+    "name": "Vô Song 1",
+    "type": "ultimate",
+    "cooldown": null,
+    "description": "Mô tả mẫu."
+  },
+  {
+    "id": "ngu_hoang_ton_quyen_vo_song_3",
+    "name": "Vô Song 3",
+    "type": "ultimate",
+    "cooldown": null,
+    "description": "Mô tả mẫu."
+  },
+  {
+    "id": "ngu_hoang_ton_quyen_vo_song_5",
+    "name": "Vô Song 5",
+    "type": "ultimate",
+    "cooldown": null,
+    "description": "Mô tả mẫu."
+  },
+  {
+    "id": "ngu_hoang_ton_quyen_duyen_phan_1",
+    "name": "Duyên Phận 1",
+    "type": "passive",
+    "cooldown": null,
+    "description": "Mô tả mẫu."
+  },
+  {
+    "id": "ngu_hoang_ton_quyen_duyen_phan_2",
+    "name": "Duyên Phận 2",
+    "type": "passive",
+    "cooldown": null,
+    "description": "Mô tả mẫu."
+  },
+
+  {
+    "id": "phuong_nghi_vuong_nguyen_co_pho_cong",
+    "name": "Phổ Công",
+    "type": "active",
+    "cooldown": null,
+    "description": "Mô tả mẫu cho Hồn Tướng (UR) — dữ liệu chi tiết sẽ được cập nhật sau."
+  },
+  {
+    "id": "phuong_nghi_vuong_nguyen_co_no_cong",
+    "name": "Nộ Công",
+    "type": "active",
+    "cooldown": null,
+    "description": "Mô tả mẫu cho Hồn Tướng (UR) — dữ liệu chi tiết sẽ được cập nhật sau."
+  },
+  {
+    "id": "phuong_nghi_vuong_nguyen_co_long_hon_ky",
+    "name": "Long Hồn Kỹ",
+    "type": "active",
+    "cooldown": null,
+    "description": "Mô tả mẫu cho Hồn Tướng (UR) — dữ liệu chi tiết sẽ được cập nhật sau."
+  },
+  {
+    "id": "phuong_nghi_vuong_nguyen_co_vo_song_1",
+    "name": "Vô Song 1",
+    "type": "ultimate",
+    "cooldown": null,
+    "description": "Mô tả mẫu."
+  },
+  {
+    "id": "phuong_nghi_vuong_nguyen_co_vo_song_3",
+    "name": "Vô Song 3",
+    "type": "ultimate",
+    "cooldown": null,
+    "description": "Mô tả mẫu."
+  },
+  {
+    "id": "phuong_nghi_vuong_nguyen_co_vo_song_5",
+    "name": "Vô Song 5",
+    "type": "ultimate",
+    "cooldown": null,
+    "description": "Mô tả mẫu."
+  },
+  {
+    "id": "phuong_nghi_vuong_nguyen_co_duyen_phan_1",
+    "name": "Duyên Phận 1",
+    "type": "passive",
+    "cooldown": null,
+    "description": "Mô tả mẫu."
+  },
+  {
+    "id": "phuong_nghi_vuong_nguyen_co_duyen_phan_2",
+    "name": "Duyên Phận 2",
+    "type": "passive",
+    "cooldown": null,
+    "description": "Mô tả mẫu."
   }
 ]
