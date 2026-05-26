@@ -1,66 +1,66 @@
 [
   {
     "id": "gia_cat_dan_pho_cong_1",
-    "name": "Phổ Công — Hình thái 1",
+    "name": "Phổ Công — Tinh Liên",
     "type": "active",
     "cooldown": null,
-    "description": "Hình thái 1 của Phổ Công. Khi chịu cơ chế liên quan đến bạo kích của phổ công, có thể kích hoạt hiệu ứng [Nhược Điểm Bạo Lộ]."
+    "description": "Công kích kẻ địch đơn thể, tạo thành 100% sát thương vật lý."
   },
   {
     "id": "gia_cat_dan_pho_cong_2",
-    "name": "Phổ Công — Hình thái 2",
+    "name": "Phổ Công — Biêu Đạp Lưu Tinh",
     "type": "active",
     "cooldown": null,
-    "description": "Hình thái 2 của Phổ Công. Ưu tiên cơ chế mục tiêu/đấu lực theo dấu ấn [Cử Nghĩa]."
+    "description": "Công kích một cột địch, tạo thành 100% sát thương vật lý, và thi triển 1 tầng [Nhược Điểm Bạo Lộ]."
   },
   {
     "id": "gia_cat_dan_no_cong",
-    "name": "Nộ Công",
+    "name": "Nộ Công — Bôn Lôi Tinh Lạc",
     "type": "active",
     "cooldown": null,
-    "description": "Nộ Công của Gia Cát Đản ưu tiên cơ chế theo dấu ấn [Cử Nghĩa] (xem chú thích hiệu ứng để biết chi tiết)."
+    "description": "Công kích kẻ địch đơn thể, tạo thành 240% sát thương vật lý, và thi triển 1 tầng [Nhược Điểm Bạo Lộ], làm mới số lần truy gia phổ công của [Cử Nghĩa]."
   },
   {
     "id": "gia_cat_dan_bi_dong_3_sao",
-    "name": "Bị động 3 sao",
+    "name": "Bị động 3 sao — Lang Gia Nhất Tâm",
     "type": "passive",
     "cooldown": null,
-    "description": "Mô tả mẫu (MVP). Dữ liệu chi tiết sẽ được cập nhật sau."
+    "description": "Võ tướng khác phe ta khi phổ công, Gia Cát Đản hồi phục thêm 100 điểm nộ khí. Nếu là võ tướng nước Ngụy thì lượng hồi phục tăng gấp đôi. Mỗi hiệp tối đa kích hoạt 5 lần."
   },
   {
     "id": "gia_cat_dan_bi_dong_5_sao",
-    "name": "Bị động 5 sao",
+    "name": "Bị động 5 sao — Đại Nghĩa Đạp Phá",
     "type": "passive",
     "cooldown": null,
-    "description": "Mô tả mẫu (MVP). Dữ liệu chi tiết sẽ được cập nhật sau."
+    "description": "Khi mở màn, đem võ tướng hàng sau đối vị của địch, nếu vị trí đó không có võ tướng thì không kích hoạt, hoán đổi vị trí với vị trí số 2 của địch, và thi triển dấu ấn [Cử Nghĩa] cho võ tướng đó."
   },
   {
     "id": "gia_cat_dan_vo_song_1",
     "name": "Vô Song 1",
     "type": "ultimate",
     "cooldown": null,
-    "description": "Mô tả mẫu (MVP)."
+    "description": "Phổ công của võ tướng phe ta đối với địch đang ở trạng thái hộ thuẫn, sát thương kết quả cuối cùng tăng 30%. Nếu là võ tướng nước Ngụy thì tăng gấp đôi."
   },
   {
     "id": "gia_cat_dan_vo_song_3",
     "name": "Vô Song 3",
     "type": "ultimate",
     "cooldown": null,
-    "description": "Mô tả mẫu (MVP)."
+    "description": "[Đại Nghĩa Đạp Phá] nhận được cường hóa. Trước khi kích hoạt, hấp thu 200 điểm nộ khí của tất cả võ tướng hàng trước địch có nộ khí cao nhất. Nộ khí Gia Cát Đản nhận được bằng phương pháp này sẽ không vượt quá 200 điểm. Bất kỳ võ tướng địch nào sau khi phóng thích nộ công hoặc long hồn kỹ sẽ khiến võ tướng bị hấp thu nộ khí lần đó hồi phục lại lượng nộ khí đã bị hấp thu. Mỗi trận chiến đấu chỉ kích hoạt 1 lần. Sau khi nộ công, phổ công sẽ biến thành [Biêu Đạp Lưu Tinh], và lập tức phóng thích 1 lần [Biêu Đạp Lưu Tinh]. Sau khi phóng thích 2 lần [Biêu Đạp Lưu Tinh], phổ công biến về thành [Tinh Liên]."
   },
   {
     "id": "gia_cat_dan_vo_song_5",
     "name": "Vô Song 5",
     "type": "ultimate",
     "cooldown": null,
-    "description": "Mô tả mẫu (MVP)."
+    "description": "Võ tướng nước Ngụy phe ta khi phổ công, mỗi có 10 điểm nộ khí, hệ số phổ công tăng 0.2%. Võ tướng địch sở hữu dấu ấn [Cử Nghĩa] khi chịu phổ công của phe ta, võ tướng liền kề cũng sẽ chịu sát thương lan truyền bằng 30% của sát thương lần đó."
   },
   {
     "id": "gia_cat_dan_duyen_phan_1",
-    "name": "Duyên Phận 1",
+    "name": "Duyên Phận — Trung Tâm Sự Ngụy",
     "type": "passive",
     "cooldown": null,
-    "description": "Mô tả mẫu (MVP)."
+    "description": "Đồng thời lên trận 2 danh võ tướng Công kích, Gia Cát Đản miễn dịch toàn bộ hiệu quả giảm nộ khí, không thể hồi phục nộ khí và tốc độ hồi phục nộ khí giảm. Võ tướng địch sở hữu dấu ấn [Cử Nghĩa] sau khi bị đánh lui, ngẫu nhiên khiến 1 danh võ tướng địch còn sống sót khác nhận được dấu ấn [Cử Nghĩa]. Mỗi trận chiến đấu tối đa sinh hiệu 1 lần."
   },
 
   {
