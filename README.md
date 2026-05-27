@@ -28,8 +28,9 @@ Mở `http://localhost:8080`
 ├── index.html
 ├── css/custom.css
 ├── data/
-│   ├── heroes.json
-│   ├── skills.json
+│   ├── heroes/
+│   │   ├── index.json
+│   │   └── <hero-id>.json
 │   └── effects.json
 ├── js/
 │   ├── main.js
@@ -45,7 +46,7 @@ Mở `http://localhost:8080`
 
 ## Hiệu ứng trong mô tả kỹ năng
 
-Dùng cụm `[Tên hiệu ứng]` trong mô tả kỹ năng (`skills.json`). Tên phải khớp `name` trong `effects.json`. Click/tap mở popover giải nghĩa (chỉ `name` + `description`).
+Dùng cụm `[Tên hiệu ứng]` trong mô tả kỹ năng của từng file tướng (`data/heroes/*.json`). Tên phải khớp `name` trong `effects.json`. Click/tap mở popover giải nghĩa (chỉ `name` + `description`).
 
 ## Deploy (Cloudflare Pages)
 

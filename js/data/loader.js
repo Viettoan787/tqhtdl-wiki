@@ -12,24 +12,35 @@ const effectNameMap = new Map();
 
 /** Resolve data JSON from module location (stable on Cloudflare Pages). */
 const DATA_BASE = new URL('../../data/', import.meta.url);
+const HERO_BASE = new URL('heroes/', DATA_BASE);
 
 function dataUrl(filename) {
   return new URL(filename, DATA_BASE).href;
 }
 
+function heroDataUrl(filename) {
+  return new URL(filename, HERO_BASE).href;
+}
+
 export async function loadData() {
-  const [heroesRes, skillsRes, effectsRes] = await Promise.all([
-    fetch(dataUrl('heroes.json')),
-    fetch(dataUrl('skills.json')),
+  const [heroManifestRes, effectsRes] = await Promise.all([
+    fetch(heroDataUrl('index.json')),
     fetch(dataUrl('effects.json')),
   ]);
 
-  if (!heroesRes.ok || !skillsRes.ok || !effectsRes.ok) {
+  if (!heroManifestRes.ok || !effectsRes.ok) {
     throw new Error('Không thể tải dữ liệu JSON.');
   }
 
-  heroes = await heroesRes.json();
-  skills = await skillsRes.json();
+  const heroFiles = await heroManifestRes.json();
+  const heroResponses = await Promise.all(heroFiles.map((filename) => fetch(heroDataUrl(filename))));
+
+  if (heroResponses.some((res) => !res.ok)) {
+    throw new Error('Không thể tải dữ liệu tướng.');
+  }
+
+  heroes = await Promise.all(heroResponses.map((res) => res.json()));
+  skills = heroes.flatMap((hero) => hero.skills ?? []);
   effects = await effectsRes.json();
 
   skillMap.clear();
@@ -69,5 +80,7 @@ export function getEffectByName(name) {
 
 export function getSkillsForHero(hero) {
   if (!hero?.skills) return [];
-  return hero.skills.map((id) => skillMap.get(id)).filter(Boolean);
+  return hero.skills
+    .map((skill) => (typeof skill === 'string' ? skillMap.get(skill) : skill))
+    .filter(Boolean);
 }

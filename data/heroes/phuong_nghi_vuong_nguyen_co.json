@@ -1,0 +1,70 @@
+{
+    "id":  "phuong_nghi_vuong_nguyen_co",
+    "name":  "Phượng Nghi Vương Nguyên Cơ",
+    "name_cn":  "凤仪王袁术",
+    "type":  "soul",
+    "country":  "quan-hung",
+    "faction":  "Quần Hùng",
+    "role":  "Hồn Tướng",
+    "quality":  "UR",
+    "image":  "/assets/images/phuong-nghi-vuong-nguyen-co.svg",
+    "description":  "Hồn tướng Quần Hùng — uy thế bá vương, sát thương bùng nổ khi khai thác hiệu ứng.",
+    "skills":  [
+                   {
+                       "id":  "phuong_nghi_vuong_nguyen_co_pho_cong",
+                       "name":  "Phổ Công",
+                       "type":  "active",
+                       "cooldown":  null,
+                       "description":  "Mô tả mẫu cho Hồn Tướng (UR) — dữ liệu chi tiết sẽ được cập nhật sau."
+                   },
+                   {
+                       "id":  "phuong_nghi_vuong_nguyen_co_no_cong",
+                       "name":  "Nộ Công",
+                       "type":  "active",
+                       "cooldown":  null,
+                       "description":  "Mô tả mẫu cho Hồn Tướng (UR) — dữ liệu chi tiết sẽ được cập nhật sau."
+                   },
+                   {
+                       "id":  "phuong_nghi_vuong_nguyen_co_long_hon_ky",
+                       "name":  "Long Hồn Kỹ",
+                       "type":  "active",
+                       "cooldown":  null,
+                       "description":  "Mô tả mẫu cho Hồn Tướng (UR) — dữ liệu chi tiết sẽ được cập nhật sau."
+                   },
+                   {
+                       "id":  "phuong_nghi_vuong_nguyen_co_vo_song_1",
+                       "name":  "Vô Song 1",
+                       "type":  "ultimate",
+                       "cooldown":  null,
+                       "description":  "Mô tả mẫu."
+                   },
+                   {
+                       "id":  "phuong_nghi_vuong_nguyen_co_vo_song_3",
+                       "name":  "Vô Song 3",
+                       "type":  "ultimate",
+                       "cooldown":  null,
+                       "description":  "Mô tả mẫu."
+                   },
+                   {
+                       "id":  "phuong_nghi_vuong_nguyen_co_vo_song_5",
+                       "name":  "Vô Song 5",
+                       "type":  "ultimate",
+                       "cooldown":  null,
+                       "description":  "Mô tả mẫu."
+                   },
+                   {
+                       "id":  "phuong_nghi_vuong_nguyen_co_duyen_phan_1",
+                       "name":  "Duyên Phận 1",
+                       "type":  "passive",
+                       "cooldown":  null,
+                       "description":  "Mô tả mẫu."
+                   },
+                   {
+                       "id":  "phuong_nghi_vuong_nguyen_co_duyen_phan_2",
+                       "name":  "Duyên Phận 2",
+                       "type":  "passive",
+                       "cooldown":  null,
+                       "description":  "Mô tả mẫu."
+                   }
+               ]
+}
