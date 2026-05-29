@@ -1,4 +1,8 @@
 body {
+  background: #d6f3ff !important;
+}
+
+body > header {
   background: #deb962 !important;
 }
 
