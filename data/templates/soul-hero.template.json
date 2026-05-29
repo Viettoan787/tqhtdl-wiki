@@ -1,0 +1,72 @@
+{
+  "_note": "Mẫu Hồn Tướng. Khi tạo file thật, xóa field _note. Hồn Tướng dùng Long Hồn Kỹ, 2 mốc Duyên Phận, không có Huyễn Vũ và không có Mệnh Hồn Đỏ.",
+  "id": "ten_hon_tuong_khong_dau",
+  "name": "Tên Hồn Tướng",
+  "name_cn": "Tên tiếng Trung",
+  "type": "soul",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Hồn Tướng",
+  "profession": "Tấn Công",
+  "quality": "UR",
+  "image": "/assets/images/ten-hon-tuong.png",
+  "description": "Mô tả ngắn của Hồn Tướng.",
+  "skills": [
+    {
+      "id": "ten_hon_tuong_pho_cong",
+      "name": "Phổ Công — Tên kỹ năng",
+      "type": "active",
+      "cooldown": null,
+      "description": "Mô tả phổ công. Hiệu ứng viết dạng [Tên Hiệu Ứng]."
+    },
+    {
+      "id": "ten_hon_tuong_no_cong",
+      "name": "Nộ Công — Tên kỹ năng",
+      "type": "active",
+      "cooldown": null,
+      "description": "Mô tả nộ công."
+    },
+    {
+      "id": "ten_hon_tuong_long_hon_ky",
+      "name": "Long Hồn Kỹ — Tên kỹ năng",
+      "type": "active",
+      "cooldown": null,
+      "description": "Mô tả Long Hồn Kỹ."
+    },
+    {
+      "id": "ten_hon_tuong_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Mô tả Vô Song 1."
+    },
+    {
+      "id": "ten_hon_tuong_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Mô tả Vô Song 3."
+    },
+    {
+      "id": "ten_hon_tuong_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Mô tả Vô Song 5."
+    },
+    {
+      "id": "ten_hon_tuong_duyen_phan_1",
+      "name": "Duyên Phận — Tên duyên phận 1",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Mô tả duyên phận 1."
+    },
+    {
+      "id": "ten_hon_tuong_duyen_phan_2",
+      "name": "Duyên Phận — Tên duyên phận 2",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Mô tả duyên phận 2."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Hỗ Trợ">
+  <circle cx="32" cy="32" r="29" fill="#4f8f58"/>
+  <circle cx="32" cy="32" r="25" fill="none" stroke="#d8d0a3" stroke-width="3"/>
+  <path fill="#e8f6d7" d="M31.5 48c-1.8-11 1-21.9 11.7-30.8 2.1 10.2-1 20.5-11.7 30.8Z"/>
+  <path fill="#e8f6d7" d="M29.5 48c-9.7-5.3-14.7-13.6-14-24.9 9.4 4 14.6 12.1 14 24.9Z"/>
+  <path fill="#e8f6d7" d="M31.1 48.1c4.4-7.9 11-12.1 20-11.7-3.3 7.7-9.7 11.5-20 11.7Z"/>
+</svg>

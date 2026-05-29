@@ -1,0 +1,109 @@
+{
+  "id": "phu_chu",
+  "name": "Phu Chư",
+  "name_cn": "夫诸",
+  "quality": "Hoàng",
+  "battleSkillName": "Linh Thủy Nộ Đào",
+  "assistSkillName": "Phu Chư Ngự Linh",
+  "localEffects": {
+    "thuy_thuan": {
+      "name": "Thủy Thuẫn",
+      "description": "Sát thương nhận phải trong hiệp đầu tiên sẽ được hoãn lại để tính toán vào lúc bắt đầu hiệp 2 và hiệp 3, đồng thời làm giảm sát thương khi tính toán đó.",
+      "levelsByStar": {
+        "1": {
+          "description": "10% sát thương nhận phải trong hiệp đầu tiên sẽ được hoãn lại để tính toán vào lúc bắt đầu hiệp 2 và hiệp 3, đồng thời làm giảm 10% sát thương khi tính toán đó.",
+          "stats": [
+            {
+              "label": "Sát thương hoãn lại",
+              "value": "10%"
+            },
+            {
+              "label": "Giảm sát thương khi tính toán",
+              "value": "10%"
+            }
+          ]
+        },
+        "2": {
+          "description": "15% sát thương nhận phải trong hiệp đầu tiên sẽ được hoãn lại để tính toán vào lúc bắt đầu hiệp 2 và hiệp 3, đồng thời làm giảm 15% sát thương khi tính toán đó.",
+          "stats": [
+            {
+              "label": "Sát thương hoãn lại",
+              "value": "15%"
+            },
+            {
+              "label": "Giảm sát thương khi tính toán",
+              "value": "15%"
+            }
+          ]
+        },
+        "3": {
+          "description": "20% sát thương nhận phải trong hiệp đầu tiên sẽ được hoãn lại để tính toán vào lúc bắt đầu hiệp 2 và hiệp 3, đồng thời làm giảm 20% sát thương khi tính toán đó.",
+          "stats": [
+            {
+              "label": "Sát thương hoãn lại",
+              "value": "20%"
+            },
+            {
+              "label": "Giảm sát thương khi tính toán",
+              "value": "20%"
+            }
+          ]
+        },
+        "4": {
+          "description": "25% sát thương nhận phải trong hiệp đầu tiên sẽ được hoãn lại để tính toán vào lúc bắt đầu hiệp 2 và hiệp 3, đồng thời làm giảm 25% sát thương khi tính toán đó.",
+          "stats": [
+            {
+              "label": "Sát thương hoãn lại",
+              "value": "25%"
+            },
+            {
+              "label": "Giảm sát thương khi tính toán",
+              "value": "25%"
+            }
+          ]
+        },
+        "5": {
+          "description": "30% sát thương nhận phải trong hiệp đầu tiên sẽ được hoãn lại để tính toán vào lúc bắt đầu hiệp 2 và hiệp 3, đồng thời làm giảm 30% sát thương khi tính toán đó.",
+          "stats": [
+            {
+              "label": "Sát thương hoãn lại",
+              "value": "30%"
+            },
+            {
+              "label": "Giảm sát thương khi tính toán",
+              "value": "30%"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "skillsByStar": [
+    {
+      "star": 1,
+      "battleSkill": "Phu Chư gây 58% sát thương cho toàn bộ địch, và gây thêm sát thương bằng 5% sinh lực tối đa cho toàn bộ địch.",
+      "assistSkill": "Khi bắt đầu trận chiến, khiến tất cả võ tướng phe ta nhận được [Thủy Thuẫn] không thể xua tan."
+    },
+    {
+      "star": 2,
+      "battleSkill": "Phu Chư gây 58% sát thương cho toàn bộ địch, và gây thêm sát thương bằng 8% sinh lực tối đa cho toàn bộ địch.",
+      "assistSkill": "Khi bắt đầu trận chiến, khiến tất cả võ tướng phe ta nhận được [Thủy Thuẫn] không thể xua tan."
+    },
+    {
+      "star": 3,
+      "battleSkill": "Phu Chư gây 58% sát thương cho toàn bộ địch, và gây thêm sát thương bằng 8% sinh lực tối đa cho toàn bộ địch; đồng thời làm giảm 5% giới hạn sinh lực của toàn bộ địch, tối đa có thể giảm 10%.",
+      "assistSkill": "Khi bắt đầu trận chiến, khiến tất cả võ tướng phe ta nhận được [Thủy Thuẫn] không thể xua tan."
+    },
+    {
+      "star": 4,
+      "battleSkill": "Phu Chư gây 58% sát thương cho toàn bộ địch, và gây thêm sát thương bằng 8% sinh lực tối đa cho toàn bộ địch; đồng thời làm giảm 8% giới hạn sinh lực của toàn bộ địch, tối đa có thể giảm 24%.",
+      "assistSkill": "Khi bắt đầu trận chiến, khiến tất cả võ tướng phe ta nhận được [Thủy Thuẫn] không thể xua tan."
+    },
+    {
+      "star": 5,
+      "battleSkill": "Phu Chư gây 58% sát thương cho toàn bộ địch, và gây thêm sát thương bằng 12% sinh lực tối đa cho toàn bộ địch; đồng thời làm giảm 12% giới hạn sinh lực của toàn bộ địch, tối đa có thể giảm 36%.",
+      "assistSkill": "Khi bắt đầu trận chiến, khiến tất cả võ tướng phe ta nhận được [Thủy Thuẫn] không thể xua tan."
+    }
+  ],
+  "image": "/assets/pet-images/phu-chu.png"
+}

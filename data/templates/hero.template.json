@@ -1,0 +1,108 @@
+{
+  "id": "ten_tuong_khong_dau",
+  "name": "Tên tướng",
+  "name_cn": "Tên tiếng Trung",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Tấn Công",
+  "quality": "SSR",
+  "image": "/assets/images/ten-file.png",
+  "description": "Mô tả ngắn của tướng.",
+  "skills": [
+    {
+      "id": "ten_tuong_pho_cong",
+      "name": "Phổ Công — Tên kỹ năng",
+      "type": "active",
+      "cooldown": null,
+      "description": "Mô tả kỹ năng. Hiệu ứng đặt trong [Ngoặc Vuông]."
+    },
+    {
+      "id": "ten_tuong_no_cong",
+      "name": "Nộ Công — Tên kỹ năng",
+      "type": "active",
+      "cooldown": null,
+      "description": "Mô tả kỹ năng."
+    },
+    {
+      "id": "ten_tuong_bi_dong_3_sao",
+      "name": "Bị động 3 sao — Tên kỹ năng",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Chỉ dùng cho tướng thường."
+    },
+    {
+      "id": "ten_tuong_bi_dong_5_sao",
+      "name": "Bị động 5 sao — Tên kỹ năng",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Chỉ dùng cho tướng thường."
+    },
+    {
+      "id": "ten_tuong_long_hon_ky",
+      "name": "Long Hồn Kỹ — Tên kỹ năng",
+      "type": "active",
+      "cooldown": null,
+      "description": "Chỉ dùng cho Hồn Tướng. Nếu là tướng thường thì bỏ object này."
+    },
+    {
+      "id": "ten_tuong_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Mô tả Vô Song 1."
+    },
+    {
+      "id": "ten_tuong_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Mô tả Vô Song 3."
+    },
+    {
+      "id": "ten_tuong_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Mô tả Vô Song 5."
+    },
+    {
+      "id": "ten_tuong_duyen_phan_1",
+      "name": "Duyên Phận — Tên duyên phận",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Mô tả duyên phận."
+    },
+    {
+      "id": "ten_tuong_huyen_vu",
+      "name": "Huyễn Vũ — Tên Huyễn Vũ",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Nếu tướng không có Huyễn Vũ thì bỏ object này, UI sẽ không hiện mục Huyễn Vũ.",
+      "image": "/assets/images/ten-anh-huyen-vu.png",
+      "image_alt": "Tên Huyễn Vũ"
+    },
+    {
+      "id": "ten_tuong_menh_hon_do_1",
+      "name": "Mệnh Hồn Đỏ — Tên Mệnh Hồn 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Nếu tướng không có Mệnh Hồn Đỏ thì bỏ các object menh_hon_do, UI sẽ không hiện mục Mệnh Hồn Đỏ."
+    },
+    {
+      "id": "ten_tuong_menh_hon_do_3",
+      "name": "Mệnh Hồn Đỏ — Tên Mệnh Hồn 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Mô tả mốc 3."
+    },
+    {
+      "id": "ten_tuong_menh_hon_do_5",
+      "name": "Mệnh Hồn Đỏ — Tên Mệnh Hồn 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Mô tả mốc 5."
+    }
+  ]
+}

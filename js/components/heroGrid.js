@@ -11,7 +11,10 @@ const COUNTRIES = [
   { id: 'quan-hung', label: 'Quần Hùng', class: 'faction-quan-hung' },
 ];
 
+const HERO_FILTERS = [{ id: 'all', label: 'Tất cả các tướng' }, ...COUNTRIES];
+
 let onHeroSelect = null;
+let activeFilter = 'all';
 
 /**
  * @param {HTMLElement} container
@@ -24,12 +27,30 @@ export function initHeroGrid(container, onSelect) {
 
 export function renderHeroGrid(container) {
   const heroes = getHeroes();
+  const visibleCountries =
+    activeFilter === 'all' ? COUNTRIES : COUNTRIES.filter((country) => country.id === activeFilter);
+  const content =
+    activeFilter === 'all'
+      ? renderAllHeroes(heroes)
+      : `
+        <div class="faction-grid">
+          ${visibleCountries.map((country) => renderFactionBlock(country, heroes)).join('')}
+        </div>
+      `;
 
   container.innerHTML = `
-    <div class="faction-grid">
-      ${COUNTRIES.map((country) => renderFactionBlock(country, heroes)).join('')}
+    <div class="hero-filter" aria-label="Lọc võ tướng theo phe">
+      ${HERO_FILTERS.map((filter) => renderFilterButton(filter)).join('')}
     </div>
+    ${content}
   `;
+
+  container.querySelectorAll('[data-hero-filter]').forEach((button) => {
+    button.addEventListener('click', () => {
+      activeFilter = button.dataset.heroFilter;
+      renderHeroGrid(container);
+    });
+  });
 
   container.querySelectorAll('[data-hero-id]').forEach((card) => {
     card.addEventListener('click', () => {
@@ -38,6 +59,29 @@ export function renderHeroGrid(container) {
       if (hero && onHeroSelect) onHeroSelect(hero);
     });
   });
+}
+
+function renderAllHeroes(heroes) {
+  return `
+    <div class="hero-compact-grid">
+      ${heroes.map((hero) => renderCompactHeroCard(hero)).join('')}
+    </div>
+  `;
+}
+
+function renderFilterButton(filter) {
+  const active = activeFilter === filter.id;
+
+  return `
+    <button
+      type="button"
+      data-hero-filter="${filter.id}"
+      class="hero-filter__button ${active ? 'hero-filter__button--active' : ''}"
+      aria-pressed="${active}"
+    >
+      ${filter.label}
+    </button>
+  `;
 }
 
 function renderFactionBlock(country, heroes) {
@@ -79,6 +123,22 @@ function renderHeroCard(hero) {
         <h4 class="hero-card__name">${hero.name}</h4>
         ${hero.name_cn ? `<p class="hero-card__name-cn">${hero.name_cn}</p>` : ''}
       </div>
+    </button>
+  `;
+}
+
+function renderCompactHeroCard(hero) {
+  return `
+    <button
+      type="button"
+      data-hero-id="${hero.id}"
+      class="hero-compact-card"
+      aria-label="Xem chi tiết ${hero.name}"
+    >
+      <div class="hero-compact-card__image-wrap">
+        <img src="${hero.image}" alt="${hero.name}" class="hero-compact-card__image" loading="lazy" />
+      </div>
+      <span class="hero-compact-card__name">${hero.name}</span>
     </button>
   `;
 }

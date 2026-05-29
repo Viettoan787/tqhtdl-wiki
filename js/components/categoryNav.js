@@ -7,7 +7,7 @@ export const CATEGORIES = [
   { id: 'chien-hon-chien-linh', label: 'Chiến Hồn - Chiến Linh', enabled: false },
   { id: 'thien-linh', label: 'Thiện Linh', enabled: false },
   { id: 'than-binh', label: 'Thần Binh', enabled: false },
-  { id: 'linh-sung', label: 'Linh Sủng', enabled: false },
+  { id: 'linh-sung', label: 'Linh Sủng', enabled: true },
   { id: 'trang-bi-linh-sung', label: 'Trang Bị Linh Sủng', enabled: false },
   { id: 'phong-vat-chi', label: 'Phong Vật Chí', enabled: false },
   { id: 'long-hon-huu-the', label: 'Long Hồn Hữu Thế', enabled: false },

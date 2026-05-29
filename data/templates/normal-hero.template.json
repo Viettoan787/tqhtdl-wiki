@@ -1,0 +1,102 @@
+{
+  "_note": "Mẫu tướng thường. Khi tạo file thật, xóa field _note. Tướng thường không có Long Hồn Kỹ, có 1 mốc Duyên Phận, có thể có Huyễn Vũ và Mệnh Hồn Đỏ.",
+  "id": "ten_tuong_khong_dau",
+  "name": "Tên Tướng",
+  "name_cn": "Tên tiếng Trung",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Tấn Công",
+  "quality": "SSR",
+  "image": "/assets/images/ten-tuong.png",
+  "description": "Mô tả ngắn của tướng.",
+  "skills": [
+    {
+      "id": "ten_tuong_pho_cong",
+      "name": "Phổ Công — Tên kỹ năng",
+      "type": "active",
+      "cooldown": null,
+      "description": "Mô tả phổ công. Hiệu ứng viết dạng [Tên Hiệu Ứng]."
+    },
+    {
+      "id": "ten_tuong_no_cong",
+      "name": "Nộ Công — Tên kỹ năng",
+      "type": "active",
+      "cooldown": null,
+      "description": "Mô tả nộ công."
+    },
+    {
+      "id": "ten_tuong_bi_dong_3_sao",
+      "name": "Bị động 3 sao — Tên kỹ năng",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Mô tả bị động 3 sao."
+    },
+    {
+      "id": "ten_tuong_bi_dong_5_sao",
+      "name": "Bị động 5 sao — Tên kỹ năng",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Mô tả bị động 5 sao."
+    },
+    {
+      "id": "ten_tuong_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Mô tả Vô Song 1."
+    },
+    {
+      "id": "ten_tuong_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Mô tả Vô Song 3."
+    },
+    {
+      "id": "ten_tuong_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Mô tả Vô Song 5."
+    },
+    {
+      "id": "ten_tuong_duyen_phan_1",
+      "name": "Duyên Phận — Tên duyên phận",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Mô tả duyên phận."
+    },
+    {
+      "id": "ten_tuong_huyen_vu",
+      "name": "Huyễn Vũ — Tên Huyễn Vũ",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Mô tả Huyễn Vũ. Nếu không có Huyễn Vũ thì bỏ object này.",
+      "image": "/assets/images/ten-huyen-vu.png",
+      "image_alt": "Tên Huyễn Vũ"
+    },
+    {
+      "id": "ten_tuong_menh_hon_do_1",
+      "name": "Mệnh Hồn Đỏ — Tên Mệnh Hồn 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Mô tả mốc 1. Nếu không có Mệnh Hồn Đỏ thì bỏ cả 3 object menh_hon_do."
+    },
+    {
+      "id": "ten_tuong_menh_hon_do_3",
+      "name": "Mệnh Hồn Đỏ — Tên Mệnh Hồn 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Mô tả mốc 3."
+    },
+    {
+      "id": "ten_tuong_menh_hon_do_5",
+      "name": "Mệnh Hồn Đỏ — Tên Mệnh Hồn 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Mô tả mốc 5."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "tao_phi",
+  "name": "Tào Phi",
+  "name_cn": "曹丕",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Hỗ Trợ",
+  "quality": "SSR",
+  "image": "/assets/images/tao-phi.png",
+  "description": "Võ tướng Ngụy hệ Hỗ Trợ, chuyên giảm nộ khí, xua tan trạng thái tăng ích của địch và hỗ trợ đội hình Ngụy.",
+  "skills": [
+    {
+      "id": "tao_phi_pho_cong",
+      "name": "Phổ Công — Phi Cảnh",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 kẻ địch, gây 100% sát thương vật lý."
+    },
+    {
+      "id": "tao_phi_no_cong",
+      "name": "Nộ Công — Long Tương Hổ Thị",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công toàn bộ kẻ địch, gây 84% sát thương vật lý, và khiến kháng giảm nộ khí của toàn bộ địch giảm 15%, kháng trạng thái dị thường giảm 15%, tối đa có thể cộng dồn 3 tầng, duy trì đến khi kết thúc chiến đấu."
+    },
+    {
+      "id": "tao_phi_bi_dong_3_sao",
+      "name": "Bị động 3 sao — Chử Đậu Nhiên Kỳ",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Mỗi đơn vị địch mỗi khi tăng thêm 1 trạng thái giảm ích có thể xua tan, có 35% xác suất xóa bỏ 1 trạng thái tăng ích của đơn vị đó, mỗi hiệp đối với mỗi mục tiêu tối đa xua tan 3 lần."
+    },
+    {
+      "id": "tao_phi_bi_dong_5_sao",
+      "name": "Bị động 5 sao — Kiến An Phong Cốt",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Toàn bộ võ tướng phe ta mỗi khi nhận được giá trị nộ khí, khiến giá trị nộ khí nhận được tăng thêm 10%, giá trị nộ khí nhận thêm tối đa không vượt quá 60 điểm."
+    },
+    {
+      "id": "tao_phi_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "[Kiến An Phong Cốt] có thể khiến giá trị nộ khí nhận được tăng thêm 15%, giá trị nộ khí nhận thêm không vượt quá 120 điểm."
+    },
+    {
+      "id": "tao_phi_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Mỗi đơn vị địch khi xua tan trạng thái giảm ích, gây cho kẻ đó sát thương bằng 4% sinh lực tối đa của địch, cao nhất không vượt quá 8% sinh lực tối đa của Tào Phi, và khiến giá trị nộ khí của kẻ đó giảm 60 điểm."
+    },
+    {
+      "id": "tao_phi_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Mỗi đơn vị địch khi xua tan trạng thái giảm ích, gây cho kẻ đó sát thương bằng 10% sinh lực tối đa của địch, cao nhất không vượt quá 20% sinh lực tối đa của Tào Phi, và khiến giá trị nộ khí của kẻ đó giảm 150 điểm."
+    },
+    {
+      "id": "tao_phi_duyen_phan_1",
+      "name": "Duyên Phận — Ngụy Chi Hoàng Quyền",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi ra trận có ít nhất 3 võ tướng [Ngụy Quốc], Tào Phi tăng 15% miễn thương; và khiến toàn bộ võ tướng Ngụy quốc phe ta khi chịu tấn công, kẻ tấn công cứ có 1 trạng thái giảm ích, sát thương cuối phải chịu giảm 8%, tối đa giảm 24%."
+    },
+    {
+      "id": "tao_phi_huyen_vu",
+      "name": "Huyễn Vũ — Long Xà Triển Dực",
+      "type": "passive",
+      "cooldown": null,
+      "description": "**Lược Hữu Tiểu Thành**: Khi nộ công, giảm 10% miễn thương cuối của mục tiêu, tối đa có thể cộng dồn 3 tầng, duy trì đến kết thúc chiến đấu. Hiệu quả thức tỉnh cấp 1 tăng lên thành: [Kiến An Phong Cốt] có thể khiến giá trị nộ khí nhận được tăng thêm 18%, giá trị nộ khí nhận thêm không vượt quá 120 điểm. (Kích hoạt khi trang bị lên Tào Phi).\n\n**Lư Hỏa Thuần Thanh**: Hiệu quả [Chử Đậu Nhiên Kỳ] tăng lên thành: Mỗi đơn vị địch mỗi khi tăng thêm 1 trạng thái giảm ích có thể xua tan, có 50% xác suất xóa bỏ 2 trạng thái tăng ích của đơn vị đó, mỗi hiệp mỗi võ tướng địch tối đa kích hoạt 6 lần. (Kích hoạt khi Hộ hữu thêm 1 Huyễn Vũ Cam bất kỳ).\n\n**Thần Hồ Kỳ Kỹ**: Bản thân chịu sát thương phản đòn giảm 100%. Hiệu quả thức tỉnh cấp 5 tăng lên thành: Mỗi đơn vị địch khi xua tan trạng thái giảm ích, gây cho kẻ đó sát thương bằng 15% sinh lực tối đa của địch, cao nhất không vượt quá 30% sinh lực tối đa của Tào Phi, và khiến giá trị nộ khí của kẻ đó giảm 200 điểm. (Kích hoạt khi Hộ hữu thêm 1 Huyễn Vũ Chuyên thuộc bất kỳ và 1 Huyễn Vũ Cam bất kỳ)."
+    },
+    {
+      "id": "tao_phi_menh_hon_do_1",
+      "name": "Mệnh Hồn Đỏ — Đại Hán Xưng Đế 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Khi phóng thích mệnh hồn kỹ, đối với toàn bộ võ tướng địch dựa theo phòng thủ từ cao xuống thấp gây ra 6 lần 120% sát thương vật lý, hệ số sát thương lần lượt tăng dần 30%, xua tan trạng thái giảm ích của mục tiêu và thi triển lại lên người kẻ đó, số lượng từ 1 cái lần lượt tăng dần đến 6 cái, mỗi trận chiến tối đa phóng thích 1 lần."
+    },
+    {
+      "id": "tao_phi_menh_hon_do_3",
+      "name": "Mệnh Hồn Đỏ — Đại Hán Xưng Đế 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Kích hoạt quang hoàn mệnh hồn Tào Phi, bất kỳ trạng thái tăng ích nào võ tướng địch nhận được có 20% xác suất mất hiệu lực, duy trì đến khi kết thúc chiến đấu hoặc Tào Phi bị đánh lùi; sau khi phóng thích mệnh hồn kỹ xác suất tăng gấp đôi."
+    },
+    {
+      "id": "tao_phi_menh_hon_do_5",
+      "name": "Mệnh Hồn Đỏ — Đại Hán Xưng Đế 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Sau khi phóng thích mệnh hồn kỹ, nhận thêm hiệu quả quang hoàn mệnh hồn, võ tướng địch mỗi khi phóng thích nộ công gây sát thương xong sẽ làm giảm 20% hiệu suất hồi phục nộ khí của bản thân và võ tướng liền kề một cách không thể xua tan, tối đa cộng dồn 5 tầng, duy trì đến khi kết thúc hiệp."
+    }
+  ]
+}

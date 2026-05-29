@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Đột Kích">
+  <defs>
+    <linearGradient id="spear" x1="13" y1="8" x2="52" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#008dff"/>
+      <stop offset=".55" stop-color="#3154f4"/>
+      <stop offset="1" stop-color="#b820ff"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#spear)" d="M7 4.8 33.9 16 23 37.8 7 4.8Z"/>
+  <path fill="#fff" d="m14.2 15.8 3.8-2 12.2 23.5-3.8 2-12.2-23.5Z" opacity=".92"/>
+  <path fill="url(#spear)" d="m29.4 34.1 4.8-4.8 26.5 26.5-4.8 4.8-26.5-26.5Z"/>
+  <path fill="url(#spear)" d="m26.3 24.3 5.9-5.9 4.4 4.4-5.9 5.9-4.4-4.4Zm7.4 7.4 5.9-5.9 4.4 4.4-5.9 5.9-4.4-4.4Z"/>
+  <circle cx="58" cy="58" r="4.2" fill="#bd22ff"/>
+</svg>

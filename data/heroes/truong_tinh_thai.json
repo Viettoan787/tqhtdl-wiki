@@ -1,0 +1,98 @@
+{
+  "id": "truong_tinh_thai",
+  "name": "Trương Tinh Thái",
+  "type": "normal",
+  "country": "thuc",
+  "faction": "Thục",
+  "role": "Võ Tướng",
+  "profession": "Phòng Thủ",
+  "quality": "R",
+  "image": "/assets/images/truong-tinh-thai.png",
+  "description": "Lương Tướng phe Thục hệ Phòng Thủ.",
+  "skills": [
+    {
+      "id": "truong_tinh_thai_pho_cong",
+      "name": "Phổ Công — Huy Khảm",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 kẻ địch, gây 100% sát thương vật lý."
+    },
+    {
+      "id": "truong_tinh_thai_no_cong",
+      "name": "Nộ Công — Tinh Diệu Hộ Nguyên Thuẫn",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công hàng trước địch, gây 132% sát thương vật lý, tăng cho Trương Tinh Thái 20% miễn thương cuối, duy trì 2 hiệp."
+    },
+    {
+      "id": "truong_tinh_thai_bi_dong_3_sao",
+      "name": "Bị động 3 sao — Thuẫn Kích",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Tấn công thường kèm theo sát thương bằng 10% Sinh lực tối đa."
+    },
+    {
+      "id": "truong_tinh_thai_bi_dong_5_sao",
+      "name": "Bị động 5 sao — Thuẫn Bài Cách Đáng",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi chịu đòn, có 50% xác suất khiến sát thương cuối của đòn tấn công này giảm 30%."
+    },
+    {
+      "id": "truong_tinh_thai_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Khi tấn công thường khiến bản thân nhận khiên, hấp thụ sát thương bằng 7% Sinh lực tối đa của bản thân, hiệu quả duy trì 2 hiệp."
+    },
+    {
+      "id": "truong_tinh_thai_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Khi tấn công thường khiến bản thân nhận khiên, hấp thụ sát thương bằng 15% Sinh lực tối đa của bản thân, hiệu quả duy trì 2 hiệp."
+    },
+    {
+      "id": "truong_tinh_thai_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Khi ở trong trạng thái khiên, xác suất kích hoạt của [Thuẫn Bài Cách Đáng] tăng lên 80%, sát thương cuối được giảm từ 30% tăng lên 40%."
+    },
+    {
+      "id": "truong_tinh_thai_duyen_phan_1",
+      "name": "Duyên Phận — Bạn Nguyệt Song Tinh",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi ra trận cùng Quan Ngân Bình, Trương Tinh Thái tăng 20% tỷ lệ kháng bạo; Khi vào chiến đấu, nếu Quan Ngân Bình có trên sân, khiến Trương Tinh Thái và Quan Ngân Bình nhận [Hộ Thuẫn], có thể hấp thụ sát thương bằng 15% Sinh lực tối đa của võ tướng, duy trì đến khi kết thúc chiến đấu."
+    },
+    {
+      "id": "truong_tinh_thai_huyen_vu",
+      "name": "Huyễn Vũ",
+      "type": "passive",
+      "cooldown": null,
+      "description": "KHẢI MINH THẦN HI\n\nLV1 - Lược hữu tiểu thành (Võ tướng thức tỉnh cấp 5 có hiệu lực):\nKhi chịu sát thương nộ công, có 20% xác suất tăng 1 tầng [Hộ Nguyên Thuẫn] cho toàn đội, hiệu quả duy trì 1 hiệp, hiệu quả này không thể cộng dồn, mỗi hiệp tối đa kích hoạt 3 lần. Cứ ra trận thêm 1 võ tướng phòng thủ hoặc hỗ trợ ngoài bản thân, thì xác suất kích hoạt của [Hộ Nguyên Thuẫn] tăng thêm 8%; Nếu ra trận vượt quá 3 võ tướng phòng thủ hoặc hỗ trợ, thì mở màn thi triển 1 tầng [Hộ Nguyên Thuẫn] cho toàn bộ phe ta. (Kích hoạt khi trang bị lên Trương Tinh Thái).\n\nLV2 - Lư hỏa thuần thanh (Võ tướng thức tỉnh cấp 5 có hiệu lực):\nKhi [Hộ Nguyên Thuẫn] của võ tướng phe ta biến mất, hồi phục 5% Sinh lực và 100 điểm nộ khí cho bản thân; Nếu là võ tướng Thục, thì hiệu quả này tăng thêm 1 lần; Nếu là võ tướng phòng thủ Thục, thì hiệu quả tăng thêm 1 lần nữa. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Cam bất kỳ).\n\nLV3 - Thần hồ kỳ kỹ (Võ tướng thức tỉnh cấp 5 có hiệu lực):\nSau khi [Hộ Nguyên Thuẫn] của võ tướng phe ta biến mất, khiến miễn thương cuối của võ tướng đó tăng 70% trước khi chịu sát thương nộ công lần tiếp theo; Đồng thời trước lần tấn công tiếp theo, tăng tấn công bằng 40% lượng sát thương mà Hộ Nguyên Thuẫn hấp thụ; Nếu là võ tướng Thục, thì hiệu quả này tăng thêm 20%; Nếu là võ tướng phòng thủ Thục, thì hiệu quả tăng thêm 60%. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Chuyên thuộc bất kỳ và 1 Huyễn vũ Cam bất kỳ)."
+    },
+    {
+      "id": "truong_tinh_thai_menh_hon_do_1",
+      "name": "Mệnh Hồn Đỏ 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Khi thi triển mệnh hồn kỹ, thi triển [Thự Quang Chi Chướng] cho toàn bộ võ tướng phe ta, duy trì 2 hiệp."
+    },
+    {
+      "id": "truong_tinh_thai_menh_hon_do_3",
+      "name": "Mệnh Hồn Đỏ 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Kích hoạt mệnh hồn quang hoàn của Trương Tinh Thái: Giá trị khiên võ tướng phe ta nhận được tăng 50%, khi võ tướng phe ta có khiên, sát thương phản đòn gây ra tăng 20%, và có 45% xác suất chuyển sang một võ tướng địch ngẫu nhiên không phải người tấn công, nếu là võ tướng Thục thì xác suất nhân đôi; Sau hiệp 2, võ tướng Thục phe ta nhận thêm sát thương cuối bằng thuộc tính tăng sát thương phản đòn nhân với 80%, tối đa nhận 80%, tối thiểu nhận 40%, duy trì đến khi Trương Tinh Thái bị đánh lui."
+    },
+    {
+      "id": "truong_tinh_thai_menh_hon_do_5",
+      "name": "Mệnh Hồn Đỏ 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Hiệu quả tăng cấp mệnh hồn kỹ: Lượng khiên ban đầu của [Thự Quang Chi Chướng] tăng lên bằng 70% Sinh lực tối đa, khi lượng khiên vượt quá 150% Sinh lực tối đa thì hủy bỏ hiệu quả đi kèm của nó; Mỗi khi võ tướng [Thục] phe ta được thi triển trạng thái loại khiên, khiến kháng [Chước Thiêu] tăng 5%, tối đa cộng dồn 5 tầng; Sau khi thi triển mệnh hồn kỹ, nhận thêm hiệu quả quang hoàn: Võ tướng phe ta nhận được miễn giảm sát thương phản đòn bằng thuộc tính tăng sát thương nhân với 8%, và miễn giảm kết quả sát thương bằng thuộc tính miễn giảm sát thương nhân với 5%, lần lượt tối đa tăng 80% và 50%, tối thiểu tăng 40% và 25%."
+    }
+  ]
+}

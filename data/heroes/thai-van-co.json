@@ -1,0 +1,99 @@
+{
+  "id": "thai_van_co",
+  "name": "Thái Văn Cơ",
+  "name_cn": "蔡文姬",
+  "type": "normal",
+  "country": "quan-hung",
+  "faction": "Quần Hùng",
+  "role": "Võ Tướng",
+  "profession": "Hỗ Trợ",
+  "quality": "R",
+  "image": "/assets/images/thai-van-co.png",
+  "description": "Võ tướng thuộc phe Quần Hùng, đảm nhận chức nghiệp Hỗ Trợ với phẩm cấp Lương Tướng.",
+  "skills": [
+    {
+      "id": "thai_van_co_pho_cong",
+      "name": "Phổ Công — Ngọc Địch",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 kẻ địch, gây 100% sát thương pháp thuật."
+    },
+    {
+      "id": "thai_van_co_no_cong",
+      "name": "Nộ Công — Kích Lệ Tấu Minh",
+      "type": "active",
+      "cooldown": null,
+      "description": "Trị liệu toàn bộ phe ta, lượng trị liệu bằng 37% lực tấn công của Thái Văn Cơ, đồng thời tăng 15% lực tấn công cho đơn vị có lực tấn công cao nhất phe ta, hiệu quả duy trì 2 hiệp, tối đa cộng dồn 2 lần."
+    },
+    {
+      "id": "thai_van_co_bi_dong_3_sao",
+      "name": "Bị động 3 sao — Phụng Hiến",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Trước khi bản thân phóng thích nộ công lần thứ 2, sát thương cuối gánh chịu giảm 20%."
+    },
+    {
+      "id": "thai_van_co_bi_dong_5_sao",
+      "name": "Bị động 5 sao — Cộng Minh Nhạc Chương",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Mỗi khi các võ tướng khác phe ta phóng thích nộ công, bản thân hồi phục 100 điểm nộ khí."
+    },
+    {
+      "id": "thai_van_co_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Khi phóng thích kỹ năng nộ, tăng thêm 15% phòng thủ cho đơn vị có sinh lực cao nhất phe ta, hiệu quả duy trì 2 hiệp, tối đa cộng dồn 2 lần."
+    },
+    {
+      "id": "thai_van_co_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Kỹ năng bị động [Cộng Minh Nhạc Chương] đổi thành hồi phục 150 điểm nộ khí."
+    },
+    {
+      "id": "thai_van_co_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Kỹ năng bị động [Cộng Minh Nhạc Chương] đổi thành hồi phục 200 điểm nộ khí."
+    },
+    {
+      "id": "thai_van_co_duyen_phan_1",
+      "name": "Duyên Phận — Thiên Lại Lăng Âm",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi ra trận có ít nhất 3 võ tướng thuộc các [Nghề nghiệp] khác nhau, Thái Văn Cơ tăng 20% tỷ lệ kháng bạo; toàn bộ võ tướng phe ta tăng 5% miễn thương cuối."
+    },
+    {
+      "id": "thai_van_co_huyen_vu",
+      "name": "Huyễn Vũ — Phong Mãn Lạc Thành",
+      "type": "passive",
+      "cooldown": null,
+      "description": "**Lược hữu tiểu thành**: Lượng trị liệu của nộ công tăng lên bằng 42% lực tấn công của bản thân, và tăng thêm 50% lượng hồi phục cho võ tướng có phần trăm sinh lực thấp nhất phe ta. (Kích hoạt khi trang bị lên Thái Văn Cơ).\n\n**Lư hỏa thuần thanh**: Khi võ tướng phe ta chịu sát thương chí mạng, nếu sinh lực của bản thân (Thái Văn Cơ) lớn hơn 30%, sẽ khấu trừ 15% Sinh lực tối đa của bản thân để khiến võ tướng đó hồi phục đến 50% Sinh lực tối đa, mỗi trận chiến tối đa kích hoạt 3 lần. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Cam bất kỳ).\n\n**Thần hồ kỳ kỹ**: Khi nộ công sẽ khiến đơn vị có lực tấn công cao nhất phe ta tăng 20% sát thương bạo kích, đồng thời khiến đơn vị có sinh lực cao nhất phe ta được giảm 20% sát thương bạo kích gánh chịu, hiệu quả có thể cộng dồn, duy trì 2 hiệp. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Chuyên thuộc bất kỳ và 1 Huyễn vũ Cam bất kỳ)."
+    },
+    {
+      "id": "thai_van_co_menh_hon_do_1",
+      "name": "Mệnh Hồn Đỏ 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Thi triển kỹ năng Mệnh Hồn, hồi phục lượng sinh lực bằng 63% lực tấn công cho toàn bộ võ tướng phe ta, đồng thời xóa bỏ 1 trạng thái bất thường (ưu tiên xóa bỏ các hiệu ứng khống chế). Sau khi trị liệu (bơm máu), với những võ tướng có sinh lực hiện tại cao hơn 50%, sẽ được tăng thêm 20% giới hạn sinh lực tối đa và hồi phục 20% sinh lực. Mỗi trận chiến tối đa thi triển hiệu ứng này 1 lần, duy trì đến hết trận đấu hoặc cho đến khi Thái Văn Cơ bị đánh lui."
+    },
+    {
+      "id": "thai_van_co_menh_hon_do_3",
+      "name": "Mệnh Hồn Đỏ 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Kích hoạt hào quang Mệnh Hồn của Thái Văn Cơ: Võ tướng phe ta khi bị thi triển trạng thái bất thường sẽ được tăng 15% tỷ lệ vô hiệu hóa trạng thái đó (tức là kháng debuff). Đồng thời, khi các hiệu ứng tăng ích (buff) của phe ta bị địch xua tan/xóa bỏ, sẽ có 15% tỷ lệ vô hiệu hóa việc xua tan đó (tức là giữ lại được buff). Hào quang duy trì đến hết trận đấu hoặc cho đến khi Thái Văn Cơ bị đánh lui. Sau khi thi triển kỹ năng Mệnh Hồn, các tỷ lệ vô hiệu hóa nêu trên sẽ được nhân đôi."
+    },
+    {
+      "id": "thai_van_co_menh_hon_do_5",
+      "name": "Mệnh Hồn Đỏ 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Cường hóa hiệu ứng kỹ năng Mệnh Hồn: Sau khi trị liệu, ngưỡng điều kiện được hạ xuống, với những võ tướng có sinh lực hiện tại cao hơn 30% sẽ được tăng 30% giới hạn sinh lực tối đa và hồi phục 30% sinh lực, duy trì đến hết trận đấu hoặc cho đến khi Thái Văn Cơ bị đánh lui. Đồng thời, sau khi thi triển kỹ năng Mệnh Hồn, nếu các võ tướng Hỗ trợ đang ra trận của phe ta tích lũy tung đủ 6 lần Nộ công, thì giới hạn số lần sử dụng hiệu ứng Lô Hỏa Thuần Thanh (mốc Lv2) của Huyễn Vũ chuyên khắc Thái Văn Cơ sẽ được cộng thêm 1 lần. Hiệu ứng cộng thêm này tối đa kích hoạt 1 lần mỗi trận."
+    }
+  ]
+}

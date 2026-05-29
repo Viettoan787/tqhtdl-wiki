@@ -7,10 +7,12 @@ import { initCategoryNav } from './components/categoryNav.js';
 import { initHeroGrid } from './components/heroGrid.js';
 import { initHeroModal, openHeroModal } from './components/heroModal.js';
 import { initEffectPopup, hideEffectPopup } from './components/effectPopup.js';
+import { initPetGrid } from './components/petGrid.js';
 
 async function init() {
   const categoryNavEl = document.getElementById('category-nav');
   const gridEl = document.getElementById('hero-grid');
+  const petGridEl = document.getElementById('pet-grid');
   const loadingEl = document.getElementById('loading');
   const errorEl = document.getElementById('error');
 
@@ -25,6 +27,7 @@ async function init() {
       hideEffectPopup();
       openHeroModal(hero);
     });
+    initPetGrid(petGridEl);
 
     initCategoryNav(categoryNavEl, () => {
       hideEffectPopup();

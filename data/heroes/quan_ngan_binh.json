@@ -1,0 +1,98 @@
+{
+  "id": "quan_ngan_binh",
+  "name": "Quan Ngân Bình",
+  "type": "normal",
+  "country": "thuc",
+  "faction": "Thục",
+  "role": "Võ Tướng",
+  "profession": "Tấn Công",
+  "quality": "R",
+  "image": "/assets/images/quan-ngan-binh.png",
+  "description": "Lương Tướng phe Thục hệ Tấn Công.",
+  "skills": [
+    {
+      "id": "quan_ngan_binh_pho_cong",
+      "name": "Phổ Công — Kích",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 kẻ địch, gây 100% sát thương vật lý."
+    },
+    {
+      "id": "quan_ngan_binh_no_cong",
+      "name": "Nộ Công — Hồi Toàn Toái Địa Kích",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 kẻ địch, có 40% xác suất thi triển [Huyễn Vựng], duy trì 2 hiệp, và gây 240% sát thương vật lý; gây sát thương lan bằng 20% sát thương cho võ tướng lân cận mục tiêu."
+    },
+    {
+      "id": "quan_ngan_binh_bi_dong_3_sao",
+      "name": "Bị động 3 sao — Quái Lực",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi tấn công bỏ qua 20% phòng thủ của mục tiêu; khi tấn công mục tiêu đang bị [Huyễn Vựng], hiệu quả bỏ qua phòng thủ tăng lên 40%."
+    },
+    {
+      "id": "quan_ngan_binh_bi_dong_5_sao",
+      "name": "Bị động 5 sao — Hủy Thiên Diệt Địa",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Sát thương lan của nộ công tăng lên 30%, xác suất [Huyễn Vựng] đối với mục tiêu chính tăng lên 70%."
+    },
+    {
+      "id": "quan_ngan_binh_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Khi nộ công, hiệu quả sát thương lan tăng lên 40%."
+    },
+    {
+      "id": "quan_ngan_binh_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Khiến tấn công thường kèm theo 30% hiệu quả sát thương lan và 20% tỷ lệ bạo kích cuối."
+    },
+    {
+      "id": "quan_ngan_binh_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Khiến tấn công thường kèm theo 50% hiệu quả sát thương lan và 40% tỷ lệ bạo kích cuối."
+    },
+    {
+      "id": "quan_ngan_binh_duyen_phan_1",
+      "name": "Duyên Phận — Bạn Nguyệt Song Tinh",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi ra trận cùng Trương Tinh Thái, Quan Ngân Bình tăng 15% sát thương; Khi Trương Tinh Thái chịu sát thương nộ công lần đầu tiên, Quan Ngân Bình lập tức nhận 600 điểm nộ khí."
+    },
+    {
+      "id": "quan_ngan_binh_huyen_vu",
+      "name": "Huyễn Vũ",
+      "type": "passive",
+      "cooldown": null,
+      "description": "HÁM ĐỊA CỰ CHÙY\n\nLV1 - Lược hữu tiểu thành (Võ tướng thức tỉnh cấp 3 có hiệu lực):\nBắt đầu từ hiệp 2, khi bất kỳ võ tướng địch nào bị thi triển khống chế, Quan Ngân Bình thi triển thêm 1 lần nộ công (lần nộ công này không tiêu hao nộ khí), mỗi hiệp tối đa có hiệu lực 3 lần. (Kích hoạt khi trang bị lên Quan Ngân Bình).\n\nLV2 - Lư hỏa thuần thanh (Võ tướng thức tỉnh cấp 5 có hiệu lực):\nBỏ qua phòng thủ tăng 30%; khi nộ công tăng 40% tỷ lệ bạo kích cuối và 40% tỷ lệ hút máu; địch cứ ở trong 1 trạng thái khống chế khác nhau, thì tăng thêm 20% tỷ lệ bạo kích cuối và 40% sát thương bạo kích. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Cam bất kỳ).\n\nLV3 - Thần hồ kỳ kỹ (Võ tướng thức tỉnh cấp 5 có hiệu lực):\nKhi nộ công, sát thương gây ra tăng 40%, xác suất [Huyễn Vựng] đối với mục tiêu chính tăng lên 100%; Quan Ngân Bình mỗi lần tích lũy gây sát thương bằng 15% Sinh lực tối đa của bản thân thì tăng 50% tỷ lệ trúng trạng thái [Dị Thường] và 15% sát thương cuối, tối đa cộng dồn 3 tầng, duy trì đến khi kết thúc chiến đấu; bắt đầu từ hiệp 2, sau khi trạng thái khống chế của bất kỳ võ tướng địch nào biến mất hoặc bị xua tan, Quan Ngân Bình thi triển thêm 1 lần nộ công (lần nộ công này không tiêu hao nộ khí), mỗi võ tướng mỗi hiệp tối đa kích hoạt 1 lần. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Chuyên thuộc bất kỳ và 1 Huyễn vũ Cam bất kỳ)."
+    },
+    {
+      "id": "quan_ngan_binh_menh_hon_do_1",
+      "name": "Mệnh Hồn Đỏ 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Phát động Mệnh Hồn Kỹ, gây 126% sát thương vật lý lên toàn bộ địch quân, và gây thêm 50% sát thương lan lên đơn vị lân cận. Toàn bộ võ tướng phe Thục và Nữ tiến vào trạng thái [Khuynh Thiên]. Nếu xuất trận với ít nhất 5 tướng phe Thục hoặc 5 tướng Nữ, sau khi phát động Mệnh Hồn Kỹ, Quan Ngân Bình tiến vào trạng thái [Tiền Sơn Chi Thế]."
+    },
+    {
+      "id": "quan_ngan_binh_menh_hon_do_3",
+      "name": "Mệnh Hồn Đỏ 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Quang hoàn mệnh hồn của Quan Ngân Bình, võ tướng phe Thục và Nữ phe ta tăng 100% tỷ lệ tiêu hao hộ thuẫn. [Mệnh Hồn Kỹ] nhận cường hóa, sau khi thi triển Mệnh Hồn Kỹ, toàn bộ võ tướng phe Thục và Nữ phe ta nhận 200% [Nguyên Khí], duy trì đến hết hiệp 4. Quan Ngân Bình mỗi lần gây sát thương lan sẽ khiến tướng có trạng thái [Nguyên Khí] nhận thêm 5% [Nguyên Khí], tối đa 50%. [Tiền Sơn Chi Thế] nhận cường hóa, lực công kích ban đầu của Quan Ngân Bình sẽ không bị giảm, xác hiệu ứng khống chế do Quan Ngân Bình gây ra chắc chắn trúng, kỹ năng chủ động của Quan Ngân Bình không thể bị vô hiệu hoá.Địch quân bị làm choáng bởi Quan Ngân Bình sẽ giải trừ sớm nếu chịu Nộ công của cô, sau khi giải trừ, Quan Ngân Bình phát động thêm một lần Nộ công,mỗi địch quân tối đa 2 lần 1 hiệp. Quan Ngân Bình sử dụng bất kỳ kỹ năng chủ động nào sẽ gây một tầng [Tỏa Long Bách] lên mục tiêu. Mỗi lần kích hoạt hiệu quả [Tỏa Long Bách], Quan Ngân Bình tăng 20% sát thương gây ra và 10% sát thương nộ công ,cộng dồn tối đa 10 lần. Mỗi tướng ở trạng thái [Khuynh Thiên], sau khi gây 10 lần sát thương bạo kích,Quan Ngân Bình sẽ kích hoạt một lần Phổ công."
+    },
+    {
+      "id": "quan_ngan_binh_menh_hon_do_5",
+      "name": "Mệnh Hồn Đỏ 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "[Mệnh Hồn Quang Hoàn] nhận cường hóa, tỷ lệ hồi phục cuối của Quan Ngân Bình không thấp hơn 50%, tỷ lệ hút máu tăng thêm 50%, sát thương thuần gây ra tăng 30%, thuộc tính giảm thương tăng 30%, toàn bộ phe ta tăng thêm 30% giảm sát thương cuối. Trạng thái [Khuynh Thiên] khi kích hoạt nhận 60% công kích cuối, mỗi hiệp giảm 20%,tắng 20% sát thương cuối và 200% tỷ lệ tiêu hao hộ thuẫn. Khai chiến, nếu có ít nhất 5 tướng Nữ hoặc 5 tướng Thục thì Quan Ngân Bình lập tức tiến vào [Tiền Sơn Chi Thế],Phổ Công và Nộ Công của Quan Ngân Bình ưu tiên công kích địch quân có HP thấp nhất. Bất kỳ tướng nào phe ta gây sát thương thuần, sẽ gây thêm một lần sát thương thuần bằng 100% lực công kích lên toàn bộ địch quân. Sát thương lan của Quan Ngân Bình cũng có 40% xác suất gây choáng, toàn bộ sát thương lan tăng 20%, sát thương lan cũng sẽ giải trừ choáng sớm. [Tỏa Long Bách] được cường hóa, bất kỳ đơn vị đang ở trạng thái [Khuynh Thiên] nào gây sát thương bạo kích lên đơn vị ở trạng thái [Tỏa Long Bách], Quan Ngân Bình phát động một lần nộ công truy kích, và sau khi mất [Tỏa Long Bách] có 50% xác suất lập tức nhận lại một tầng [Tỏa Long Bách]. Nếu Quan Ngân Bình có [Tiền Sơn Chi Thế], bất kỳ địch quân nào bị nộ công truy kích đến từ [Tỏa Long Bách] 2 lần , Quan Ngân Bình sẽ [Trảm Sát] địch quân đó, mỗi hiệp tối đa kích hoạt 3 lần."
+    }
+  ]
+}

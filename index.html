@@ -7,7 +7,7 @@
       name="description"
       content="Wiki Tam Quốc Việt hóa — tra cứu tướng, kỹ năng và hiệu ứng"
     />
-    <title>Wiki Tam Quốc — Việt hóa</title>
+    <title>Tam Quốc Chí - Huyễn Tưởng Đại Lục Wiki</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -26,7 +26,7 @@
     <header class="border-b border-slate-200 bg-white sticky top-0 z-40">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 py-4">
         <h1 class="text-xl sm:text-2xl font-bold text-slate-900 tracking-tight">
-          Wiki Tam Quốc
+          Tam Quốc Chí - Huyễn Tưởng Đại Lục Wiki
         </h1>
         <p class="text-xs sm:text-sm text-slate-500 mt-0.5">
           Tra cứu tướng · kỹ năng · hiệu ứng (Việt hóa)
@@ -70,14 +70,30 @@
       ></section>
       <section data-category-panel="thien-linh" class="hidden mt-8" hidden></section>
       <section data-category-panel="than-binh" class="hidden mt-8" hidden></section>
-      <section data-category-panel="linh-sung" class="hidden mt-8" hidden></section>
+      <section
+        data-category-panel="linh-sung"
+        class="hidden mt-8"
+        aria-labelledby="linh-sung-heading"
+      >
+        <header class="mb-5">
+          <h2 id="linh-sung-heading" class="text-lg font-semibold text-slate-900">
+            Linh Sủng
+          </h2>
+          <p class="text-sm text-slate-500 mt-1">
+            Xem kỹ năng xuất chiến và trợ chiến theo cấp sao. Nhấn từ khóa hiệu ứng để xem mô tả và giá trị tăng trưởng.
+          </p>
+        </header>
+        <div id="pet-grid"></div>
+      </section>
       <section data-category-panel="trang-bi-linh-sung" class="hidden mt-8" hidden></section>
       <section data-category-panel="phong-vat-chi" class="hidden mt-8" hidden></section>
       <section data-category-panel="long-hon-huu-the" class="hidden mt-8" hidden></section>
     </main>
 
     <footer class="border-t border-slate-200 mt-12 py-6 text-center text-xs text-slate-400">
-      <p>Wiki Tam Quốc Việt hóa</p>
+      <p class="max-w-3xl mx-auto px-4">
+        Trang fanmade nhằm hướng dẫn và chia sẻ thông tin. Hình ảnh, tên gọi và tài sản trí tuệ liên quan đến game thuộc sở hữu của VNG Việt Nam; website không đại diện cho thương hiệu này.
+      </p>
     </footer>
 
     <!-- Hero modal -->
@@ -136,10 +152,10 @@
           &times;
         </button>
         <h4 id="effect-popup-title" class="effect-popup__title" data-effect-title></h4>
-        <p class="effect-popup__desc" data-effect-desc></p>
+        <div class="effect-popup__desc" data-effect-desc></div>
       </div>
     </div>
 
-    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/main.js?v=20260529-2"></script>
   </body>
 </html>

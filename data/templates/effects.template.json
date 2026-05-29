@@ -1,0 +1,15 @@
+[
+  {
+    "_note": "Khi tạo effect thật, xóa field _note. name phải khớp chính xác với chữ trong [ngoặc vuông] ở mô tả skill.",
+    "id": "ten_hieu_ung_khong_dau",
+    "name": "Tên Hiệu Ứng",
+    "name_cn": "Tên tiếng Trung nếu có",
+    "icon": "/assets/icons/ten-icon.svg",
+    "description": "Giải thích hiệu ứng. Có thể nhắc hiệu ứng khác bằng [Tên Hiệu Ứng Khác]."
+  },
+  {
+    "id": "hieu_ung_khong_co_anh",
+    "name": "Hiệu Ứng Không Có Ảnh",
+    "description": "Nếu không có icon thì bỏ hẳn field icon, không để chuỗi rỗng."
+  }
+]

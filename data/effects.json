@@ -3,49 +3,38 @@
     "id": "burn",
     "name": "Thiêu đốt",
     "name_cn": "灼烧",
-    "description": "Mỗi lượt gây sát thương phép bằng 50% ATK của người gây hiệu ứng, tối đa 3 tầng.",
-    "duration": "2 lượt",
-    "dispellable": true
+    "icon": "/assets/icons/effect-burn.svg",
+    "description": "Mỗi lượt gây sát thương phép bằng 50% ATK của người gây hiệu ứng, tối đa 3 tầng."
   },
   {
     "id": "stun",
     "name": "Choáng",
     "name_cn": "眩晕",
-    "description": "Mục tiêu không thể hành động (không tấn công, không dùng kỹ năng chủ động).",
-    "duration": "1 lượt",
-    "dispellable": false
+    "description": "Mục tiêu không thể hành động (không tấn công, không dùng kỹ năng chủ động)."
   },
   {
     "id": "shield",
     "name": "Khiên",
     "name_cn": "护盾",
-    "description": "Hấp thụ sát thương nhận vào trước khi trừ HP. Khiên không cộng dồn, lấy giá trị cao hơn.",
-    "duration": "Đến khi vỡ",
-    "dispellable": true
+    "description": "Hấp thụ sát thương nhận vào trước khi trừ HP. Khiên không cộng dồn, lấy giá trị cao hơn."
   },
   {
     "id": "heal_block",
     "name": "Cấm hồi máu",
     "name_cn": "禁疗",
-    "description": "Mục tiêu không thể được hồi HP bởi bất kỳ nguồn nào.",
-    "duration": "2 lượt",
-    "dispellable": true
+    "description": "Mục tiêu không thể được hồi HP bởi bất kỳ nguồn nào."
   },
   {
     "id": "soul_mark",
     "name": "Ấn Hồn",
     "name_cn": "魂印",
-    "description": "Đánh dấu mục tiêu. Khi tướng Hồn tấn công mục tiêu mang Ấn Hồn, sát thương tăng 30%.",
-    "duration": "3 lượt",
-    "dispellable": true
+    "description": "Đánh dấu mục tiêu. Khi tướng Hồn tấn công mục tiêu mang Ấn Hồn, sát thương tăng 30%."
   },
   {
     "id": "crit_up",
     "name": "Tăng bạo kích",
     "name_cn": "暴击提升",
-    "description": "Tỷ lệ bạo kích tăng 25%, sát thương bạo kích tăng 15%.",
-    "duration": "2 lượt",
-    "dispellable": true
+    "description": "Tỷ lệ bạo kích tăng 25%, sát thương bạo kích tăng 15%."
   },
   {
     "id": "nhuoc_diem_bao_lo",
@@ -56,5 +45,115 @@
     "id": "cu_nghia",
     "name": "Cử Nghĩa",
     "description": "Phổ công của võ tướng phe ta và nộ công của Gia Cát Đản ưu tiên chọn võ tướng có dấu ấn [Cử Nghĩa], dấu ấn [Cử Nghĩa] đồng thời chỉ tồn tại một cái, và không thể bị chống cự hoặc khu tán, trong chiến đấu thủ lĩnh không thể kích hoạt (nếu dấu ấn [Cử Nghĩa] nằm trên kẻ địch không thể chịu sát thương hoặc không thể bị chọn làm mục tiêu, thì sẽ không kích hoạt hiệu quả ưu tiên công kích; dưới trạng thái [Cử Nghĩa] khi mục tiêu tiến vào trạng thái ẩn nặc (tàng hình), thì khiến dấu ấn [Cử Nghĩa] ngẫu nhiên chuyển dời sang một võ tướng địch khác, sự chuyển dời này tối đa kích hoạt 2 lần); đơn vị địch sở hữu [Cử Nghĩa], mỗi 2 lần chịu phổ công, võ tướng vị trí số 1 phe ta lập tức phóng thích 1 lần phổ công (không tính vào điều kiện phóng thích phổ công thêm của [Đại Nghĩa Đạp Phá], không hồi phục nộ khí), mỗi hiệp tối đa kích hoạt 3 lần."
+  },
+  {
+    "id": "linh_du",
+    "name": "Linh Dụ",
+    "description": "Kích hoạt trước phổ công/nộ công/long hồn kỹ, chịu sát thương thuần khiết bằng 7% sinh lực tối đa (bao gồm sinh lực cộng thêm) của Phượng Nghi Vương Nguyên Cơ, mỗi lần tối đa kích hoạt 1 tầng, mỗi khi có hiệu lực 1 tầng sẽ giảm 1 tầng."
+  },
+  {
+    "id": "kim_lu",
+    "name": "Kim Lũ",
+    "description": "Gánh chịu sát thương bằng 30% sinh lực tối đa cho người sở hữu, trước khi biến mất sẽ không gánh chịu sát thương, giới hạn 1 tầng."
+  },
+  {
+    "id": "hon_mi",
+    "name": "Hồn Mị",
+    "description": "Không thể hành động, tự động giải trừ khi sinh lực dưới 30%, đồng thời tối đa 3 võ tướng ở trạng thái [Hồn Mị]."
+  },
+  {
+    "id": "sac_lenh",
+    "name": "Sắc Lệnh",
+    "description": "Phượng Nghi Vương Nguyên Cơ mỗi lần nộ công và [Linh Dụ] gây sát thương, ghi lại giá trị sát thương làm [Sắc Lệnh], lần long hồn kỹ tiếp theo gây thêm sát thương thuần khiết bằng 30% giá trị ghi lại của [Sắc Lệnh] và xóa sạch giá trị tích lũy."
+  },
+  {
+    "id": "hoa_dieu_phong_nguyet",
+    "name": "Hoa Điểu Phong Nguyệt",
+    "description": "Tỷ lệ chịu sát thương của sinh lực cộng thêm của võ tướng phe ta tăng 100%, sau khi chịu bất kỳ sát thương nào từ địch, có 20% xác suất hoán sinh 50% sát thương phải chịu lần này."
+  },
+  {
+    "id": "nguyen_khi",
+    "name": "Nguyên Khí",
+    "description": "Hiệu ứng tăng giới hạn HP đặc biệt (tức tăng HP tối đa đặc thù, khác với buff máu thông thường)."
+  },
+  {
+    "id": "nguy_quoc",
+    "name": "Ngụy Quốc",
+    "description": "Võ tướng thuộc nước Ngụy."
+  },
+  {
+    "id": "chu_dau_nhien_ky",
+    "name": "Chử Đậu Nhiên Kỳ",
+    "description": "Mỗi đơn vị địch mỗi khi tăng thêm 1 trạng thái giảm ích có thể xua tan, có 35% xác suất xóa bỏ 1 trạng thái tăng ích của đơn vị đó, mỗi hiệp đối với mỗi mục tiêu tối đa xua tan 3 lần."
+  },
+  {
+    "id": "kien_an_phong_cot",
+    "name": "Kiến An Phong Cốt",
+    "description": "Toàn bộ võ tướng phe ta mỗi khi nhận được giá trị nộ khí, khiến giá trị nộ khí nhận được tăng thêm 10%, giá trị nộ khí nhận thêm tối đa không vượt quá 60 điểm."
+  },
+  {
+    "id": "luoc_huu_tieu_thanh",
+    "name": "Lược Hữu Tiểu Thành",
+    "description": "Khi nộ công, giảm 10% miễn thương cuối của mục tiêu, tối đa có thể cộng dồn 3 tầng, duy trì đến kết thúc chiến đấu. Kích hoạt khi trang bị Huyễn Vũ lên Tào Phi."
+  },
+  {
+    "id": "lu_hoa_thuan_thanh",
+    "name": "Lư Hỏa Thuần Thanh",
+    "description": "Hiệu quả [Chử Đậu Nhiên Kỳ] tăng lên: mỗi đơn vị địch mỗi khi tăng thêm 1 trạng thái giảm ích có thể xua tan, có 50% xác suất xóa bỏ 2 trạng thái tăng ích của đơn vị đó, mỗi hiệp mỗi võ tướng địch tối đa kích hoạt 6 lần."
+  },
+  {
+    "id": "than_ho_ky_ky",
+    "name": "Thần Hồ Kỳ Kỹ",
+    "description": "Bản thân chịu sát thương phản đòn giảm 100%. Hiệu quả thức tỉnh cấp 5 tăng lên: mỗi đơn vị địch khi xua tan trạng thái giảm ích, gây sát thương bằng 15% sinh lực tối đa của địch, cao nhất không vượt quá 30% sinh lực tối đa của Tào Phi, và khiến giá trị nộ khí của kẻ đó giảm 200 điểm."
+  },
+  {
+    "id": "huyen_vung",
+    "name": "Huyễn Vựng",
+    "description": "Hiệu ứng khống chế — mục tiêu không thể hành động,nhưng vẫn có thể hồi nộ khí."
+  },
+  {
+    "id": "ho_nguyen_thuan",
+    "name": "Hộ Nguyên Thuẫn",
+    "description": "Hấp thụ sát thương bằng 15% Sinh lực tối đa của Trương Tinh Thái."
+  },
+  {
+    "id": "ho_thuan",
+    "name": "Hộ Thuẫn",
+    "description": "Có thể hấp thụ một lượng sát thương nhất định, khi lượng sát thương hấp thụ vượt quá sẽ biến mất."
+  },
+  {
+    "id": "khuynh_thien",
+    "name": "Khuynh Thiên",
+    "description": "Tỷ lệ bạo kích cuối tăng 100%, giảm 20% mỗi hiệp, sát thương bạo kích tăng 50%, toàn bộ công kích chủ động đều có thể kích hoạt [Siêu Bạo Kích]."
+  },
+  {
+    "id": "thuan_bai_cach_ang",
+    "name": "Thuẫn Bài Cách Đáng",
+    "description": "Khi chịu đòn, có 50% xác suất khiến sát thương cuối của đòn tấn công này giảm 30%."
+  },
+  {
+    "id": "thu_quang_chi_chuong",
+    "name": "Thự Quang Chi Chướng",
+    "description": "Hấp thụ sát thương bằng 50% Sinh lực tối đa của Trương Tinh Thái, không thể xua tan; Trong thời gian duy trì, sau khi bất kỳ võ tướng nào của phe ta chịu sát thương tấn công từ bất kỳ võ tướng hàng trước nào của địch, nếu vẫn còn [Thự Quang Chi Chướng] thì xóa bỏ [Thự Quang Chi Chướng] và thi triển lại [Thự Quang Chi Chướng] có hiệu quả tương tự; Mỗi lần võ tướng phe ta nhận được [Thự Quang Chi Chướng] mới, lượng khiên tăng thêm 10% Sinh lực tối đa, nếu lượng khiên tối đa của [Thự Quang Chi Chướng] vượt quá 100% Sinh lực tối đa thì hủy bỏ hiệu quả đi kèm của nó."
+  },
+  {
+    "id": "tien_son_chi_the",
+    "name": "Tiền Sơn Chi Thế",
+    "description": "Công kích của bản thân chắc chắn trúng, thuộc tính tăng sát thương tăng thêm 30%, bỏ qua 20% phòng ngự của địch quân, không thể kích hoạt hiệu ứng Phá Giáp , nhưng tỷ lệ phá giáp cuối sẽ được chuyển hóa tương đương thành tỷ lệ bạo kích cuối và sát thương bạo kích. Khi phán định Siêu Bạo Kích, lần phán định đầu tiên bạo kích chắc chắn thành công."
+  },
+  {
+    "id": "toa_long_bach",
+    "name": "Tỏa Long Bách",
+    "description": "Tối đa 5 tầng, khi chịu sát thương bạo kích đến từ Quan Ngân Bình không phải sát thương lan, sẽ tiêu hao một tầng và truy kích một lần nộ công, nộ công truy kích không thể áp dụng [Tỏa Long Bách]."
+  },
+  {
+    "id": "nguyen_khi_gioi_han_hp",
+    "name": "Nguyên Khí",
+    "description": "Hiệu ứng tăng giới hạn HP đặc biệt (tức tăng HP tối đa đặc thù, khác với buff máu thông thường)."
+  },
+  {
+    "id": "cong_minh_nhac_chuong",
+    "name": "Cộng Minh Nhạc Chương",
+    "description": "Hiệu ứng bị động giúp Thái Văn Cơ tự động hồi phục nộ khí mỗi khi võ tướng khác của phe ta phóng thích nộ công. Giá trị hồi phục tăng theo cấp Vô Song."
   }
 ]

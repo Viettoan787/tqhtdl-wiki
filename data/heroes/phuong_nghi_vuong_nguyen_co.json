@@ -1,70 +1,71 @@
 {
     "id":  "phuong_nghi_vuong_nguyen_co",
     "name":  "Phượng Nghi Vương Nguyên Cơ",
-    "name_cn":  "凤仪王袁术",
+    "name_cn":  "王元姬",
     "type":  "soul",
     "country":  "quan-hung",
     "faction":  "Quần Hùng",
     "role":  "Hồn Tướng",
+    "profession":  "Tấn Công",
     "quality":  "UR",
     "image":  "/assets/images/phuong-nghi-vuong-nguyen-co.svg",
     "description":  "Hồn tướng Quần Hùng — uy thế bá vương, sát thương bùng nổ khi khai thác hiệu ứng.",
     "skills":  [
                    {
                        "id":  "phuong_nghi_vuong_nguyen_co_pho_cong",
-                       "name":  "Phổ Công",
+                       "name":  "Phổ Công — Hào Biến",
                        "type":  "active",
                        "cooldown":  null,
-                       "description":  "Mô tả mẫu cho Hồn Tướng (UR) — dữ liệu chi tiết sẽ được cập nhật sau."
+                       "description":  "Gây 100% sát thương vật lý cho 1 kẻ địch, nhận 1 điểm long hồn, và nhận 10% [Nguyên Khí]."
                    },
                    {
                        "id":  "phuong_nghi_vuong_nguyen_co_no_cong",
-                       "name":  "Nộ Công",
+                       "name":  "Nộ Công — Ngữ Lạc Sơn Hà",
                        "type":  "active",
                        "cooldown":  null,
-                       "description":  "Mô tả mẫu cho Hồn Tướng (UR) — dữ liệu chi tiết sẽ được cập nhật sau."
+                       "description":  "Tấn công 1 cột địch, gây 144% sát thương thuần khiết, và thi triển 2 tầng [Linh Dụ] cho mục tiêu; hồi phục sinh lực bằng 50% lực tấn công của Phượng Nghi Vương Nguyên Cơ cho toàn thể võ tướng phe ta, và thi triển 1 tầng [Kim Lũ] cho toàn bộ phe ta, gánh chịu sát thương bằng 30% sinh lực tối đa cho người sở hữu, trước khi biến mất sẽ không chịu sát thương, giới hạn 1 tầng; võ tướng nữ phe ta mỗi hiệp miễn dịch 2 lần sát thương đầu tiên, nộ công và long hồn kỹ của Phượng Nghi Vương Nguyên Cơ bỏ qua hiệu quả loại [Vũ Dũng] của địch."
                    },
                    {
                        "id":  "phuong_nghi_vuong_nguyen_co_long_hon_ky",
-                       "name":  "Long Hồn Kỹ",
+                       "name":  "Long Hồn Kỹ — Sắc Lệnh Cửu Tiêu",
                        "type":  "active",
                        "cooldown":  null,
-                       "description":  "Mô tả mẫu cho Hồn Tướng (UR) — dữ liệu chi tiết sẽ được cập nhật sau."
+                       "description":  "Trạng thái khống chế cũng có thể phóng thích, tiêu hao 3 điểm long hồn, nhận 1 điểm long hồn ban đầu, giới hạn điểm long hồn cố định là 10 điểm, gây 106% sát thương thuần khiết cho toàn bộ kẻ địch; toàn bộ phe ta nhận 30% [Nguyên Khí], [Nguyên Khí] nhận được bằng phương pháp này duy trì 1 hiệp; kết toán 1 tầng [Linh Dụ] của toàn bộ kẻ địch; khiến 1 đơn vị địch ngẫu nhiên tiến vào trạng thái [Hồn Mị], duy trì 1 hiệp, ưu tiên chọn đơn vị chưa tiến vào trạng thái khống chế.\n\nPhượng Nghi Vương Nguyên Cơ mỗi lần nộ công và [Linh Dụ] gây sát thương, ghi lại giá trị sát thương làm [Sắc Lệnh], lần long hồn kỹ tiếp theo gây thêm sát thương thuần khiết bằng 30% giá trị ghi lại của [Sắc Lệnh], và xóa sạch giá trị tích lũy."
                    },
                    {
                        "id":  "phuong_nghi_vuong_nguyen_co_vo_song_1",
                        "name":  "Vô Song 1",
                        "type":  "ultimate",
                        "cooldown":  null,
-                       "description":  "Mô tả mẫu."
+                       "description":  "Phượng Nghi Vương Nguyên Cơ sau mỗi lần phóng thích long hồn kỹ, xóa bỏ hiệu quả tăng giới hạn sinh lực và [Nguyên Khí] mà toàn bộ võ tướng nam của địch đang sở hữu (sau đó vẫn có thể nhận), khi kết thúc hiệp phóng thích 1 lần nộ công; địch mỗi khi chịu sát thương [Linh Dụ], võ tướng liền kề chịu sát thương lan bằng 30% sát thương lần đó; đơn vị địch mỗi khi nhận [Linh Dụ], giảm 200 điểm nộ khí, nếu là võ tướng long hồn thì giảm thêm 1 điểm long hồn, đồng thời hoàn trả 100% nộ khí và điểm long hồn đã giảm cho Phượng Nghi Vương Nguyên Cơ; địch mỗi khi chịu sát thương lan, giảm 10% lực tấn công và phòng ngự, tối đa giảm 200%; toàn bộ phe ta trong 2 hiệp đầu khi chịu sát thương sẽ miễn giảm phần vượt quá 10% sinh lực tối đa của bản thân, nếu là môi trường chiến đấu giữa người chơi (PVP) thì chỉ có hiệu lực trong hiệp đầu; võ tướng địch khi phổ công, sát thương gây ra không vượt quá 100% lực tấn công cuối của đơn vị đó."
                    },
                    {
                        "id":  "phuong_nghi_vuong_nguyen_co_vo_song_3",
                        "name":  "Vô Song 3",
                        "type":  "ultimate",
                        "cooldown":  null,
-                       "description":  "Mô tả mẫu."
+                       "description":  "Sau khi vào chiến đấu, tăng 20% biên độ tăng và suy giảm sát thương cuối cho toàn bộ phe ta, sát thương thuần khiết do Phượng Nghi Vương Nguyên Cơ gây ra được tăng 40%, khi [Kim Lũ] phe ta sở hữu biến mất, hoán sinh 30% sinh lực tối đa cho người sở hữu và đơn vị phe ta khác có tỷ lệ sinh lực thấp nhất lúc này, mỗi võ tướng mỗi hiệp 2 lần.\n\nKhi ở hình thái Trương Ninh hộ pháp hoặc chưa chọn hộ pháp, võ tướng nữ khác phe ta khi nộ công hoặc long hồn kỹ có 50% xác suất thi triển 1 tầng [Linh Dụ] cho mục tiêu, nếu mục tiêu có [Linh Dụ] thì kết toán thêm 1 tầng, mỗi võ tướng mỗi hiệp kích hoạt tối đa lần lượt 3 lần; võ tướng nữ phe ta khi nhận [Nguyên Khí], có 20% xác suất nhận thêm 10% [Nguyên Khí], và giải trừ 1 hiệu ứng loại giảm giới hạn sinh lực; khi võ tướng phe ta sở hữu [Nguyên Khí], nếu lượng [Nguyên Khí] lớn hơn 100% sinh lực ban đầu, thì cứ nhiều hơn 1% sẽ tăng thêm 0.1% biên độ tăng và suy giảm sát thương cuối (phán đoán theo thời gian thực), tối đa tăng 30%.\n\nKhi ở hình thái Trương Kỳ Anh hộ pháp, sau khi vào chiến đấu, lực tấn công cuối của võ tướng tấn công và đột kích tăng 30%; sau khi võ tướng tấn công hoặc đột kích khác phe ta phổ công/nộ công hoặc long hồn kỹ, Phượng Nghi Vương Nguyên Cơ phóng thích một lần nộ công, mỗi hiệp giới hạn 5 lần; võ tướng phe ta sau khi lần đầu tiên gây sát thương bạo kích/phá giáp/kỳ tập mỗi hiệp sẽ hồi phục 1 điểm long hồn cho toàn thể, sau khi gây sát thương kỳ tập hệ số sát thương thuần khiết kèm theo tăng thành 30%, võ tướng không phải loại tấn công hoặc đột kích cũng có thể kích hoạt; Phượng Nghi Vương Nguyên Cơ miễn dịch khống chế, và khi chịu hiệu quả xử quyết sẽ trì hoãn việc đó đến khi kết thúc hiệp mới kích hoạt, toàn bộ trận chiến chỉ kích hoạt 1 lần."
                    },
                    {
                        "id":  "phuong_nghi_vuong_nguyen_co_vo_song_5",
                        "name":  "Vô Song 5",
                        "type":  "ultimate",
                        "cooldown":  null,
-                       "description":  "Mô tả mẫu."
+                       "description":  "Tiêu hao long hồn kỹ của Phượng Nghi Vương Nguyên Cơ giảm 1 điểm, sát thương do [Linh Dụ] gây ra tăng 100%, võ tướng phe ta khi tấn công biên độ tăng sát thương cuối không thấp hơn 20%; mỗi khi bắt đầu hiệp, Phượng Nghi Vương Nguyên Cơ nhận thêm [Nguyên Khí] bằng số hiệp hiện tại nhân với 50%, duy trì 1 hiệp, giới hạn là 400%; Phượng Nghi Vương Nguyên Cơ cứ có 100% [Nguyên Khí], hệ số của [Sắc Lệnh] tăng 10%, tối đa không vượt quá 200%, và sau khi [Sắc Lệnh] gây sát thương thêm, nếu là môi trường không phải chiến đấu giữa người chơi (PVE) thì hồi phục sinh lực đến 300% sinh lực tối đa của bản thân; mục tiêu nộ công của Phượng Nghi Vương Nguyên Cơ thay thế thành toàn bộ địch, và hệ số sửa thành 86%, sau lần nộ công đầu tiên mỗi hiệp hồi phục 1 điểm long hồn cho toàn bộ phe ta; khi bắt đầu hiệp 1, Phượng Nghi Vương Nguyên Cơ lần lượt phóng thích một lần nộ công và long hồn kỹ, sau khi phóng thích nộ công lần đầu, toàn bộ phe ta trong 2 hiệp đầu khi chịu sát thương sẽ miễn giảm phần vượt quá 10% sinh lực tối đa của bản thân, hai bên chỉ kích hoạt một lần."
                    },
                    {
                        "id":  "phuong_nghi_vuong_nguyen_co_duyen_phan_1",
-                       "name":  "Duyên Phận 1",
+                       "name":  "Duyên Phận — Bác Thi Tế Chúng (Hộ pháp: Trương Kỳ Anh)",
                        "type":  "passive",
                        "cooldown":  null,
-                       "description":  "Mô tả mẫu."
+                       "description":  "Do Trương Kỳ Anh hộ pháp, Phượng Nghi Vương Nguyên Cơ tăng 30% miễn thương và suy giảm sát thương cuối; sau khi vào chiến đấu, sát thương bạo kích/phá giáp/kỳ tập của toàn bộ phe ta tăng 50%, tỷ lệ xuyên thấu hộ thuẫn của toàn bộ địch giảm 60%; võ tướng tấn công hoặc đột kích phe ta khi gây sát thương, chuyển dịch một trạng thái tăng ích của bên chịu đòn sang bản thân, nếu gây sát thương bạo kích/phá giáp/kỳ tập thì đánh cắp 10% tăng thương và tăng thương cuối của đơn vị có thuộc tính tương ứng cao nhất trong số các bên chịu đòn, giới hạn 100%, nếu gây ra là sát thương kỳ tập thì kèm thêm sát thương thuần khiết bằng 10% lực tấn công của Phượng Nghi Vương Nguyên Cơ; võ tướng phe ta khi chịu sát thương chí mạng, thiết lập lượng máu bằng mức giới hạn, mỗi hiệp tối đa kích hoạt 2 lần."
                    },
                    {
                        "id":  "phuong_nghi_vuong_nguyen_co_duyen_phan_2",
-                       "name":  "Duyên Phận 2",
+                       "name":  "Duyên Phận — Lễ Nhạc Đồng Hảo (Hộ pháp: Trương Ninh)",
                        "type":  "passive",
                        "cooldown":  null,
-                       "description":  "Mô tả mẫu."
+                       "description":  "Do Trương Ninh hộ pháp, Phượng Nghi Vương Nguyên Cơ tăng 18% sinh lực và 32% biên độ tăng sát thương thuần khiết. Toàn thể võ tướng nữ phe ta nhận 50% [Nguyên Khí], và trong toàn bộ trận chiến khi nhận [Nguyên Khí] sẽ nhận được lượng sinh lực tương đương; sau khi vào chiến đấu, biến sân đấu thành [Hoa Điểu Phong Nguyệt], duy trì 2 hiệp; khi địch rơi vào/miễn dịch/giải trừ trạng thái khống chế, nếu không tồn tại [Linh Dụ] thì thi triển 1 tầng, nếu tồn tại thì trực tiếp kết toán 1 tầng, mỗi hiệp mỗi đơn vị tối đa kích hoạt 2 lần cho mỗi loại; sau khi võ tướng nữ khác phe ta nộ công hoặc long hồn kỹ, Phượng Nghi Vương Nguyên Cơ phóng thích một lần nộ công, mỗi hiệp giới hạn 5 lần."
                    }
                ]
 }
