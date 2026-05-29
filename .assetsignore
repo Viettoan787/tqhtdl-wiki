@@ -1,0 +1,14 @@
+.git
+.git/**
+.gitignore
+.wrangler
+.wrangler/**
+.vscode
+.vscode/**
+node_modules
+node_modules/**
+.env
+.env.*
+README.md
+spec.md
+wrangler.jsonc
