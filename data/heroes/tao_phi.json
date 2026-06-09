@@ -9,6 +9,17 @@
   "profession": "Hỗ Trợ",
   "quality": "SSR",
   "image": "/assets/images/tao-phi.png",
+  "avatarDetail": {
+    "objectPosition": "50% 25%",
+    "zoom": 1.1
+  },
+  "huyenVu": {
+    "image": "/assets/images/tao-phi.png",
+    "avatar": {
+      "objectPosition": "50% 30%",
+      "zoom": 1.15
+    }
+  },
   "description": "Võ tướng Ngụy hệ Hỗ Trợ, chuyên giảm nộ khí, xua tan trạng thái tăng ích của địch và hỗ trợ đội hình Ngụy.",
   "skills": [
     {
@@ -16,6 +27,7 @@
       "name": "Phổ Công — Phi Cảnh",
       "type": "active",
       "cooldown": null,
+      "image": "/assets/images/tao-phi.png",
       "description": "Tấn công 1 kẻ địch, gây 100% sát thương vật lý."
     },
     {
@@ -23,6 +35,7 @@
       "name": "Nộ Công — Long Tương Hổ Thị",
       "type": "active",
       "cooldown": null,
+      "image": "/assets/images/tao-phi.png",
       "description": "Tấn công toàn bộ kẻ địch, gây 84% sát thương vật lý, và khiến kháng giảm nộ khí của toàn bộ địch giảm 15%, kháng trạng thái dị thường giảm 15%, tối đa có thể cộng dồn 3 tầng, duy trì đến khi kết thúc chiến đấu."
     },
     {

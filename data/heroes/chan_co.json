@@ -1,0 +1,14 @@
+{
+  "id": "chan_co",
+  "name": "Chân Cơ",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Hỗ Trợ",
+  "quality": "SR",
+  "image": "/assets/images/chan-co.png",
+  "description": "Võ tướng phe Ngụy, phẩm Danh Tướng, chức nghiệp Hỗ Trợ. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

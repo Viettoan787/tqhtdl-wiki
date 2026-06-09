@@ -3,6 +3,13 @@ Thumbs.db
 *.log
 node_modules/
 .wrangler/
+.kiro/
+.vscode/
+*.xlsx
+__pycache__/
+*.pyc
+scripts/_debug.txt
+scripts/_summary.txt
 
 .dev.vars*
 !.dev.vars.example

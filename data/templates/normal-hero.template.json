@@ -1,5 +1,5 @@
 {
-  "_note": "Mẫu tướng thường. Khi tạo file thật, xóa field _note. Tướng thường không có Long Hồn Kỹ, có 1 mốc Duyên Phận, có thể có Huyễn Vũ và Mệnh Hồn Đỏ.",
+  "_note": "Mẫu tướng thường (Lương/Danh/Thần Tướng). Xóa _note khi tạo file thật. Tướng thường KHÔNG có Long Hồn Kỹ. Có 1 Duyên Phận. Có thể có Huyễn Vũ và Mệnh Hồn Đỏ. Bị động chỉ tính 3 sao và 5 sao (2 và 4 sao chỉ tăng HP/ATK, không cần ghi).",
   "id": "ten_tuong_khong_dau",
   "name": "Tên Tướng",
   "name_cn": "Tên tiếng Trung",
@@ -10,14 +10,14 @@
   "profession": "Tấn Công",
   "quality": "SSR",
   "image": "/assets/images/ten-tuong.png",
-  "description": "Mô tả ngắn của tướng.",
+  "description": "Mô tả ngắn của tướng (1-2 câu).",
   "skills": [
     {
       "id": "ten_tuong_pho_cong",
       "name": "Phổ Công — Tên kỹ năng",
       "type": "active",
       "cooldown": null,
-      "description": "Mô tả phổ công. Hiệu ứng viết dạng [Tên Hiệu Ứng]."
+      "description": "Mô tả phổ công. Hiệu ứng đặc biệt viết dạng [Tên Hiệu Ứng]."
     },
     {
       "id": "ten_tuong_no_cong",
@@ -45,21 +45,21 @@
       "name": "Vô Song 1",
       "type": "ultimate",
       "cooldown": null,
-      "description": "Mô tả Vô Song 1."
+      "description": "Mô tả mốc Vô Song 1."
     },
     {
       "id": "ten_tuong_vo_song_3",
       "name": "Vô Song 3",
       "type": "ultimate",
       "cooldown": null,
-      "description": "Mô tả Vô Song 3."
+      "description": "Mô tả mốc Vô Song 3."
     },
     {
       "id": "ten_tuong_vo_song_5",
       "name": "Vô Song 5",
       "type": "ultimate",
       "cooldown": null,
-      "description": "Mô tả Vô Song 5."
+      "description": "Mô tả mốc Vô Song 5."
     },
     {
       "id": "ten_tuong_duyen_phan_1",
@@ -73,27 +73,25 @@
       "name": "Huyễn Vũ — Tên Huyễn Vũ",
       "type": "passive",
       "cooldown": null,
-      "description": "Mô tả Huyễn Vũ. Nếu không có Huyễn Vũ thì bỏ object này.",
-      "image": "/assets/images/ten-huyen-vu.png",
-      "image_alt": "Tên Huyễn Vũ"
+      "description": "**Lược Hữu Tiểu Thành**: Mô tả mốc 1. (Kích hoạt khi trang bị Huyễn Vũ lên tướng).\n\n**Lư Hỏa Thuần Thanh**: Mô tả mốc 2. (Kích hoạt khi Hộ hữu thêm 1 Huyễn Vũ Cam bất kỳ).\n\n**Thần Hồ Kỳ Kỹ**: Mô tả mốc 3. (Kích hoạt khi Hộ hữu thêm 1 Huyễn Vũ Chuyên thuộc + 1 Huyễn Vũ Cam bất kỳ)."
     },
     {
       "id": "ten_tuong_menh_hon_do_1",
-      "name": "Mệnh Hồn Đỏ — Tên Mệnh Hồn 1",
+      "name": "Mệnh Hồn Đỏ — Tên Đại Cảnh 1",
       "type": "ultimate",
       "cooldown": null,
-      "description": "Mô tả mốc 1. Nếu không có Mệnh Hồn Đỏ thì bỏ cả 3 object menh_hon_do."
+      "description": "Mô tả mốc 1."
     },
     {
       "id": "ten_tuong_menh_hon_do_3",
-      "name": "Mệnh Hồn Đỏ — Tên Mệnh Hồn 3",
+      "name": "Mệnh Hồn Đỏ — Tên Đại Cảnh 3",
       "type": "ultimate",
       "cooldown": null,
       "description": "Mô tả mốc 3."
     },
     {
       "id": "ten_tuong_menh_hon_do_5",
-      "name": "Mệnh Hồn Đỏ — Tên Mệnh Hồn 5",
+      "name": "Mệnh Hồn Đỏ — Tên Đại Cảnh 5",
       "type": "ultimate",
       "cooldown": null,
       "description": "Mô tả mốc 5."

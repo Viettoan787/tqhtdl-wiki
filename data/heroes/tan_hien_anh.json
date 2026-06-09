@@ -1,0 +1,78 @@
+{
+  "id": "tan_hien_anh",
+  "name": "Tân Hiến Anh",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Hỗ Trợ",
+  "quality": "SSR",
+  "image": "/assets/images/tan-hien-anh.png",
+  "description": "Võ tướng phe Ngụy, phẩm Thần Tướng, chức nghiệp Hỗ Trợ. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [
+    {
+      "id": "tan_hien_anh_pho_cong",
+      "name": "Phổ Công — Thước Hành",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 kẻ địch, gây 100% sát thương pháp thuật."
+    },
+    {
+      "id": "tan_hien_anh_no_cong",
+      "name": "Nộ Công — Trác Thức Chân Minh",
+      "type": "active",
+      "cooldown": null,
+      "description": "Khiến 3 đơn vị có tỷ lệ sinh lực thấp nhất phe ta hồi phục lượng máu bằng 66% tấn công của Tân Hiến Anh; nếu thuộc tính sát thương tăng gia của mục tiêu cao hơn sát thương giảm miễn, thi triển cho kẻ đó [Thiên Cương] không thể xua tan, ngược lại thi triển cho kẻ đó [Địa Sát] không thể xua tan."
+    },
+    {
+      "id": "tan_hien_anh_bi_dong_3_sao",
+      "name": "Bị động 3 sao — Di Trưỡng Thiên Niên",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Sau khi lần đầu thi triển nộ công sẽ ghi lại giá trị nộ khí và sinh lực cao nhất trong 3 đơn vị, sau đó bất kỳ võ tướng **Hỗ Trợ** nào có sinh lực thấp hơn 20%, sẽ hồi phục giá trị nộ khí và sinh lực của kẻ đó đến trạng thái đã ghi lại, mỗi trận chiến tối đa kích hoạt 3 lần."
+    },
+    {
+      "id": "tan_hien_anh_bi_dong_5_sao",
+      "name": "Bị động 5 sao — Tinh Thần Bất Hoặc",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi trên sân phe ta đồng thời tồn tại 3 [Địa Sát], thì sẽ gây cho toàn bộ võ tướng địch sát thương pháp thuật bằng 50% sức tấn công, và có 70% xác suất khiến tỷ lệ trúng trạng thái [Dị Thường] và kháng trạng thái [Dị Thường] của phe bị tấn công giảm, tỷ lệ sát thương giảm miễn của bản thân cao hơn phe bị tấn công càng nhiều thì biên độ giảm càng lớn, tối đa giảm 100%, duy trì 2 hiệp, mỗi hiệp tối đa kích hoạt 1 lần."
+    },
+    {
+      "id": "tan_hien_anh_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Khi mở màn, thi triển cho bản thân 1 tầng [Quy Tinh] không thể xua tan, mỗi khi chịu sát thương nộ công, số tầng [Quy Tinh] cộng 1, cao nhất 8 tầng; Khi tổng lượng máu phe ta thấp hơn 50% hoặc khi hiệp đầu tiên kết thúc, trị liệu toàn bộ võ tướng [Ngụy Quốc] và tiêu hao [Quy Tinh], lượng trị liệu bằng 60% sức tấn công của bản thân."
+    },
+    {
+      "id": "tan_hien_anh_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Từ hiệp 2 trở đi, bất kỳ võ tướng nào phe ta khi chuyển hóa trạng thái của bản thân thành [Thiên Cương] hoặc [Địa Sát], sẽ hồi phục cho kẻ đó 300 nộ khí, tối đa kích hoạt 8 lần."
+    },
+    {
+      "id": "tan_hien_anh_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Tiêu hao [Quy Tinh] nếu tạo ra trị liệu dư thừa, thì tăng cho toàn bộ võ tướng Ngụy quốc 50% tỷ lệ kháng bạo cuối, duy trì 2 hiệp, không thể cộng dồn."
+    },
+    {
+      "id": "tan_hien_anh_duyen_phan_1",
+      "name": "Duyên Phận — Vọng Thư Như Trú",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi ra trận có ít nhất 3 võ tướng **Hỗ Trợ**, Tân Hiến Anh tăng 15% miễn thương; Khi [Quy Tinh] kết thúc sẽ thi triển thêm cho võ tướng địch tích lũy gây sát thương cao nhất [Huyễn Vựng] và [Trầm Mặc] duy trì 1 hiệp, nếu số tầng [Quy Tinh] không nhỏ hơn 5 tầng thì có 60% xác suất thi triển cho võ tướng liền kề của kẻ đó [Trầm Mặc] duy trì 1 hiệp."
+    },
+    {
+      "id": "tan_hien_anh_huyen_vu",
+      "name": "Huyễn Vũ",
+      "type": "passive",
+      "cooldown": null,
+      "description": "**Lược Hữu Tiểu Thành**: Điều kiện kích hoạt của [Di Trưỡng Thiên Niên] từ sinh lực thấp hơn 20% thay đổi thành khi chịu sát thương chí mạng, và võ tướng Ngụy quốc khi chịu sát thương chí mạng cũng có thể kích hoạt hiệu quả hồi phục nộ khí và sinh lực đến trạng thái đã ghi lại, đồng thời tổng số lần kích hoạt +1, khi kích hoạt hiệu quả này, xóa bỏ 5 trạng thái giảm ích của mục tiêu, ưu tiên khống chế. (Kích hoạt khi trang bị lên Tân Hiến Anh).\n\n**Lư Hỏa Thuần Thanh**: Hiệu quả Vô Song nhận được cường hóa, bản thân khi chịu sát thương kỹ năng chủ động bất kỳ, nhận được 1 tầng [Quy Tinh], bất kỳ võ tướng nào có lượng máu thấp hơn 50%, tiêu hao [Quy Tinh] tiến hành 1 lần trị liệu bằng 60% sức tấn công cho toàn bộ phe ta, võ tướng Ngụy quốc sẽ nhận thêm 1 lần trị liệu, đồng thời xua tan 1 trạng thái giảm ích của tất cả mục tiêu, mỗi hiệp tối đa kích hoạt 6 lần. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Cam bất kỳ).\n\n**Thần Hồ Kỳ Kỹ**: Tiêu hao [Quy Tinh] nếu tạo ra trị liệu dư thừa, tăng thêm cho võ tướng Ngụy quốc hoặc **Hỗ Trợ** 30% sát thương chuẩn gia tăng và 30% tỷ lệ vô hiệu hóa trạng thái [Dị Thường], duy trì 1 hiệp. Nộ công sẽ đồng thời thêm cho mục tiêu [Thiên Cương] và [Địa Sát], khi điều kiện chuyển hóa được kích hoạt nếu đồng thời tồn tại 2 trạng thái thì sẽ trực tiếp tiêu hao, mỗi lần chuyển hóa sẽ trị liệu cho mục tiêu 30% sinh lực tối đa. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Chuyên thuộc bất kỳ và 1 Huyễn vũ Cam bất kỳ)."
+    }
+  ]
+}

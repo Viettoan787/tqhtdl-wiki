@@ -11,6 +11,7 @@ const skillMap = new Map();
 const effectMap = new Map();
 const effectNameMap = new Map();
 const petMap = new Map();
+const heroFileMap = new Map();
 
 /** Resolve data JSON from module location (stable on Cloudflare Pages). */
 const DATA_BASE = new URL('../../data/', import.meta.url);
@@ -65,6 +66,11 @@ export async function loadData() {
   effectMap.clear();
   effectNameMap.clear();
   petMap.clear();
+  heroFileMap.clear();
+
+  heroes.forEach((hero, index) => {
+    if (hero?.id) heroFileMap.set(hero.id, heroFiles[index]);
+  });
 
   for (const skill of skills) {
     skillMap.set(skill.id, skill);
@@ -88,6 +94,10 @@ export function getHeroById(id) {
   return heroes.find((h) => h.id === id) ?? null;
 }
 
+export function getHeroFileName(id) {
+  return heroFileMap.get(id) ?? `${id}.json`;
+}
+
 export function getPets() {
   return pets;
 }
@@ -102,6 +112,10 @@ export function getSkillById(id) {
 
 export function getEffectById(id) {
   return effectMap.get(id) ?? null;
+}
+
+export function getEffects() {
+  return effects;
 }
 
 export function getEffectByName(name) {

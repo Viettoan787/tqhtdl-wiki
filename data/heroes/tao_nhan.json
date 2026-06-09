@@ -1,0 +1,78 @@
+{
+  "id": "tao_nhan",
+  "name": "Tào Nhân",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Phòng Thủ",
+  "quality": "SSR",
+  "image": "/assets/images/tao-nhan.png",
+  "description": "Võ tướng phe Ngụy, phẩm Thần Tướng, chức nghiệp Phòng Thủ. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [
+    {
+      "id": "tao_nhan_pho_cong",
+      "name": "Phổ Công — Cự Phách",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 kẻ địch, gây 100% sát thương vật lý."
+    },
+    {
+      "id": "tao_nhan_no_cong",
+      "name": "Nộ Công — Kiên Thạch Bích Lũy",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 cột địch, gây 168% sát thương vật lý, bản thân nhận [Hộ Thuẫn], có thể hấp thu sát thương bằng 15% sinh lực tối đa của bản thân, duy trì 2 hiệp."
+    },
+    {
+      "id": "tao_nhan_bi_dong_3_sao",
+      "name": "Bị động 3 sao — Vạn Phu Mạc Khai",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi [Hộ Thuẫn] của bản thân biến mất hoặc bị xua tan, khiến nộ khí toàn bộ địch giảm 100 điểm."
+    },
+    {
+      "id": "tao_nhan_bi_dong_5_sao",
+      "name": "Bị động 5 sao — Bát Môn Kim Tỏa",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi vào chiến đấu, thi triển ngẫu nhiên [Bát Môn Kim Tỏa] lên 1 mục tiêu địch."
+    },
+    {
+      "id": "tao_nhan_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Khi vào chiến đấu, thi triển 1 [Hộ Thuẫn] cho hàng trước phe ta, có thể hấp thu sát thương bằng 10% sinh lực tối đa, duy trì 3 hiệp."
+    },
+    {
+      "id": "tao_nhan_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Khi [Hộ Thuẫn] của bản thân biến mất hoặc bị xua tan, khiến nộ khí toàn bộ địch giảm 200 điểm."
+    },
+    {
+      "id": "tao_nhan_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Khi vào chiến đấu, thi triển 1 [Hộ Thuẫn] cho hàng trước phe ta, có thể hấp thu sát thương bằng 25% sinh lực tối đa, duy trì 3 hiệp."
+    },
+    {
+      "id": "tao_nhan_duyen_phan_1",
+      "name": "Duyên Phận — Bất Động Bàn Thạch",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi ra trận có ít nhất 3 võ tướng [Phòng Thủ], Tào Nhân tăng 15% miễn thương; Khi vào chiến đấu, sát thương nộ công mà toàn bộ võ tướng phe ta phải chịu giảm 10%, đối với võ tướng [Phòng Thủ] hiệu quả nhân đôi, duy trì 2 hiệp."
+    },
+    {
+      "id": "tao_nhan_huyen_vu",
+      "name": "Huyễn Vũ",
+      "type": "passive",
+      "cooldown": null,
+      "description": "**Lược Hữu Tiểu Thành**: Khi bản thân có [Hộ Thuẫn], tỷ lệ phản đòn tăng 10%; 2 hiệp đầu chiến đấu, khi kết thúc mỗi hiệp thi triển 1 [Hộ Thuẫn] cho hàng trước phe ta, có thể hấp thu sát thương bằng 6% sinh lực tối đa, duy trì 2 hiệp. (Kích hoạt khi trang bị lên Tào Nhân).\n\n**Lư Hỏa Thuần Thanh**: 2 hiệp đầu chiến đấu, khi kết thúc mỗi hiệp thi triển 1 [Hộ Thuẫn] cho hàng trước phe ta, có thể hấp thu sát thương bằng 10% sinh lực tối đa, duy trì 2 hiệp. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Cam bất kỳ).\n\n**Thần Hồ Kỳ Kỹ**: Khi bản thân có [Hộ Thuẫn], tỷ lệ phản đòn tăng lên 20%; 3 hiệp đầu chiến đấu, khi kết thúc mỗi hiệp thi triển 1 [Hộ Thuẫn] cho hàng trước phe ta, có thể hấp thu sát thương bằng 12% sinh lực tối đa, duy trì 2 hiệp. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Chuyên thuộc bất kỳ và 1 Huyễn vũ Cam bất kỳ)."
+    }
+  ]
+}

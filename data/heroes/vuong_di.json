@@ -1,0 +1,14 @@
+{
+  "id": "vuong_di",
+  "name": "Vương Dị",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Tấn Công",
+  "quality": "R",
+  "image": "/assets/images/vuong-di.png",
+  "description": "Võ tướng phe Ngụy, phẩm Lương Tướng, chức nghiệp Tấn Công. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

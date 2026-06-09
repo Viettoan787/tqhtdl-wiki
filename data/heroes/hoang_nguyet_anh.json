@@ -1,0 +1,14 @@
+{
+  "id": "hoang_nguyet_anh",
+  "name": "Hoàng Nguyệt Anh",
+  "name_cn": "",
+  "type": "normal",
+  "country": "thuc",
+  "faction": "Thục",
+  "role": "Võ Tướng",
+  "profession": "Đột Kích",
+  "quality": "SR",
+  "image": "/assets/images/hoang-nguyet-anh.png",
+  "description": "Võ tướng phe Thục, phẩm Danh Tướng, chức nghiệp Đột Kích. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

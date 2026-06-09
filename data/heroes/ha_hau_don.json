@@ -1,0 +1,14 @@
+{
+  "id": "ha_hau_don",
+  "name": "Hạ Hầu Đôn",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Phòng Thủ",
+  "quality": "SR",
+  "image": "/assets/images/ha-hau-don.png",
+  "description": "Võ tướng phe Ngụy, phẩm Danh Tướng, chức nghiệp Phòng Thủ. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

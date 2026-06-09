@@ -1,0 +1,14 @@
+{
+  "id": "chu_thai",
+  "name": "Chu Thái",
+  "name_cn": "",
+  "type": "normal",
+  "country": "ngo",
+  "faction": "Ngô",
+  "role": "Võ Tướng",
+  "profession": "Chưa rõ",
+  "quality": "SR",
+  "image": "/assets/images/chu-thai.png",
+  "description": "Võ tướng phe Ngô, phẩm Danh Tướng, chưa rõ chức nghiệp. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

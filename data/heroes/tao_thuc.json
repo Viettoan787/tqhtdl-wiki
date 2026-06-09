@@ -1,0 +1,78 @@
+{
+  "id": "tao_thuc",
+  "name": "Tào Thực",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Hỗ Trợ",
+  "quality": "SSR",
+  "image": "/assets/images/tao-thuc.png",
+  "description": "Võ tướng phe Ngụy, phẩm Thần Tướng, chức nghiệp Hỗ Trợ. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [
+    {
+      "id": "tao_thuc_pho_cong",
+      "name": "Phổ Công — Thanh Trọc",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 kẻ địch, gây 100% sát thương pháp thuật."
+    },
+    {
+      "id": "tao_thuc_no_cong",
+      "name": "Nộ Công — Dư Thán Ai Chi Thi",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công hàng trước địch, gây 132% sát thương pháp thuật, và thi triển cho mục tiêu [Ai Ca] không thể xua tan, duy trì đến khi kết thúc hiệp này. Sau khi bản thân lần đầu thi triển kỹ năng này, nhận trạng thái [Tửu Ca] không thể xua tan duy trì đến khi kết thúc chiến đấu."
+    },
+    {
+      "id": "tao_thuc_bi_dong_3_sao",
+      "name": "Bị động 3 sao — Lạc Xuyên Thần Chi Phú",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Trong thời gian [Tửu Ca], bản thân mỗi lần tích lũy nhận 300 điểm nộ khí sẽ tăng 15% tỷ lệ trúng trạng thái [Dị Thường], mỗi lần sau khi bản thân phổ công, thuộc tính này sẽ xóa sổ (trở về 0) và tính toán lại."
+    },
+    {
+      "id": "tao_thuc_bi_dong_5_sao",
+      "name": "Bị động 5 sao — Tri Mệnh Phục Hà Ưu",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi trạng thái [Choáng] của toàn bộ võ tướng địch kết thúc, hấp thu của chúng 300 điểm nộ khí; Khi trạng thái [Trầm Mặc] của toàn bộ võ tướng địch kết thúc, hấp thu lượng máu bằng 10% sinh lực tối đa của chúng."
+    },
+    {
+      "id": "tao_thuc_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Nếu toàn bộ võ tướng địch đã tích lũy làm biến mất 7 lần trạng thái [Choáng] hoặc [Trầm Mặc], thì bản thân nhận thêm hiệu quả tăng 30% tỷ lệ né tránh cuối, duy trì đến khi kết thúc chiến đấu."
+    },
+    {
+      "id": "tao_thuc_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Võ tướng địch mỗi khi trạng thái [Choáng] hoặc [Trầm Mặc] biến mất, hấp thu 1 trạng thái tăng ích có thể xua tan của mục tiêu; Tào Phi, Tào Chương phe ta có trên sân có 40% xác suất cũng kích hoạt hiệu quả này."
+    },
+    {
+      "id": "tao_thuc_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Nếu toàn bộ võ tướng địch đã tích lũy làm biến mất 7 lần trạng thái [Choáng], thì [Ai Ca] mà võ tướng địch sở hữu nhận thêm hiệu quả: Sau khi thi triển nộ công nhận [Choáng], duy trì 2 hiệp; Nếu toàn bộ võ tướng địch đã tích lũy làm biến mất 7 lần trạng thái [Trầm Mặc], thì [Ai Ca] nhận thêm hiệu quả: Sau khi thi triển phổ công có 40% xác suất khiến võ tướng liền kề nhận [Trầm Mặc], duy trì 2 hiệp."
+    },
+    {
+      "id": "tao_thuc_duyen_phan_1",
+      "name": "Duyên Phận — Thủ Túc Tình Thâm",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi ra trận cùng Tào Chương, Tào Phi, tốc độ hồi phục nộ khí của Tào Thực tăng 30%. Toàn bộ võ tướng phe ta khi thi triển phổ công và nộ công lên võ tướng đang ở trạng thái khống chế sẽ hồi phục thêm cho Tào Thực lượng máu bằng 5% sinh lực tối đa, hiệu quả giảm nộ gây ra cho võ tướng đang ở trạng thái khống chế tăng thêm 50%."
+    },
+    {
+      "id": "tao_thuc_huyen_vu",
+      "name": "Huyễn Vũ",
+      "type": "passive",
+      "cooldown": null,
+      "description": "**Lược Hữu Tiểu Thành**: Võ tướng địch mỗi khi bị [Choáng] hoặc [Trầm Mặc], sẽ chuyển hóa 1 trạng thái tăng ích có thể xua tan trên người mục tiêu thành giảm 10% sát thương cuối phổ công hoặc nộ công, khi [Choáng] hoặc [Trầm Mặc] biến mất, ngẫu nhiên khiến võ tướng địch đó nhận 1 trong 3 loại trạng thái: kết quả sát thương gây ra giảm 25%, tỷ lệ vô hiệu hóa nhận tăng ích tăng 10% và tỷ lệ vô hiệu hóa nhận trị liệu tăng 10%, mỗi loại tối đa cộng dồn 3 tầng, duy trì 2 hiệp, hiệu quả này không thể xua tan. (Kích hoạt khi trang bị lên Tào Thực).\n\n**Lư Hỏa Thuần Thanh**: Khi kết thúc hiệp, địch cứ có 1 võ tướng [Choáng], Tào Thực nhận 30% tỷ lệ kháng bạo cuối, cứ có 1 võ tướng [Trầm Mặc], Tào Thực nhận 30% miễn giảm sát thương cuối, duy trì đến khi kết thúc hiệp sau; Nếu toàn bộ địch đều không sở hữu 2 loại trạng thái này, thì khiến 1 võ tướng địch hiện đang có tích lũy sát thương gây ra cao nhất nhận [Choáng], [Choáng] này chắc chắn trúng và không thể bị xóa bỏ, duy trì đến khi kết thúc hiệp sau. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Cam bất kỳ).\n\n**Thần Hồ Kỳ Kỹ**: Bất kỳ võ tướng địch nào tích lũy nhận hoặc miễn dịch 10 trạng thái [Dị Thường], giảm của võ tướng đó 200 điểm nộ khí. Võ tướng địch đang trong trạng thái [Choáng] hoặc [Trầm Mặc] khi chịu tấn công, miễn giảm sát thương cuối giảm 40%, và có 60% xác suất chuyển dời 1 trạng thái tăng ích có thể xua tan của mục tiêu cho Tào Thực. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Chuyên thuộc bất kỳ và 1 Huyễn vũ Cam bất kỳ)."
+    }
+  ]
+}

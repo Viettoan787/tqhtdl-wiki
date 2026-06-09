@@ -1,0 +1,78 @@
+{
+  "id": "vu_cam",
+  "name": "Vu Cấm",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Phòng Thủ",
+  "quality": "SSR",
+  "image": "/assets/images/vu-cam.png",
+  "description": "Võ tướng phe Ngụy, phẩm Thần Tướng, chức nghiệp Phòng Thủ. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [
+    {
+      "id": "vu_cam_pho_cong",
+      "name": "Phổ Công — Trọng Kiếm",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 kẻ địch, gây 100% sát thương vật lý."
+    },
+    {
+      "id": "vu_cam_no_cong",
+      "name": "Nộ Công — Nghị Trọng Thiết Kiếm",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 cột địch, gây 168% sát thương vật lý, đối với mục tiêu không ở trạng thái [Hộ Thuẫn] gây thêm sát thương bằng 15% sinh lực tối đa của bản thân, và thi triển cho mục tiêu đang có [Hộ Thuẫn] 1 tầng [Luy Nhược], duy trì 2 hiệp."
+    },
+    {
+      "id": "vu_cam_bi_dong_3_sao",
+      "name": "Bị động 3 sao — Dĩ Chiến Dưỡng Chiến",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Võ tướng khác phe ta khi đánh vỡ hộ thuẫn của võ tướng địch, hồi phục cho bản thân và võ tướng đó lượng máu bằng 25% lượng sát thương hộ thuẫn đó có thể hấp thu."
+    },
+    {
+      "id": "vu_cam_bi_dong_5_sao",
+      "name": "Bị động 5 sao — Nghiêm Chỉnh Trị Quân",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi bắt đầu chiến đấu, thi triển cho toàn bộ võ tướng phe ta 1 tầng [Chỉnh Quân], duy trì đến khi bản thân bị đánh lùi."
+    },
+    {
+      "id": "vu_cam_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Hiệu quả [Chỉnh Quân] tăng cường, khi chịu tấn công quần thể miễn thương cuối tăng 25%, và sát thương bạo kích phải chịu giảm 40%."
+    },
+    {
+      "id": "vu_cam_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Võ tướng khác phe ta khi tấn công đánh vỡ hộ thuẫn của võ tướng địch, hồi phục cho bản thân và võ tướng đó lượng máu bằng 40% lượng sát thương hộ thuẫn đó có thể hấp thu, và hồi phục thêm cho mục tiêu đó 250 điểm nộ khí."
+    },
+    {
+      "id": "vu_cam_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "[Chỉnh Quân] mang theo thêm hiệu quả tăng 30% tỷ lệ được trị liệu, và hiệu quả tăng cường, khi chịu tấn công quần thể miễn thương cuối tăng 35%, sát thương bạo kích phải chịu giảm 50%."
+    },
+    {
+      "id": "vu_cam_duyen_phan_1",
+      "name": "Duyên Phận — Sơn Cao Chí Viễn",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi ra trận cùng Nhạc Tiến, kháng bạo tăng 20%; Toàn bộ võ tướng [Ngụy Quốc] phe ta tăng 15% tăng giảm sát thương cuối, Ngũ Tử Lương Tướng (Trương Liêu, Từ Hoảng, Trương Cáp, Vu Cấm, Nhạc Tiến...) nhận thêm 50% kháng trạng thái [Dị Thường]; Nếu bản thân sở hữu bị động [Nghiêm Chỉnh Trị Quân], hiệu quả này đối với Ngũ Tử Lương Tướng khác phe ta tăng thêm 60%."
+    },
+    {
+      "id": "vu_cam_huyen_vu",
+      "name": "Huyễn Vũ",
+      "type": "passive",
+      "cooldown": null,
+      "description": "**Lược Hữu Tiểu Thành**: Tỷ lệ trúng cuối tăng 50%; bản thân mỗi lần nộ công số lẻ khiến hộ thuẫn của võ tướng hàng trước địch trong mục tiêu giảm xuống còn 50%, nộ công số chẵn khiến hộ thuẫn của võ tướng hàng sau địch trong mục tiêu giảm xuống còn 50%; Bất kỳ võ tướng nào phe ta khi đánh vỡ hộ thuẫn của võ tướng địch, khiến toàn bộ võ tướng phe ta miễn dịch sát thương phản đòn vượt quá 10% sinh lực tối đa phải chịu trong lần tiếp theo. (Kích hoạt khi trang bị lên Vu Cấm).\n\n**Lư Hỏa Thuần Thanh**: Hiệu quả [Chỉnh Quân] tăng lên: Khi chịu tấn công quần thể miễn thương cuối tăng 50%, sát thương bạo kích phải chịu giảm 75%, và sát thương cuối của phổ công gây ra tăng 40%, mỗi lần phổ công không gây bạo kích sẽ tăng 30% tỷ lệ bạo kích cuối, cho đến khi phổ công lần tới gây bạo kích. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Cam bất kỳ).\n\n**Thần Hồ Kỳ Kỹ**: Ngũ Tử Lương Tướng phe ta tích lũy thi triển 9 lần phổ công, bản thân lập tức thi triển 1 lần nộ công, mỗi trận chiến tối đa kích hoạt 2 lần; [Luy Nhược] không thể kháng cự và xua tan đồng thời mang theo giảm 20% miễn thương cuối. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Chuyên thuộc bất kỳ và 1 Huyễn vũ Cam bất kỳ)."
+    }
+  ]
+}

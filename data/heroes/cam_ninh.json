@@ -1,0 +1,14 @@
+{
+  "id": "cam_ninh",
+  "name": "Cam Ninh",
+  "name_cn": "",
+  "type": "normal",
+  "country": "ngo",
+  "faction": "Ngô",
+  "role": "Võ Tướng",
+  "profession": "Tấn Công",
+  "quality": "R",
+  "image": "/assets/images/cam-ninh.png",
+  "description": "Võ tướng phe Ngô, phẩm Lương Tướng, chức nghiệp Tấn Công. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

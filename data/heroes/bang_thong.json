@@ -1,0 +1,14 @@
+{
+  "id": "bang_thong",
+  "name": "Bàng Thống",
+  "name_cn": "",
+  "type": "normal",
+  "country": "thuc",
+  "faction": "Thục",
+  "role": "Võ Tướng",
+  "profession": "Hỗ Trợ",
+  "quality": "SR",
+  "image": "/assets/images/bang-thong.png",
+  "description": "Võ tướng phe Thục, phẩm Danh Tướng, chức nghiệp Hỗ Trợ. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

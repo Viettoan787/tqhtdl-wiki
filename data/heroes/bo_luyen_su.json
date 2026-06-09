@@ -1,0 +1,14 @@
+{
+  "id": "bo_luyen_su",
+  "name": "Bộ Luyện Sư",
+  "name_cn": "",
+  "type": "normal",
+  "country": "ngo",
+  "faction": "Ngô",
+  "role": "Võ Tướng",
+  "profession": "Chưa rõ",
+  "quality": "SR",
+  "image": "/assets/images/bo-luyen-su.png",
+  "description": "Võ tướng phe Ngô, phẩm Danh Tướng, chưa rõ chức nghiệp. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

@@ -1,0 +1,99 @@
+{
+  "id": "truong_cap",
+  "name": "Trương Cáp",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Đột Kích",
+  "quality": "R",
+  "image": "/assets/images/truong-cap.png",
+  "description": "Võ tướng phe Ngụy, phẩm Lương Tướng, chức nghiệp Đột Kích. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [
+    {
+      "id": "truong_cap_pho_cong",
+      "name": "Phổ Công — Phong Chuyển",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 kẻ địch, gây 100% sát thương vật lý."
+    },
+    {
+      "id": "truong_cap_no_cong",
+      "name": "Nộ Công — Bạo Trá Hãm Tỉnh",
+      "type": "active",
+      "cooldown": null,
+      "description": "Thi triển [Hãm Tỉnh] lên hàng sau địch."
+    },
+    {
+      "id": "truong_cap_bi_dong_3_sao",
+      "name": "Bị động 3 sao — Cường Hóa Hãm Tỉnh",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Sát thương nổ của [Hãm Tỉnh] tăng lên 180%."
+    },
+    {
+      "id": "truong_cap_bi_dong_5_sao",
+      "name": "Bị động 5 sao — Liên Tỏa Bạo Liệt",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi [Hãm Tỉnh] nổ, gây sát thương lan bằng 30% sát thương [Hãm Tỉnh] lần này cho đơn vị lân cận mục tiêu."
+    },
+    {
+      "id": "truong_cap_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Khi [Hãm Tỉnh] nổ, nếu võ tướng hàng sau địch ít hơn 3 người, cứ ít hơn 1 người sát thương của bom tăng 10%."
+    },
+    {
+      "id": "truong_cap_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Khi [Hãm Tỉnh] nổ, tỷ lệ bạo kích cuối tăng 20%, nếu bạo kích sẽ gây [Huyễn Vựng] cho nhân vật đó, duy trì 1 hiệp."
+    },
+    {
+      "id": "truong_cap_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Sát thương nổ của [Hãm Tỉnh] tăng lên bằng 200% tấn công của Trương Cáp; khi [Hãm Tỉnh] nổ, nếu võ tướng hàng sau địch ít hơn 3 người, cứ ít hơn 1 người sát thương của bom tăng 20%."
+    },
+    {
+      "id": "truong_cap_duyen_phan_1",
+      "name": "Duyên Phận — Xảo Biến Phá Quân",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi ra trận cùng Từ Hoảng, Trương Cáp tăng 15% sát thương; Khi Từ Hoảng có trên sân, khiến sát thương cuối của hàng sau phe ta khi tấn công hàng sau địch tăng 15%."
+    },
+    {
+      "id": "truong_cap_huyen_vu",
+      "name": "Huyễn Vũ — Vụ Vũ Linh Xà",
+      "type": "passive",
+      "cooldown": null,
+      "description": "**Lược Hữu Tiểu Thành**: Tỷ lệ trúng trạng thái [Dị Thường] tăng 40%; khi võ tướng địch đang chịu [Hãm Tỉnh] tích lũy mất không dưới 300 điểm nộ khí (ngoại trừ nộ công), thì [Hãm Tỉnh] nổ trước hạn, và khiến bản thân hồi phục 200 điểm nộ khí. (Kích hoạt khi trang bị lên Trương Cáp).\n\n**Lư Hỏa Thuần Thanh**: Tỷ lệ bạo kích cuối của [Hãm Tỉnh] tăng 40%, và khi bạo kích có 40% xác suất gây [Huyễn Vựng] cho đơn vị hàng trước cùng cột với nhân vật đó, duy trì 1 hiệp; khi trạng thái [Huyễn Vựng] của võ tướng địch kết thúc hoặc bị xua tan, giảm 500 điểm nộ khí của mục tiêu. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Cam bất kỳ).\n\n**Thần Hồ Kỳ Kỹ**: Kháng giảm nộ khí của võ tướng địch đang trong trạng thái [Hãm Tỉnh] giảm 50%; sát thương [Hãm Tỉnh] tăng lên bằng 240% tấn công; khi thi triển nộ công nếu trên sân đã tồn tại [Hãm Tỉnh], thì giảm 200 điểm nộ khí của võ tướng địch trong [Hãm Tỉnh]. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Chuyên thuộc bất kỳ và 1 Huyễn vũ Cam bất kỳ)."
+    },
+    {
+      "id": "truong_cap_menh_hon_do_1",
+      "name": "Mệnh Hồn Đỏ 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Thi triển kỹ năng Mệnh Hồn, gây 126% sát thương vật lý cho toàn bộ địch, đồng thời khiến toàn bộ võ tướng địch ngẫu nhiên nhận 1-3 tầng [Mệnh Số]. Trong 3 hiệp tương lai, thay thế [Hãm Tỉnh] của Trương Cáp thành [Phù Chú], trong thời gian này, Trương Cáp không thể thi triển kỹ năng nộ, nhưng mỗi khi nhận 500 điểm nộ khí sẽ tiêu hao nó và thi triển 1 [Phù Chú] lên 1-2 võ tướng ngẫu nhiên hàng sau của địch, mỗi hiệp tối đa thi triển 5 lần."
+    },
+    {
+      "id": "truong_cap_menh_hon_do_3",
+      "name": "Mệnh Hồn Đỏ 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Kích hoạt hào quang Mệnh Hồn Trương Cáp: Tỷ lệ bạo kích cuối cùng của võ tướng nước Ngụy phe ta tăng 50%, sát thương bạo kích tăng 70%, võ tướng nước Ngụy khi thi triển kỹ năng có 20% xác suất kích hoạt [Liên Kích], nếu đòn tấn công lần này là đơn thể thì xác suất tăng gấp đôi. [Liên Kích]: Đối với cùng một mục tiêu tấn công sao chép sát thương gây ra. Khi Trương Cáp thi triển [Phù Chú] lên địch, sẽ căn cứ vào số tầng [Mệnh Số] mục tiêu sở hữu, thi triển thêm số lượng [Phù Chú] tương ứng. Khi [Phù Chú] phát nổ, có 30% xác suất kích hoạt [Liên Kích]. Khi PVE, Trương Cáp sẽ chỉ thi triển [Phù Chú], và khi bắt đầu chiến đấu sẽ thêm [Mệnh Số] cho địch, [Mệnh Số] trong 2 hiệp đầu sẽ không bị làm mới, và tỷ lệ giá trị ghi lại tăng lên 10%."
+    },
+    {
+      "id": "truong_cap_menh_hon_do_5",
+      "name": "Mệnh Hồn Đỏ 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Kỹ năng Mệnh Hồn tăng cường hiệu quả, ngẫu nhiên thi triển 3-6 tầng [Mệnh Số] cho địch, sau khi thi triển kỹ năng Mệnh Hồn, võ tướng địch khi chịu sát thương bạo kích kỹ năng chủ động ngoài Trương Cáp có 30% xác suất bị thi triển 1 [Phù Chú], nếu là Ngũ Tử Lương Tướng thì chắc chắn nhận được, mỗi võ tướng mỗi hiệp tối đa kích hoạt 5 lần. Hiệu quả [Phù Chú] cường hóa: Khi thi triển Phù Chú có 40% xác suất khiến nó biến thành [Cao Bạo Phù Chú], Phù Chú này khi nổ chắc chắn bạo kích. Trương Cáp mỗi khi nhận 500 điểm nộ khí hướng về 2-3 võ tướng ngẫu nhiên hàng sau của địch thi triển 1 [Phù Chú], mỗi hiệp tối đa thi triển 5 lần. Sau khi Trương Cáp thi triển kỹ năng Mệnh Hồn, nhận được [Ẩn Nặc] duy trì đến hiệp sau, trong thời gian này sát thương do [Phù Chú] gây ra tăng 100% và kèm theo 5% máu tối đa của bản thân Trương Cáp. Khi PVE, thì chắc chắn toàn bộ là 6 tầng [Mệnh Số], sát thương chủ động của võ tướng nước Ngụy phe ta cũng sẽ kích hoạt sát thương kèm theo 25% giá trị ghi lại của [Mệnh Số]; võ tướng nước Ngụy phe ta khi tấn công chắc chắn kích hoạt [Liên Kích]; khi nhận được [Ẩn Nặc], lực tấn công của võ tướng phe ta tăng 500%, duy trì đến khi kết thúc chiến đấu."
+    }
+  ]
+}

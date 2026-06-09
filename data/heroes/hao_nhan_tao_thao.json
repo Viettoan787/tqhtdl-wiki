@@ -1,0 +1,16 @@
+{
+  "id": "hao_nhan_tao_thao",
+  "name": "Tào Tháo",
+  "name_cn": "",
+  "type": "soul",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Hồn Tướng",
+  "profession": "Chưa rõ",
+  "quality": "UR",
+  "image": "/assets/images/hao-nhan-tao-thao.png",
+  "description": "Hồn tướng ra mắt ngày 26/08/2021. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [],
+  "releaseDate": "2021-08-26",
+  "title": "Hào Nhận"
+}

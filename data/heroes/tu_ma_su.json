@@ -1,0 +1,78 @@
+{
+  "id": "tu_ma_su",
+  "name": "Tư Mã Sư",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Phòng Thủ",
+  "quality": "SSR",
+  "image": "/assets/images/tu-ma-su.png",
+  "description": "Võ tướng phe Ngụy, phẩm Thần Tướng, chức nghiệp Phòng Thủ. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [
+    {
+      "id": "tu_ma_su_pho_cong",
+      "name": "Phổ Công — Tru Diệt",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 kẻ địch, gây 100% sát thương pháp thuật, tiêu hao 3% sinh lực tối đa của bản thân, sinh lực tiêu hao sẽ được ghi lại trong [Tác Nghịch]."
+    },
+    {
+      "id": "tu_ma_su_no_cong",
+      "name": "Nộ Công — Tận Toán Thiên Hạ",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công toàn bộ kẻ địch, gây 84% sát thương pháp thuật, tiêu hao 20% sinh lực tối đa của bản thân. Khi kết thúc mỗi hiệp, thi triển cho toàn bộ võ tướng phe ta hộ thuẫn bằng 60% lượng lưu trữ tích lũy trong [Tác Nghịch], tối đa không vượt quá 200% sinh lực tối đa của Tư Mã Sư, hộ thuẫn này kèm theo 30% miễn giảm sát thương phản đòn, duy trì đến khi kết thúc hiệp sau."
+    },
+    {
+      "id": "tu_ma_su_bi_dong_3_sao",
+      "name": "Bị động 3 sao — Bĩ Cực Thái Lai",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Mỗi khi [Tác Nghịch] tích lũy lưu trữ 20% sinh lực tối đa của Tư Mã Sư, sẽ lập tức kích hoạt 1 lần nộ công không tiêu hao lượng máu, nộ công lần này kèm theo sát thương chuẩn bằng 50% lượng lưu trữ hiện tại của [Tác Nghịch], mỗi hiệp tối đa kích hoạt 2 lần."
+    },
+    {
+      "id": "tu_ma_su_bi_dong_5_sao",
+      "name": "Bị động 5 sao — Hoài Trá Bạo Tăng",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi lượng lưu trữ của [Tác Nghịch] đạt giá trị lớn nhất, nếu lượng máu của Tư Mã Sư cao hơn 50%, thì mục tiêu của [Tác Nghịch] sẽ chọn võ tướng có lượng máu thấp nhất phe ta để hồi phục sinh lực. Từ hiệp 2 trở đi, võ tướng phòng thủ phe ta khi nhận được hộ thuẫn, hồi phục 350 điểm nộ khí, mỗi võ tướng mỗi hiệp giới hạn 2 lần."
+    },
+    {
+      "id": "tu_ma_su_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Lượng máu hồi phục của [Tác Nghịch] tăng lên thành 80% lượng lưu trữ, khi [Tác Nghịch] hồi phục lượng máu cho mục tiêu khác, Tư Mã Sư sẽ hồi phục thêm sinh lực bằng 45% lượng hồi phục đó."
+    },
+    {
+      "id": "tu_ma_su_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Trong 5 hiệp đầu, Tư Mã Sư sẽ thi triển cho toàn đội hộ thuẫn bằng 25% sinh lực tối đa vào lúc bắt đầu hiệp và tăng 10% miễn giảm sát thương cuối, duy trì 1 hiệp, cứ qua 1 hiệp giá trị hộ thuẫn tăng 25%, miễn giảm sát thương cuối tăng 10%, tối đa nhận được hộ thuẫn bằng 75% sinh lực tối đa và 30% miễn giảm sát thương cuối."
+    },
+    {
+      "id": "tu_ma_su_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Tỷ lệ chuyển hóa lượng máu của [Tác Nghịch] tăng lên thành 1.5 lần, số lần kích hoạt toàn trận tăng lên thành 7 lần. Khi Tư Mã Sư thi triển nộ công, còn tăng thêm cho toàn bộ đồng đội 15% miễn giảm sát thương cuối, tối đa cộng dồn 2 tầng, duy trì 2 hiệp."
+    },
+    {
+      "id": "tu_ma_su_duyen_phan_1",
+      "name": "Duyên Phận — Kiên Như Bàn Thạch",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Đồng thời ra trận 3 võ tướng [Phòng Thủ], Tư Mã Sư sau khi vào chiến đấu sinh lực tối đa tăng 40%; Khi bắt đầu trận, khiến võ tướng [Phòng Thủ] phe ta tăng 40% bỏ qua phòng thủ, tỷ lệ bạo kích cuối tăng 50%, sau khi võ tướng [Phòng Thủ] lần đầu thi triển Long hồn kỹ, tăng ích này mất hiệu lực."
+    },
+    {
+      "id": "tu_ma_su_huyen_vu",
+      "name": "Huyễn Vũ",
+      "type": "passive",
+      "cooldown": null,
+      "description": "**Lược Hữu Tiểu Thành**: Lượng lưu trữ cao nhất của [Tác Nghịch] tăng thành 100% sinh lực tối đa, và khi kích hoạt sẽ còn dư lại 50% giá trị lớn nhất ban đầu; Tư Mã Sư khi gây sát thương chuẩn sẽ bỏ qua đỡ đòn và hộ thuẫn thông thường. (Kích hoạt khi trang bị lên Tư Mã Sư).\n\n**Lư Hỏa Thuần Thanh**: 20% sát thương thực tế do Tư Mã Sư gây ra cũng sẽ được [Tác Nghịch] lưu trữ, tất cả nộ công đều kèm theo sát thương chuẩn bằng 50% lượng lưu trữ hiện tại của [Tác Nghịch]. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Cam bất kỳ).\n\n**Thần Hồ Kỳ Kỹ**: Mỗi khi [Tác Nghịch] kích hoạt, lượng lưu trữ lớn nhất tăng 50%, tối đa tăng 4 lần, và Tư Mã Sư lập tức thi triển 1 lần nộ công không tiêu hao huyết lượng; trong môi trường không phải đối chiến với người chơi (PVE), hệ số sát thương chuẩn đi kèm của nộ công tăng lên thành 300%. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Chuyên thuộc bất kỳ và 1 Huyễn vũ Cam bất kỳ)."
+    }
+  ]
+}

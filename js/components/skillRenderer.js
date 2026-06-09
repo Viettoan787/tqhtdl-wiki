@@ -1,7 +1,5 @@
 /**
  * Render character skills grouped by required slots.
- *
- * Slot mapping is inferred from `skill.id` to keep the JSON schema simple.
  */
 
 import { getSkillsForHero } from '../data/loader.js';
@@ -38,6 +36,8 @@ function getExpectedSlotKeys(hero) {
     'passive_5_sao',
     'vo_song',
     'duyen_phan',
+    'huyen_vu',
+    'menh_hon_do',
   ];
 }
 
@@ -46,12 +46,10 @@ function getSlotKeyFromSkillId(skillId) {
 
   if (skillId.includes('_pho_cong')) return 'pho_cong';
   if (skillId.includes('_no_cong')) return 'no_cong';
-
   if (skillId.includes('_bi_dong_2_sao')) return 'passive_2_sao';
   if (skillId.includes('_bi_dong_3_sao')) return 'passive_3_sao';
   if (skillId.includes('_bi_dong_4_sao')) return 'passive_4_sao';
   if (skillId.includes('_bi_dong_5_sao')) return 'passive_5_sao';
-
   if (skillId.includes('_long_hon_ky')) return 'long_hon_ky';
   if (skillId.includes('_vo_song_')) return 'vo_song';
   if (skillId.includes('_huyen_vu') || skillId.includes('_huyan_vu')) return 'huyen_vu';
@@ -63,25 +61,22 @@ function getSlotKeyFromSkillId(skillId) {
 
 function getSortIndex(skill) {
   const id = skill?.id ?? '';
+  const indexedPatterns = [
+    /_pho_cong_(\d+)/,
+    /_duyen_phan_(\d+)/,
+    /_vo_song_(\d+)/,
+    /_menh_hon_do_(\d+)/,
+  ];
 
-  if (id.includes('_pho_cong_')) {
-    const m = id.match(/_pho_cong_(\d+)/);
-    if (m) return Number(m[1]);
+  for (const pattern of indexedPatterns) {
+    const match = id.match(pattern);
+    if (match) return Number(match[1]);
   }
-  if (id.includes('_duyen_phan_')) {
-    const m = id.match(/_duyen_phan_(\d+)/);
-    if (m) return Number(m[1]);
-  }
+
   if (id.includes('_bi_dong_2_sao')) return 2;
   if (id.includes('_bi_dong_3_sao')) return 3;
   if (id.includes('_bi_dong_4_sao')) return 4;
   if (id.includes('_bi_dong_5_sao')) return 5;
-  if (id.includes('_vo_song_1')) return 1;
-  if (id.includes('_vo_song_3')) return 3;
-  if (id.includes('_vo_song_5')) return 5;
-  if (id.includes('_menh_hon_do_1')) return 1;
-  if (id.includes('_menh_hon_do_3')) return 3;
-  if (id.includes('_menh_hon_do_5')) return 5;
 
   return 999;
 }
@@ -89,7 +84,7 @@ function getSortIndex(skill) {
 export function renderSkills(hero) {
   const skills = getSkillsForHero(hero).filter(isRenderableSkill);
   if (!skills.length) {
-    return '<p class="text-slate-500 text-sm">Chưa có dữ liệu kỹ năng.</p>';
+    return '<p class="muted-copy">Chưa có dữ liệu kỹ năng.</p>';
   }
 
   const expectedSlots = getExpectedSlotKeys(hero);
@@ -110,11 +105,7 @@ export function renderSkills(hero) {
     .filter(Boolean)
     .join('');
 
-  if (!sections) {
-    return '<p class="text-slate-500 text-sm">Chưa có dữ liệu kỹ năng phù hợp cấu hình.</p>';
-  }
-
-  return `<div class="space-y-6">${sections}</div>`;
+  return sections ? `<div class="skill-sections">${sections}</div>` : '<p class="muted-copy">Chưa có dữ liệu kỹ năng phù hợp.</p>';
 }
 
 function renderSlotSection(slotKey, slotSkills) {
@@ -124,38 +115,35 @@ function renderSlotSection(slotKey, slotSkills) {
   const content =
     slotKey === 'vo_song' || slotKey === 'menh_hon_do'
       ? renderGroupedAwakeningCard(sorted, slotKey)
-      : sorted.map((skill) => renderSkillCard(skill)).join('');
+      : sorted.map((skill) => renderSkillCard(skill, slotKey)).join('');
 
   return `
     <section class="skill-slot skill-slot--${slotKey}">
-      <h4 class="skill-slot__title">${renderSlotTitle(slotKey)}</h4>
-      <div class="skill-slot__list">
-        ${content}
-      </div>
+      <h4 class="skill-slot__title">${SLOT_LABELS[slotKey] ?? slotKey}</h4>
+      <div class="skill-slot__list">${content}</div>
     </section>
   `;
 }
 
 function isRenderableSkill(skill) {
-  if (!skill?.id || !skill?.name) return false;
-  const description = skill.description?.trim() ?? '';
-  if (!description) return false;
+  const description = skill?.description?.trim() ?? '';
+  if (!skill?.id || !skill?.name || !description) return false;
   if (description === 'Mô tả mẫu.') return false;
   if (description.includes('dữ liệu chi tiết sẽ được cập nhật sau')) return false;
   return true;
 }
 
-function renderSlotTitle(slotKey) {
-  return SLOT_LABELS[slotKey] ?? slotKey;
-}
-
 function renderGroupedAwakeningCard(skills, slotKey) {
   const groupName =
     slotKey === 'menh_hon_do' ? `<h5 class="skill-card__name mb-3">${getAwakeningGroupName(skills[0])}</h5>` : '';
+  const icon = renderSkillIcon(skills[0]);
 
   return `
     <article class="skill-card skill-card--grouped">
-      ${groupName}
+      <div class="skill-card__group-head">
+        ${icon}
+        <div>${groupName}</div>
+      </div>
       <div class="skill-card__group-list">
         ${skills.map((skill) => renderAwakeningItem(skill, slotKey)).join('')}
       </div>
@@ -171,39 +159,55 @@ function renderAwakeningItem(skill, slotKey) {
   return `
     <section class="skill-card__group-item">
       <h5 class="skill-card__group-title">
-        <span class="skill-card__flames" aria-label="${label}">
-          ${flames}
-        </span>
+        <span class="skill-card__flames" aria-label="${escapeAttr(label)}">${flames}</span>
       </h5>
       <p class="skill-card__desc skill-description">${description}</p>
     </section>
   `;
 }
 
-function renderSkillCard(skill) {
+function renderSkillCard(skill, slotKey) {
   const cooldown =
     skill.cooldown != null ? `<span class="text-xs text-slate-400">Hồi chiêu: ${skill.cooldown} lượt</span>` : '';
-
   const description = parseEffectTokens(skill.description);
-  const image = skill.image
-    ? `
-      <div class="skill-card__image-wrap">
-        <img src="${skill.image}" alt="${skill.image_alt ?? skill.name}" class="skill-card__image" loading="lazy" />
-      </div>
-    `
-    : '';
 
   return `
     <article class="skill-card">
-      ${image}
-      <header class="skill-card__header">
-        <h4 class="skill-card__name">${getDisplaySkillName(skill)}</h4>
-        ${skill.name_cn ? `<span class="skill-card__name-cn">${skill.name_cn}</span>` : ''}
-      </header>
-      <p class="skill-card__desc skill-description">${description}</p>
-      ${cooldown ? `<footer class="mt-2">${cooldown}</footer>` : ''}
+      ${renderSkillIcon(skill)}
+      <div class="skill-card__body">
+        <header class="skill-card__header">
+          <h4 class="skill-card__name">${escapeHtml(getDisplaySkillName(skill))}</h4>
+          ${skill.name_cn ? `<span class="skill-card__name-cn">${escapeHtml(skill.name_cn)}</span>` : ''}
+        </header>
+        <p class="skill-card__desc skill-description">${description}</p>
+        ${cooldown ? `<footer class="mt-2">${cooldown}</footer>` : ''}
+      </div>
     </article>
   `;
+}
+
+/** Ô tròn icon kỹ năng bên trái card. Luôn render (kể cả khi chưa có ảnh) như một slot. */
+function renderSkillIcon(skill) {
+  const icon = skill.icon ?? '';
+  const img = icon
+    ? `<img src="${escapeAttr(icon)}" alt="" class="skill-card__icon" loading="lazy" aria-hidden="true"${skillIconStyle(skill)} />`
+    : '';
+  const emptyClass = icon ? '' : ' skill-card__icon-wrap--empty';
+  return `<span class="skill-card__icon-wrap${emptyClass}">${img}</span>`;
+}
+
+/** Áp crop (objectPosition + zoom) cho icon kỹ năng, giống ảnh thẻ/chi tiết. */
+function skillIconStyle(skill) {
+  const avatar = skill.avatar;
+  if (!avatar) return '';
+  const parts = [];
+  const op = avatar.objectPosition;
+  if (op) parts.push(`object-position:${op}`);
+  if (avatar.zoom && Number(avatar.zoom) !== 1) {
+    parts.push(`transform:scale(${Number(avatar.zoom)})`);
+    parts.push(`transform-origin:${op || 'center center'}`);
+  }
+  return parts.length ? ` style="${escapeAttr(parts.join(';'))}"` : '';
 }
 
 function getDisplaySkillName(skill) {
@@ -257,4 +261,16 @@ function renderFlames(count, slotKey) {
     { length: count },
     () => `<img src="${icon}" alt="" class="skill-card__flame" aria-hidden="true" />`
   ).join('');
+}
+
+function escapeHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function escapeAttr(str) {
+  return escapeHtml(str).replace(/'/g, '&#39;');
 }

@@ -1,0 +1,78 @@
+{
+  "id": "quach_gia",
+  "name": "Quách Gia",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Hỗ Trợ",
+  "quality": "SSR",
+  "image": "/assets/images/quach-gia.png",
+  "description": "Võ tướng phe Ngụy, phẩm Thần Tướng, chức nghiệp Hỗ Trợ. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [
+    {
+      "id": "quach_gia_pho_cong",
+      "name": "Phổ Công — Thiên Cơ",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 kẻ địch, gây 100% sát thương pháp thuật."
+    },
+    {
+      "id": "quach_gia_no_cong",
+      "name": "Nộ Công — Thiên Lôi Kích Oanh",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công hàng trước địch, gây 132% sát thương pháp thuật, và thi triển cho mục tiêu 2 tầng [Cảm Điện]."
+    },
+    {
+      "id": "quach_gia_bi_dong_3_sao",
+      "name": "Bị động 3 sao — Lôi Đình Vạn Quân",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Mỗi khi Quách Gia nộ công đơn vị địch, có 20% xác suất khiến mục tiêu vào trạng thái [Ma Tý]."
+    },
+    {
+      "id": "quach_gia_bi_dong_5_sao",
+      "name": "Bị động 5 sao — Phong Lôi Lĩnh Vực",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi vào chiến đấu thi triển cho toàn bộ địch 2 tầng [Cảm Điện], mỗi tầng [Cảm Điện] sẽ khiến xác suất [Ma Tý] tăng 5%, tối đa tăng 20%."
+    },
+    {
+      "id": "quach_gia_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Mỗi khi 1 tầng [Cảm Điện] biến mất hoặc bị xua tan, Quách Gia hồi phục 4% Sinh lực tối đa của bản thân."
+    },
+    {
+      "id": "quach_gia_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Mỗi tầng [Cảm Điện] do Quách Gia thi triển sẽ khiến sát thương cuối do nhân vật đó gây ra giảm 5%, giới hạn 20%."
+    },
+    {
+      "id": "quach_gia_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Mỗi khi 1 tầng [Cảm Điện] biến mất hoặc bị xua tan, Quách Gia hồi phục 10% Sinh lực tối đa của bản thân."
+    },
+    {
+      "id": "quach_gia_duyen_phan_1",
+      "name": "Duyên Phận — Phong Lôi Hám Thế",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi ra trận cùng Trương Liêu, bạo kích tăng 20%; Khi Trương Liêu có trên sân, sau khi Quách Gia thi triển kỹ năng nộ, có 50% xác suất truy kích [Lẫm Phong Mãnh Tập]: Gây cho hàng trước địch sát thương bằng 15% Sinh lực tối đa của Quách Gia, và hấp thu 5% tấn công của toàn bộ mục tiêu."
+    },
+    {
+      "id": "quach_gia_huyen_vu",
+      "name": "Huyễn Vũ",
+      "type": "passive",
+      "cooldown": null,
+      "description": "**Lược Hữu Tiểu Thành**: Mỗi tầng [Cảm Điện] do Quách Gia thi triển sẽ khiến hiệu quả giảm sát thương cuối do nhân vật đó gây ra tăng lên thành 8%, giới hạn tăng lên 32%. (Kích hoạt khi trang bị lên Quách Gia).\n\n**Lư Hỏa Thuần Thanh**: Tỷ lệ trúng trạng thái dị thường tăng 20%. Khi [Ma Tý] bị kháng, khiến xác suất [Ma Tý] lần tiếp theo tăng thêm 30%. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Cam bất kỳ).\n\n**Thần Hồ Kỳ Kỹ**: Tỷ lệ trúng trạng thái dị thường tăng lên 35%. Trong thời gian [Ma Tý], mục tiêu không thể hồi phục nộ khí. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Chuyên thuộc bất kỳ và 1 Huyễn vũ Cam bất kỳ)."
+    }
+  ]
+}

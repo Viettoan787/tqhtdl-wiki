@@ -157,8 +157,7 @@ function getEffectValueByStar(effect, star) {
 function positionPopover(anchor) {
   if (!popupEl || !anchor || isMobile()) return;
 
-  const rect = getDesktopAnchorRect(anchor);
-  const margin = 8;
+  const margin = 16;
   const viewportW = window.innerWidth;
   const viewportH = window.innerHeight;
 
@@ -167,15 +166,13 @@ function positionPopover(anchor) {
   popupEl.style.left = '0px';
 
   const popupRect = popupEl.getBoundingClientRect();
-
-  let top = rect.top;
-  let left = rect.right + margin;
-
-  if (left + popupRect.width > viewportW - margin) {
-    left = rect.right - popupRect.width;
-  }
+  // Cố định bên phải viewport
+  let left = viewportW - popupRect.width - margin;
   if (left < margin) left = margin;
 
+  // Theo trục dọc: căn theo chính token đã click, không phải card cha
+  const anchorRect = anchor.getBoundingClientRect();
+  let top = anchorRect.top;
   if (top + popupRect.height > viewportH - margin) {
     top = viewportH - popupRect.height - margin;
   }

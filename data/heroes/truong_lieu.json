@@ -1,0 +1,78 @@
+{
+  "id": "truong_lieu",
+  "name": "Trương Liêu",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Tấn Công",
+  "quality": "SSR",
+  "image": "/assets/images/truong-lieu.png",
+  "description": "Võ tướng phe Ngụy, phẩm Thần Tướng, chức nghiệp Tấn Công. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [
+    {
+      "id": "truong_lieu_pho_cong",
+      "name": "Phổ Công — Quỷ Trảm",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 kẻ địch, gây 100% sát thương vật lý."
+    },
+    {
+      "id": "truong_lieu_no_cong",
+      "name": "Nộ Công — Phong Ảnh Tiêu Dao Thích",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 hàng dọc địch, gây 168% sát thương vật lý, và hấp thụ 10% tấn công cuối của tất cả mục tiêu, tối đa không vượt quá 15% lực tấn công của bản thân, duy trì 2 hiệp."
+    },
+    {
+      "id": "truong_lieu_bi_dong_3_sao",
+      "name": "Bị động 3 sao — Ưng Ba Đột Tập",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Kỹ năng nộ có thể xua tan 1 trạng thái tăng ích của mỗi mục tiêu, mỗi khi xua tan thành công 1 tăng ích, đòn tấn công lần này tăng 10% sát thương cuối."
+    },
+    {
+      "id": "truong_lieu_bi_dong_5_sao",
+      "name": "Bị động 5 sao — Ám Võ Ẩn Nặc",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Sau khi chịu đòn nếu sinh lực dưới 50%, nhận được [Ẩn Nặc], duy trì 2 hiệp; mỗi trận chiến kích hoạt tối đa 1 lần."
+    },
+    {
+      "id": "truong_lieu_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Trong thời gian duy trì [Ẩn Nặc], đánh thường có thể hồi phục nộ khí, nhưng hiệu quả hồi nộ của đánh thường giảm 50%."
+    },
+    {
+      "id": "truong_lieu_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Kỹ năng nộ có thể xua tan 2 trạng thái tăng ích của mỗi mục tiêu, mỗi khi xua tan thành công 1 tăng ích, đòn tấn công lần này tăng 15% sát thương cuối."
+    },
+    {
+      "id": "truong_lieu_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Khi Trương Liêu tiến vào [Ẩn Nặc], khiến sát thương cuối toàn bộ địch gánh chịu tăng 10%, duy trì đến khi kết thúc trận chiến."
+    },
+    {
+      "id": "truong_lieu_duyen_phan_1",
+      "name": "Duyên Phận — Phong Lôi Hám Thế",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Cùng ra trận với Quách Gia, Trương Liêu tăng 15% sát thương; Khi Quách Gia có mặt trên sân, sau khi Trương Liêu tung kỹ năng nộ, có 50% xác suất tung thêm [Lôi Quang Đột Thích], gây 100% sát thương cho 1 hàng dọc địch, và thi triển 1 tầng [Cảm Điện] lên mục tiêu: Sát thương cuối gánh chịu tăng 10%, duy trì 2 hiệp, cộng dồn tối đa 4 tầng."
+    },
+    {
+      "id": "truong_lieu_huyen_vu",
+      "name": "Huyễn Vũ",
+      "type": "passive",
+      "cooldown": null,
+      "description": "**Lược Hữu Tiểu Thành**: Khi nộ công, hấp thụ thêm 15% tăng sát thương cuối của mục tiêu, duy trì 2 hiệp, cộng dồn tối đa 2 tầng. (Kích hoạt khi trang bị lên Trương Liêu).\n\n**Lư Hỏa Thuần Thanh**: Trương Liêu mỗi khi tiêu diệt 1 mục tiêu có thể nhận 500 điểm nộ khí; (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Cam bất kỳ).\n\n**Thần Hồ Kỳ Kỹ**: Khi tiến vào trạng thái [Ẩn Nặc], số lượng võ tướng phe ta cứ ít hơn võ tướng địch 1 người, tăng 20% tăng sát thương cuối cho Trương Liêu, duy trì đến khi kết thúc trận chiến, và không thể bị xua tan; trong thời gian duy trì [Ẩn Nặc], khi Trương Liêu sử dụng đánh thường hoặc nộ công, có 80% xác suất lập tức tung 1 lần nộ công (sát thương nộ công lần này giảm 20%, và không tiêu hao nộ khí), mỗi hiệp kích hoạt tối đa 1 lần. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Chuyên thuộc bất kỳ và 1 Huyễn vũ Cam bất kỳ)."
+    }
+  ]
+}

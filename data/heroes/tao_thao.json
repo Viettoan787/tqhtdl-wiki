@@ -1,0 +1,99 @@
+{
+  "id": "tao_thao",
+  "name": "Tào Tháo",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Hỗ Trợ",
+  "quality": "SSR",
+  "image": "/assets/images/tao-thao.png",
+  "description": "Võ tướng phe Ngụy, phẩm Thần Tướng, chức nghiệp Hỗ Trợ. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [
+    {
+      "id": "tao_thao_pho_cong",
+      "name": "Phổ Công — Ỷ Thiên",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 kẻ địch, gây 100% sát thương vật lý."
+    },
+    {
+      "id": "tao_thao_no_cong",
+      "name": "Nộ Công — Ỷ Thiên Sơn Hà Trảm",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công toàn bộ kẻ địch, gây 84% sát thương vật lý, khiến tấn công, phòng thủ của toàn bộ kẻ địch giảm 5%, tăng thương cuối, miễn thương cuối giảm 5%, tối đa cộng dồn 3 lần, duy trì đến kết thúc chiến đấu."
+    },
+    {
+      "id": "tao_thao_bi_dong_3_sao",
+      "name": "Bị động 3 sao — Thiên Hạ Quy Tâm",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Từ hiệp 2 trở đi, khi bắt đầu mỗi hiệp, hấp thu 50 điểm nộ khí của mỗi mục tiêu địch."
+    },
+    {
+      "id": "tao_thao_bi_dong_5_sao",
+      "name": "Bị động 5 sao — Loạn Thế Gian Hùng",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Mỗi khi chịu tấn công thường của võ tướng địch có 50% xác suất tiến hành phản kích, gây sát thương bằng 120% cho kẻ tấn công, mỗi hiệp tối đa kích hoạt 1 lần; Khi lượng máu lần đầu tiên thấp hơn 50%, khiến sát thương cuối bản thân phải chịu giảm 20%, duy trì đến kết thúc chiến đấu."
+    },
+    {
+      "id": "tao_thao_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Lượng máu kích hoạt [Loạn Thế Gian Hùng] tăng lên thành 60%, sát thương cuối phải chịu giảm 30%."
+    },
+    {
+      "id": "tao_thao_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Lượng máu kích hoạt [Loạn Thế Gian Hùng] tăng lên thành 70%, số lần phản kích tối đa mỗi hiệp tăng lên thành 2 lần."
+    },
+    {
+      "id": "tao_thao_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Hiệu quả nộ công tăng cường: Khiến tấn công, phòng thủ của toàn bộ địch giảm 8%, tăng thương cuối, miễn thương cuối giảm 8%, tối đa cộng dồn 3 lần, duy trì đến kết thúc chiến đấu."
+    },
+    {
+      "id": "tao_thao_duyen_phan_1",
+      "name": "Duyên Phận — Khuông Chính Thiên Hạ",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi ra trận có ít nhất 3 võ tướng **Hỗ Trợ**, Tào Tháo tăng 20% tỷ lệ kháng bạo; Sau mỗi lần Tào Tháo phổ công hoặc nộ công hoặc phản kích, võ tướng **Hỗ Trợ** phe ta hồi phục 75 điểm nộ khí."
+    },
+    {
+      "id": "tao_thao_huyen_vu",
+      "name": "Huyễn Vũ",
+      "type": "passive",
+      "cooldown": null,
+      "description": "**Lược Hữu Tiểu Thành**: Tỷ lệ trúng trạng thái dị thường tăng 10%; khi bắt đầu mỗi hiệp, nhận 2 tầng [Hùng Tâm]. (Kích hoạt khi trang bị lên Tào Tháo).\n\n**Lư Hỏa Thuần Thanh**: Tỷ lệ trúng trạng thái dị thường tăng lên 20%; hiệu quả [Hùng Tâm] tăng thành mỗi tầng tăng 10% miễn thương cuối. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Cam bất kỳ).\n\n**Thần Hồ Kỳ Kỹ**: Giới hạn phản kích mỗi hiệp tăng lên thành 3 lần; khi bắt đầu mỗi hiệp, nhận 3 tầng [Hùng Tâm]. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Chuyên thuộc bất kỳ và 1 Huyễn vũ Cam bất kỳ)."
+    },
+    {
+      "id": "tao_thao_menh_hon_do_1",
+      "name": "Mệnh Hồn Đỏ 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Tung ra kỹ năng mệnh hồn, gây sát thương vật lý bằng 126% cho toàn bộ võ tướng địch, và thi triển ngẫu nhiên 1 loại trạng thái dị thường thuộc chuỗi [Tội Chiếu], mỗi đơn vị địch lặp lại 10 lần, duy trì 2 hiệp. Trong hiệp 2, khi Tào Tháo thi triển các trạng thái loại dị thường, sẽ nâng cấp chúng thành trạng thái loại [Suy Nhược]."
+    },
+    {
+      "id": "tao_thao_menh_hon_do_3",
+      "name": "Mệnh Hồn Đỏ 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Kích hoạt hào quang mệnh hồn Tào Tháo, tỷ lệ đỡ đòn của toàn phe ta tăng 10%, miễn thương linh thú tăng 60%. Võ tướng Ngụy Quốc hoặc Quần Hùng mỗi khi thi triển thành công 3 lần trạng thái dị thường sẽ hồi phục 10 điểm mệnh hồn, tối đa kích hoạt 5 lần. Sau khi tung kỹ năng mệnh hồn, toàn bộ phe ta nhận được [Bạt Loạn], duy trì 2 hiệp. Khi phe ta gây sát thương lớn hơn 5% sinh mệnh tối đa cho đơn vị địch đang có không dưới 4 loại trạng thái dị thường chuỗi [Tội Chiếu], thì kẻ đó cứ mang 1 trạng thái dị thường sẽ phải chịu thêm sát thương chuẩn bằng 2% sinh mệnh tối đa của Tào Tháo (tối đa không vượt quá 70% sinh mệnh tối đa của Tào Tháo). Sát thương này bỏ qua đỡ đòn và lá chắn, mỗi hiệp đối với mỗi mục tiêu tối đa kích hoạt 2 lần. Nếu đơn vị địch đó đang trong trạng thái loại [Vũ Dũng] và lượng sát thương lần này lớn hơn 20% sinh mệnh tối đa của kẻ đó, thì giải trừ luôn trạng thái [Vũ Dũng] này, mỗi hiệp tối đa kích hoạt 1 lần. Khi hiệu ứng trị liệu mà võ tướng phe ta nhận được bị mất tác dụng, vẫn sẽ hồi phục 30% lượng máu của lần trị liệu đó. Nếu là võ tướng Ngụy Quốc hoặc Quần Hùng thì hiệu quả này tăng thêm 30%, nếu là võ tướng phòng ngự hoặc hỗ trợ thì lại tăng thêm 30% nữa."
+    },
+    {
+      "id": "tao_thao_menh_hon_do_5",
+      "name": "Mệnh Hồn Đỏ 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Hiệu ứng kỹ năng mệnh hồn được nâng cấp, thi triển toàn bộ 7 trạng thái [Tội Chiếu] cho toàn phe địch, mỗi loại 2 tầng, duy trì 2 hiệp. Giảm thêm 50% tỷ lệ bạo kích cuối cùng và tỷ lệ kháng bạo cuối cùng của toàn bộ võ tướng địch, duy trì đến hết trận chiến (hiệu ứng giảm này cả hai bên tối đa kích hoạt 1 lần). Bắt đầu hiệp 2, khi Tào Tháo thi triển trạng thái loại dị thường sẽ tự động nâng cấp chúng thành trạng thái loại [Suy Nhược]. Toàn đội cứ thi triển 15 lần trạng thái dị thường, Tào Tháo sẽ tung ra 1 lần nộ công, mỗi hiệp tối đa 5 lần. Hiệu ứng hào quang mệnh hồn được nâng cấp, tỷ lệ đỡ đòn của toàn phe ta tăng thêm 15%, miễn thương linh thú tăng thêm 90%. Hiệu ứng sát thương chuẩn ở bậc 3 được nâng cấp thành: mục tiêu cứ có 1 trạng thái dị thường sẽ phải chịu sát thương chuẩn bằng 3% sinh mệnh tối đa của Tào Tháo (tối đa không vượt quá 100% sinh mệnh tối đa của Tào Tháo), bỏ qua đỡ đòn và lá chắn, mỗi hiệp đối với mỗi mục tiêu tăng số lần kích hoạt tối đa lên 5 lần, đồng thời hủy bỏ giới hạn số lần giải trừ trạng thái loại [Vũ Dũng] trong mỗi hiệp. Sau khi tung kỹ năng mệnh hồn, mỗi lần Tào Tháo nộ công cũng sẽ kèm theo sát thương chuẩn tương tự như trên, mỗi hiệp tối đa kích hoạt 5 lần.\n\nGiải thích các trạng thái:"
+    }
+  ]
+}

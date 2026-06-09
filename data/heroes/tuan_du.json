@@ -1,0 +1,14 @@
+{
+  "id": "tuan_du",
+  "name": "Tuân Du",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Tấn Công",
+  "quality": "SR",
+  "image": "/assets/images/tuan-du.png",
+  "description": "Võ tướng phe Ngụy, phẩm Danh Tướng, chức nghiệp Tấn Công. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

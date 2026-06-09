@@ -1,0 +1,14 @@
+{
+  "id": "ton_lo_duc",
+  "name": "Tôn Lỗ Dục",
+  "name_cn": "",
+  "type": "normal",
+  "country": "ngo",
+  "faction": "Ngô",
+  "role": "Võ Tướng",
+  "profession": "Chưa rõ",
+  "quality": "SSR",
+  "image": "/assets/images/ton-lo-duc.png",
+  "description": "Võ tướng phe Ngô, phẩm Thần Tướng, chưa rõ chức nghiệp. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

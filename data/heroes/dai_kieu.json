@@ -1,0 +1,14 @@
+{
+  "id": "dai_kieu",
+  "name": "Đại Kiều",
+  "name_cn": "",
+  "type": "normal",
+  "country": "ngo",
+  "faction": "Ngô",
+  "role": "Võ Tướng",
+  "profession": "Chưa rõ",
+  "quality": "R",
+  "image": "/assets/images/dai-kieu.png",
+  "description": "Võ tướng phe Ngô, phẩm Lương Tướng, chưa rõ chức nghiệp. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

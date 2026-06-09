@@ -1,0 +1,99 @@
+{
+  "id": "tu_ma_y",
+  "name": "Tư Mã Ý",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Phòng Thủ",
+  "quality": "SSR",
+  "image": "/assets/images/tu-ma-y.png",
+  "description": "Võ tướng phe Ngụy, phẩm Thần Tướng, chức nghiệp Phòng Thủ. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [
+    {
+      "id": "tu_ma_y_pho_cong",
+      "name": "Phổ Công — Ám Miện",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 kẻ địch, gây 100% sát thương pháp thuật."
+    },
+    {
+      "id": "tu_ma_y_no_cong",
+      "name": "Nộ Công — Minh Ảnh Phá Hoàng Phược",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công hàng trước địch, gây 132% sát thương pháp thuật, thi triển [Phá Hoàng] cho mục tiêu, duy trì 2 hiệp."
+    },
+    {
+      "id": "tu_ma_y_bi_dong_3_sao",
+      "name": "Bị động 3 sao — Lang Cố Chi Tướng",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi bắt đầu chiến đấu, bản thân nhận 4 tầng hiệu ứng [Dã Tâm], duy trì đến khi kết thúc chiến đấu; mỗi khi bản thân phổ công hoặc nộ công, hiệu quả này giảm 1 tầng, mỗi khi phe ta hoặc địch có 1 người chết, hiệu quả này tăng 1 tầng."
+    },
+    {
+      "id": "tu_ma_y_bi_dong_5_sao",
+      "name": "Bị động 5 sao — Lão Mưu Thâm Toán",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Từ hiệp 2 trở đi, sau lượt của bản thân, nếu không ở trạng thái khống chế, gây cho toàn bộ kẻ địch sát thương chuẩn bằng 80% phòng thủ của bản thân, số lượng kẻ địch còn sống càng ít, sát thương này càng cao, cao nhất có thể tăng đến sát thương chuẩn bằng 240% phòng thủ bản thân."
+    },
+    {
+      "id": "tu_ma_y_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Hệ số sát thương của [Lão Mưu Thâm Toán] tăng lên thành 90% phòng thủ bản thân, số lượng kẻ địch còn sống càng ít sát thương càng cao, cao nhất có thể tăng đến 270% phòng thủ bản thân."
+    },
+    {
+      "id": "tu_ma_y_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Sau khi bắt đầu chiến đấu, phổ công của bản thân sẽ không còn làm giảm hiệu ứng [Dã Tâm]."
+    },
+    {
+      "id": "tu_ma_y_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Hệ số sát thương của [Lão Mưu Thâm Toán] tăng lên thành 100% phòng thủ bản thân, số lượng kẻ địch còn sống càng ít sát thương càng cao, cao nhất có thể tăng đến 300% phòng thủ bản thân."
+    },
+    {
+      "id": "tu_ma_y_duyen_phan_1",
+      "name": "Duyên Phận — Khuynh Phúc Thiên Hạ",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi ra trận có ít nhất 3 loại [Trận Doanh] võ tướng khác nhau, Tư Mã Ý tăng 30% miễn thương kỹ năng Thần Binh; Khi vào chiến đấu, nếu phe ta (ngoại trừ bản thân) có tồn tại võ tướng thuộc các quốc gia dưới đây, bản thân nhận được hiệu ứng tăng ích tương ứng: Ngụy quốc: Tăng 10% miễn thương cuối; Thục quốc: Tăng 10% sát thương cuối; Ngô quốc: Tăng 25% kháng trạng thái dị thường; Quần hùng: Tăng 25% kháng giảm nộ khí."
+    },
+    {
+      "id": "tu_ma_y_huyen_vu",
+      "name": "Huyễn Vũ",
+      "type": "passive",
+      "cooldown": null,
+      "description": "**Lược Hữu Tiểu Thành**: Khi thi triển [Lão Mưu Thâm Toán], tỷ lệ hút máu tăng 10%; khi sinh lực bản thân lần đầu tiên thấp hơn 50%, sẽ lập tức thi triển 1 lần [Lão Mưu Thâm Toán]. (Kích hoạt khi trang bị lên Tư Mã Ý).\n\n**Lư Hỏa Thuần Thanh**: 3 hiệp đầu chiến đấu, hiệu quả miễn thương cuối của mỗi tầng [Dã Tâm] tăng lên 10%. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Cam bất kỳ).\n\n**Thần Hồ Kỳ Kỹ**: Khi thi triển [Lão Mưu Thâm Toán], tỷ lệ hút máu tăng 30%; khi sinh lực bản thân lần đầu tiên thấp hơn 30%/50%/70%, sẽ lập tức thi triển 1 lần [Lão Mưu Thâm Toán]. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Chuyên thuộc bất kỳ và 1 Huyễn vũ Cam bất kỳ)."
+    },
+    {
+      "id": "tu_ma_y_menh_hon_do_1",
+      "name": "Mệnh Hồn Đỏ 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Phóng thích mệnh hồn kỹ, đối với toàn bộ địch tạo thành 126% sát thương pháp thuật, và khiến toàn bộ địch lâm vào [Nghịch Phán]; khi hiệp đầu bắt đầu, phòng ngự lực của võ tướng phòng ngự phe ta tăng lên bằng 25% giá trị lực tấn công của bản thân, mỗi qua 1 hiệp suy giảm 12.5%. Sau mỗi lần võ tướng phe ta phóng thích phản kích, Tư Mã Ý sẽ phóng thích một lần bản cường hóa của [Lão Mưu Thâm Toán]: dưới trạng thái khống chế cũng có thể phóng thích, đối với toàn bộ địch tạo thành 150% sát thương chuẩn, số người địch còn lại càng ít sát thương càng cao, tối đa có thể tăng lên đến 450% phòng ngự lực của bản thân, mỗi võ tướng mỗi hiệp tối đa kích hoạt 2 lần."
+    },
+    {
+      "id": "tu_ma_y_menh_hon_do_3",
+      "name": "Mệnh Hồn Đỏ 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Kích hoạt hào quang mệnh hồn Tư Mã Ý, tỷ lệ chịu sát thương của hộ thuẫn toàn bộ phe ta tăng 100%, giới hạn hộ thuẫn sẽ không thấp hơn 200%. Sát thương chuẩn của Tư Mã Ý tăng 80%, mức tăng phúc sát thương cuối cùng tăng 40%, tỷ lệ kháng thiên lệch cuối cùng tăng 100%, phe ta cứ tồn tại một võ tướng phòng ngự tăng thêm cho bản thân 5% mức tăng phúc sát thương cuối cùng và 20% sát thương chuẩn tăng thương cùng kháng thiên lệch, tối đa cộng dồn 4 tầng. Nếu võ tướng phòng ngự phe ta 1 lần mất đi tổng lượng hộ thuẫn lớn hơn 50%, Tư Mã Ý lập tức bổ sung cho họ hộ thuẫn bằng 50% lượng tổn thất, mỗi võ tướng mỗi hiệp tối đa kích hoạt 2 lần, và khi võ tướng phòng ngự phe ta đang ở trạng thái không thể nhận thêm sinh lực giới hạn hoặc trạng thái loại [Nguyên Khí], vẫn có thể nhận được các hiệu quả liên quan khác. Từ hiệp 2 bắt đầu, Tư Mã Ý cung cấp cho toàn bộ võ tướng Ngụy và Quần phe ta lực phòng ngự cố định bằng 20% lực tấn công, duy trì đến khi chiến đấu kết thúc, tối đa cộng dồn 3 tầng. [Lão Mưu Thâm Toán] thăng cấp: Mỗi võ tướng phòng ngự phe ta còn sống sót cung cấp cho lần công kích này 10% tỷ lệ bạo kích sát thương chuẩn và 20% sát thương bạo kích sát thương chuẩn, trong đối chiến không phải với người chơi, võ tướng cùng cột của Tư Mã Ý mặc định nhận được thuộc tính đầy tầng. Sát thương trạng thái bất thường 1 lần mà phe ta phải chịu trong 2 hiệp đầu không vượt quá 6% sinh lực tối đa."
+    },
+    {
+      "id": "tu_ma_y_menh_hon_do_5",
+      "name": "Mệnh Hồn Đỏ 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Hào quang mệnh hồn cường hóa, tỷ lệ tiêu hao đối với hộ thuẫn của địch trong 2 hiệp đầu giảm 100%. Số lần kích hoạt [Lão Mưu Thâm Toán] của mỗi võ tướng tăng lên đến 5 lần, [Lão Mưu Thâm Toán] thăng cấp: Sau khi tích lũy phóng thích 20 lần, sát thương này vô thị tinh chuẩn cách đáng. Mỗi võ tướng nước Ngụy/Quần Hùng phe ta còn sống sót, tăng thêm cho lần công kích này 10% tỷ lệ bạo kích sát thương chuẩn và 20% sát thương bạo kích sát thương chuẩn, trong đối chiến không phải với người chơi, võ tướng cùng cột của Tư Mã Ý mặc định nhận được thuộc tính đầy tầng. Sau khi phóng thích mệnh hồn kỹ, 1 lần mất đi hộ thuẫn lớn hơn 50%, lượng hộ thuẫn bổ sung tăng lên đến 100%. Và cứ tích lũy phóng thích 3 lần [Lão Mưu Thâm Toán], toàn bộ phe ta nhận được 20% hộ thuẫn, nếu lực tấn công trung bình của phe ta cao hơn địch từ 7% trở lên, còn khiến võ tướng địch có sinh lực giới hạn hiện tại cao hơn giá trị ban đầu 50% nhận được 20% thực nguyên, tối đa cộng dồn 5 tầng, tỷ lệ xuyên thấu hộ thuẫn của địch giảm 100%, sát thương đơn thể mà võ tướng phe ta phải chịu trong 2 hiệp đầu, do toàn bộ võ tướng phòng ngự phe ta chia sẻ, và khiến võ tướng phòng ngự phe ta miễn dịch hiệu quả loại [Thực Nguyên], nếu phe ta lên trận ít nhất 4 danh võ tướng phòng ngự, hiệu quả không bị đánh lui hoặc trảm sát của toàn bộ địch sẽ mất tác dụng."
+    }
+  ]
+}

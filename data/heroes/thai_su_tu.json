@@ -1,0 +1,14 @@
+{
+  "id": "thai_su_tu",
+  "name": "Thái Sử Từ",
+  "name_cn": "",
+  "type": "normal",
+  "country": "ngo",
+  "faction": "Ngô",
+  "role": "Võ Tướng",
+  "profession": "Đột Kích",
+  "quality": "SR",
+  "image": "/assets/images/thai-su-tu.png",
+  "description": "Võ tướng phe Ngô, phẩm Danh Tướng, chức nghiệp Đột Kích. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

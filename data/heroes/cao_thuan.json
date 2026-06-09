@@ -1,0 +1,14 @@
+{
+  "id": "cao_thuan",
+  "name": "Cao Thuận",
+  "name_cn": "",
+  "type": "normal",
+  "country": "quan-hung",
+  "faction": "Quần Hùng",
+  "role": "Võ Tướng",
+  "profession": "Chưa rõ",
+  "quality": "SSR",
+  "image": "/assets/images/cao-thuan.png",
+  "description": "Võ tướng phe Quần Hùng, phẩm Thần Tướng, chưa rõ chức nghiệp. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "hoang_trung",
+  "name": "Hoàng Trung",
+  "name_cn": "",
+  "type": "normal",
+  "country": "thuc",
+  "faction": "Thục",
+  "role": "Võ Tướng",
+  "profession": "Tấn Công",
+  "quality": "SR",
+  "image": "/assets/images/hoang-trung.png",
+  "description": "Võ tướng phe Thục, phẩm Danh Tướng, chức nghiệp Tấn Công. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

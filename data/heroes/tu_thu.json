@@ -1,0 +1,14 @@
+{
+  "id": "tu_thu",
+  "name": "Từ Thứ",
+  "name_cn": "",
+  "type": "normal",
+  "country": "thuc",
+  "faction": "Thục",
+  "role": "Võ Tướng",
+  "profession": "Đột Kích",
+  "quality": "SR",
+  "image": "/assets/images/tu-thu.png",
+  "description": "Võ tướng phe Thục, phẩm Danh Tướng, chức nghiệp Đột Kích. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

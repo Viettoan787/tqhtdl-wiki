@@ -1,0 +1,18 @@
+{
+  "id": "bao_tam_nuong",
+  "name": "Bảo Tam Nương",
+  "name_cn": "",
+  "type": "normal",
+  "country": "thuc",
+  "faction": "Thục",
+  "role": "Võ Tướng",
+  "profession": "Phòng Thủ",
+  "quality": "SSR",
+  "image": "/assets/images/bao-tam-nuong.png",
+  "description": "Võ tướng phe Thục, phẩm Thần Tướng, chức nghiệp Phòng Thủ. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [],
+  "avatar": {
+    "objectPosition": "56% 20%",
+    "zoom": 4.6
+  }
+}

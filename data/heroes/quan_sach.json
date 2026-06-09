@@ -1,0 +1,14 @@
+{
+  "id": "quan_sach",
+  "name": "Quan Sách",
+  "name_cn": "",
+  "type": "normal",
+  "country": "thuc",
+  "faction": "Thục",
+  "role": "Võ Tướng",
+  "profession": "Tấn Công",
+  "quality": "SSR",
+  "image": "/assets/images/quan-sach.png",
+  "description": "Võ tướng phe Thục, phẩm Thần Tướng, chức nghiệp Tấn Công. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

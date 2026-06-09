@@ -1,0 +1,16 @@
+{
+  "id": "huyen_minh_ton_sach",
+  "name": "Tôn Sách",
+  "name_cn": "",
+  "type": "soul",
+  "country": "ngo",
+  "faction": "Ngô",
+  "role": "Hồn Tướng",
+  "profession": "Chưa rõ",
+  "quality": "UR",
+  "image": "/assets/images/huyen-minh-ton-sach.png",
+  "description": "Hồn tướng ra mắt ngày 16/03/2023. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [],
+  "releaseDate": "2023-03-16",
+  "title": "Huyên Minh"
+}

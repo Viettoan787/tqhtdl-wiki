@@ -1,0 +1,14 @@
+{
+  "id": "truong_phi",
+  "name": "Trương Phi",
+  "name_cn": "",
+  "type": "normal",
+  "country": "thuc",
+  "faction": "Thục",
+  "role": "Võ Tướng",
+  "profession": "Phòng Thủ",
+  "quality": "SSR",
+  "image": "/assets/images/truong-phi.png",
+  "description": "Võ tướng phe Thục, phẩm Thần Tướng, chức nghiệp Phòng Thủ. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "truong_giac",
+  "name": "Trương Giác",
+  "name_cn": "",
+  "type": "normal",
+  "country": "quan-hung",
+  "faction": "Quần Hùng",
+  "role": "Võ Tướng",
+  "profession": "Chưa rõ",
+  "quality": "R",
+  "image": "/assets/images/truong-giac.png",
+  "description": "Võ tướng phe Quần Hùng, phẩm Lương Tướng, chưa rõ chức nghiệp. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

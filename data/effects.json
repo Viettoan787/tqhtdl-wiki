@@ -155,5 +155,180 @@
     "id": "cong_minh_nhac_chuong",
     "name": "Cộng Minh Nhạc Chương",
     "description": "Hiệu ứng bị động giúp Thái Văn Cơ tự động hồi phục nộ khí mỗi khi võ tướng khác của phe ta phóng thích nộ công. Giá trị hồi phục tăng theo cấp Vô Song."
+  },
+  {
+    "id": "khu_ho_thon_lang",
+    "name": "Khu Hổ Thôn Lang",
+    "description": "Khi kẻ mang hiệu ứng này tấn công, 10% sát thương gây ra sẽ được chuyển hóa thành HP cho 1 võ tướng phe ta có % máu cao nhất (ngoại trừ kẻ ra đòn). Nếu trên sân chỉ còn 1 mình, sát thương chuyển tự chuyển vào bản thân."
+  },
+  {
+    "id": "ham_tinh",
+    "name": "Hãm Tỉnh",
+    "description": "Không thể bị né tránh, phát nổ sau 1 hiệp, chịu 140% sát thương."
+  },
+  {
+    "id": "menh_so",
+    "name": "Mệnh Số",
+    "description": "Kẻ địch khi chịu sát thương kỹ năng chủ động từ võ tướng phe ta, mỗi khi có 1 tầng buff này, ghi lại 5% sát thương tương ứng. Khi mục tiêu chịu sát thương [Phù Chú] của Trương Cáp, sẽ kèm theo 50% giá trị ghi lại, mỗi hiệp kết thúc làm mới giá trị ghi lại, duy trì 3 hiệp."
+  },
+  {
+    "id": "phu_chu",
+    "name": "Phù Chú",
+    "description": "Chắc chắn trúng, lập tức gây cho địch sát thương bằng 290% lực tấn công."
+  },
+  {
+    "id": "an_nac",
+    "name": "Ẩn Nặc",
+    "description": "Không thể bị chọn làm mục tiêu kỹ năng sát thương, miễn dịch sát thương ngoài trạng thái bất thường."
+  },
+  {
+    "id": "ai_ca",
+    "name": "Ai Ca",
+    "description": "Sau khi thi triển nộ công nhận [Trầm Mặc] duy trì 1 hiệp, sau khi sử dụng phổ công sẽ giải trừ sớm; Sau khi thi triển phổ công nhận [Choáng] duy trì 1 hiệp, sau khi võ tướng liền kề thi triển nộ công sẽ giải trừ sớm."
+  },
+  {
+    "id": "bat_mon_kim_toa",
+    "name": "Bát Môn Kim Tỏa",
+    "description": "Sau 2 hiệp gây sát thương bằng 20% sinh lực tối đa của mục tiêu, tối đa không vượt quá 30% sinh lực tối đa của bản thân, và [Choáng] 1 hiệp, sau khi kích hoạt sẽ khóa lại ngẫu nhiên 1 mục tiêu địch mới."
+  },
+  {
+    "id": "bat_loan",
+    "name": "Bạt Loạn",
+    "description": "Khi thi triển trạng thái loại dị thường, sẽ trực tiếp nâng cấp chúng thành trạng thái loại [Suy Nhược]. Phe địch không thể xóa bỏ hoặc chuyển giao các trạng thái loại dị thường này đi nơi khác."
+  },
+  {
+    "id": "chinh_quan",
+    "name": "Chỉnh Quân",
+    "description": "Khi chịu tấn công quần thể từ võ tướng địch (số lượng mục tiêu tấn công nhiều hơn 3 người), miễn thương cuối tăng 20%, và sát thương bạo kích phải chịu giảm 30%."
+  },
+  {
+    "id": "cau_hac",
+    "name": "Câu Hác",
+    "description": "Sát thương phản đòn gây ra giảm 50%, kỹ năng xua tan trạng thái tiêu cực phải chịu có 50% xác suất mất hiệu lực."
+  },
+  {
+    "id": "cam_dien",
+    "name": "Cảm Điện",
+    "description": "Sát thương cuối gánh chịu tăng 10%, duy trì 2 hiệp, giới hạn 4 tầng."
+  },
+  {
+    "id": "cap_tap",
+    "name": "Cấp Tập",
+    "description": "Tỷ lệ kháng bạo cuối giảm 30%, và mỗi khi chịu bạo kích, Đặng Ngải hồi phục 100 điểm nộ khí, hiệu quả không thể cộng dồn."
+  },
+  {
+    "id": "cap_tap_thuong",
+    "name": "Cấp Tập·Thương",
+    "description": "Miễn thương cuối giảm 15%, có thể cộng dồn 3 tầng."
+  },
+  {
+    "id": "da_tam",
+    "name": "Dã Tâm",
+    "description": "Mỗi tầng khiến miễn thương cuối của bản thân tăng 5%, tối đa có thể cộng dồn đến 8 tầng."
+  },
+  {
+    "id": "hung_tam",
+    "name": "Hùng Tâm",
+    "description": "Mỗi tầng tăng 5% miễn thương cuối, sau mỗi lần phản kích tiêu hao 1 tầng."
+  },
+  {
+    "id": "luy_nhuoc",
+    "name": "Luy Nhược",
+    "description": "Khi nhận hộ thuẫn, lượng sát thương hộ thuẫn có thể hấp thu giảm 40%."
+  },
+  {
+    "id": "lao_muu_tham_toan",
+    "name": "Lão Mưu Thâm Toán",
+    "description": "Từ hiệp 2 trở đi, sau lượt của bản thân, nếu không ở trạng thái khống chế, gây cho toàn bộ kẻ địch sát thương chuẩn bằng 80% phòng thủ của bản thân, số lượng kẻ địch còn sống càng ít, sát thương này càng cao, cao nhất có thể tăng đến sát thương chuẩn bằng 240% phòng thủ bản thân."
+  },
+  {
+    "id": "loi_quang_dot_thich",
+    "name": "Lôi Quang Đột Thích",
+    "description": "Gây 100% sát thương đối với 1 hàng dọc địch, và thi triển 1 tầng [Cảm Điện] cho mục tiêu: Sát thương cuối gánh chịu tăng 10%, duy trì 2 hiệp, tối đa cộng dồn 4 tầng."
+  },
+  {
+    "id": "ma_ty",
+    "name": "Ma Tý",
+    "description": "Không thể hành động, có thể hồi phục nộ khí, duy trì 2 hiệp."
+  },
+  {
+    "id": "nghich_phan",
+    "name": "Nghịch Phán",
+    "description": "Tỷ lệ tiêu hao đối với hộ thuẫn giảm 25%, khi tạo thành sát thương làm giảm lực tấn công của địch bằng 50% phòng ngự lực ban đầu của Tư Mã Ý, duy trì 3 hiệp."
+  },
+  {
+    "id": "pha_hoang",
+    "name": "Phá Hoàng",
+    "description": "Mỗi hiệp gây sát thương bằng 15% sinh lực hiện tại, không vượt quá 20% sinh lực tối đa của bản thân."
+  },
+  {
+    "id": "quy_tinh",
+    "name": "Quy Tinh",
+    "description": "Sau khi chịu sát thương nộ công hồi phục 50% giá trị sát thương, và mỗi tầng khiến tỷ lệ trị liệu trong hiệp của bản thân tăng 30%."
+  },
+  {
+    "id": "quyen_an",
+    "name": "Quyền Ấn",
+    "description": "Sát thương cuối phải chịu từ Nhạc Tiến về sau tăng 15%, và chuyển dời 5% tăng giảm sát thương cuối cho Nhạc Tiến, không thể bị kháng cự hoặc xua tan."
+  },
+  {
+    "id": "suy_nhuoc",
+    "name": "Suy Nhược",
+    "description": "Là một loại trạng thái dị thường đặc biệt, hoàn toàn bỏ qua các hiệu ứng kháng và miễn dịch của kẻ địch."
+  },
+  {
+    "id": "thien_cuong",
+    "name": "Thiên Cương",
+    "description": "Thuộc tính sát thương tăng gia tăng 40%, kết quả sát thương gây ra tăng 50%, sát thương chuyển hóa thành lượng hộ thuẫn tương đương, sau khi gây sát thương cho đơn vị bất kỳ chuyển hóa thành [Địa Sát]."
+  },
+  {
+    "id": "thuc_nguyen",
+    "name": "Thực Nguyên",
+    "description": "Mỗi tầng ăn mòn 10% Sinh lực tối đa, giới hạn ban đầu là 3 tầng, tử vong không xua tan, không cộng dồn với hiệu ứng giảm giới hạn sinh lực."
+  },
+  {
+    "id": "trao_phung",
+    "name": "Trào Phúng",
+    "description": "Mục tiêu chính của phổ công, nộ công và hiệu quả truy kích của chúng biến thành người thi triển."
+  },
+  {
+    "id": "tri_manh",
+    "name": "Trí Manh",
+    "description": "Tỷ lệ trúng cuối giảm 50%, không thể bị kháng cự hoặc xua tan."
+  },
+  {
+    "id": "tram_mac",
+    "name": "Trầm Mặc",
+    "description": "Khống chế, không thể thi triển nộ công, không thể hồi phục nộ khí."
+  },
+  {
+    "id": "tac_nghich",
+    "name": "Tác Nghịch",
+    "description": "Lưu trữ lượng máu tổn thất của Tư Mã Sư, cao nhất lưu trữ 80% huyết lượng tối đa, khi [Tác Nghịch] đạt giá trị lớn nhất sẽ lập tức xóa sạch, và hồi phục cho Tư Mã Sư lượng máu bằng 50% lượng lưu trữ. Hiệu quả này mỗi trận chiến tối đa kích hoạt 4 lần, bỏ qua [Phong Ấn]."
+  },
+  {
+    "id": "toi_chieu",
+    "name": "Tội Chiếu",
+    "description": "Bao gồm 7 loại hiệu ứng: xác suất 15% làm hồi phục nộ khí bị mất tác dụng; sau khi chịu nộ công sẽ chịu thêm sát thương chuẩn bằng 10% lực tấn công của Tào Tháo; sinh mệnh tối đa giảm 10%; sau khi nộ công bị choáng 1 hiệp (sau khi có hiệu lực sẽ giảm 1 tầng); khi tấn công đánh trượt 10%; mức tăng giảm sát thương và mức tăng giảm sát thương cuối cùng bị giảm 30%; tiêu hao nộ khí tăng thêm 200 điểm. Tổng cộng 7 loại này mỗi loại có thể cộng dồn tối đa 2 tầng."
+  },
+  {
+    "id": "tuu_ca",
+    "name": "Tửu Ca",
+    "description": "Không thể thi triển nộ công, khi bắt đầu mỗi hiệp, xóa sạch nộ khí bản thân để thi triển [Ai Ca] cho toàn bộ võ tướng địch."
+  },
+  {
+    "id": "vu_dung",
+    "name": "Vũ Dũng",
+    "description": "Trong trạng thái này, sinh mệnh của bản thân sẽ không bị giảm xuống dưới một tỷ lệ phần trăm nhất định (bảo vệ lượng máu)."
+  },
+  {
+    "id": "am_duong_nghich_chuyen",
+    "name": "Âm Dương Nghịch Chuyển",
+    "description": "Lần nộ công tiếp theo khi gây sát thương, đối với mỗi mục tiêu bị tấn công đều kèm theo sát thương chuẩn bằng 20% lượng sát thương Chung Hội phải chịu, tối đa không vượt quá 30% sinh lực tối đa của Chung Hội, không thể cộng dồn."
+  },
+  {
+    "id": "dia_sat",
+    "name": "Địa Sát",
+    "description": "Thuộc tính sát thương giảm miễn tăng 40%, hiệu ứng khống chế gây ra kích hoạt hai lần và kéo dài thêm 1 hiệp, sau khi kích hoạt chuyển hóa thành [Thiên Cương]."
   }
 ]

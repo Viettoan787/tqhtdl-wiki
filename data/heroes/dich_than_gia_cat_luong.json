@@ -1,0 +1,16 @@
+{
+  "id": "dich_than_gia_cat_luong",
+  "name": "Gia Cát Lượng",
+  "name_cn": "",
+  "type": "soul",
+  "country": "thuc",
+  "faction": "Thục",
+  "role": "Hồn Tướng",
+  "profession": "Chưa rõ",
+  "quality": "UR",
+  "image": "/assets/images/dich-than-gia-cat-luong.jpg",
+  "description": "Hồn tướng ra mắt ngày 22/06/2024. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [],
+  "releaseDate": "2024-06-22",
+  "title": "Dịch Thần"
+}

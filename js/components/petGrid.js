@@ -31,7 +31,7 @@ function renderPetGrid(container) {
   const activePet = pets.find((pet) => pet.id === activePetId) ?? pets[0] ?? null;
 
   if (!pets.length) {
-    container.innerHTML = '<p class="text-slate-500 text-sm">Chưa có dữ liệu Linh Sủng.</p>';
+    container.innerHTML = '<p class="muted-copy">Chưa có dữ liệu Linh Sủng.</p>';
     return;
   }
 

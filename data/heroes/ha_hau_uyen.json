@@ -1,0 +1,14 @@
+{
+  "id": "ha_hau_uyen",
+  "name": "Hạ Hầu Uyên",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Đột Kích",
+  "quality": "SR",
+  "image": "/assets/images/ha-hau-uyen.png",
+  "description": "Võ tướng phe Ngụy, phẩm Danh Tướng, chức nghiệp Đột Kích. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

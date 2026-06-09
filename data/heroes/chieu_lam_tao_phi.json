@@ -1,0 +1,16 @@
+{
+  "id": "chieu_lam_tao_phi",
+  "name": "Tào Phi",
+  "name_cn": "",
+  "type": "soul",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Hồn Tướng",
+  "profession": "Chưa rõ",
+  "quality": "UR",
+  "image": "/assets/images/chieu-lam-tao-phi.png",
+  "description": "Hồn tướng ra mắt ngày 25/09/2025. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [],
+  "releaseDate": "2025-09-25",
+  "title": "Chiêu Lâm"
+}

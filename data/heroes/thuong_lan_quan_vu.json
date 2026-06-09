@@ -1,0 +1,16 @@
+{
+  "id": "thuong_lan_quan_vu",
+  "name": "Quan Vũ",
+  "name_cn": "",
+  "type": "soul",
+  "country": "thuc",
+  "faction": "Thục",
+  "role": "Hồn Tướng",
+  "profession": "Chưa rõ",
+  "quality": "UR",
+  "image": "/assets/images/thuong-lan-quan-vu.png",
+  "description": "Hồn tướng ra mắt ngày 10/02/2024. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [],
+  "releaseDate": "2024-02-10",
+  "title": "Thương Lan"
+}

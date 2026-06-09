@@ -1,0 +1,14 @@
+{
+  "id": "dieu_thuyen",
+  "name": "Điêu Thuyền",
+  "name_cn": "",
+  "type": "normal",
+  "country": "quan-hung",
+  "faction": "Quần Hùng",
+  "role": "Võ Tướng",
+  "profession": "Hỗ Trợ",
+  "quality": "SSR",
+  "image": "/assets/images/dieu-thuyen.png",
+  "description": "Võ tướng phe Quần Hùng, phẩm Thần Tướng, chức nghiệp Hỗ Trợ. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

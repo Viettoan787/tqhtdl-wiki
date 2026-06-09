@@ -1,0 +1,14 @@
+{
+  "id": "dien_vi",
+  "name": "Điển Vi",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Đột Kích",
+  "quality": "SR",
+  "image": "/assets/images/dien-vi.png",
+  "description": "Võ tướng phe Ngụy, phẩm Danh Tướng, chức nghiệp Đột Kích. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "tuong_kham",
+  "name": "Tưởng Khâm",
+  "name_cn": "",
+  "type": "normal",
+  "country": "ngo",
+  "faction": "Ngô",
+  "role": "Võ Tướng",
+  "profession": "Chưa rõ",
+  "quality": "SSR",
+  "image": "/assets/images/tuong-kham.png",
+  "description": "Võ tướng phe Ngô, phẩm Thần Tướng, chưa rõ chức nghiệp. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

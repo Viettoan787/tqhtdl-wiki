@@ -1,0 +1,14 @@
+{
+  "id": "vien_thieu",
+  "name": "Viên Thiệu",
+  "name_cn": "",
+  "type": "normal",
+  "country": "quan-hung",
+  "faction": "Quần Hùng",
+  "role": "Võ Tướng",
+  "profession": "Chưa rõ",
+  "quality": "SR",
+  "image": "/assets/images/vien-thieu.png",
+  "description": "Võ tướng phe Quần Hùng, phẩm Danh Tướng, chưa rõ chức nghiệp. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cuong_quy_tu_ma_y",
+  "name": "Tư Mã Ý",
+  "name_cn": "",
+  "type": "soul",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Hồn Tướng",
+  "profession": "Chưa rõ",
+  "quality": "UR",
+  "image": "/assets/images/cuong-quy-tu-ma-y.png",
+  "description": "Hồn tướng ra mắt ngày 24/10/2023. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [],
+  "releaseDate": "2023-10-24",
+  "title": "Cuống Quỷ"
+}

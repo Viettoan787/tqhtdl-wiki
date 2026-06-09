@@ -1,0 +1,14 @@
+{
+  "id": "nguy_dien",
+  "name": "Ngụy Diên",
+  "name_cn": "",
+  "type": "normal",
+  "country": "thuc",
+  "faction": "Thục",
+  "role": "Võ Tướng",
+  "profession": "Phòng Thủ",
+  "quality": "SR",
+  "image": "/assets/images/nguy-dien.png",
+  "description": "Võ tướng phe Thục, phẩm Danh Tướng, chức nghiệp Phòng Thủ. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

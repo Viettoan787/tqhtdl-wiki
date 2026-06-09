@@ -1,0 +1,14 @@
+{
+  "id": "hinh_dao_vinh",
+  "name": "Hình Đạo Vinh",
+  "name_cn": "",
+  "type": "normal",
+  "country": "quan-hung",
+  "faction": "Quần Hùng",
+  "role": "Võ Tướng",
+  "profession": "Chưa rõ",
+  "quality": "R",
+  "image": "/assets/images/hinh-dao-vinh.png",
+  "description": "Võ tướng phe Quần Hùng, phẩm Lương Tướng, chưa rõ chức nghiệp. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

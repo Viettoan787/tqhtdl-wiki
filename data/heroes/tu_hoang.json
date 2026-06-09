@@ -1,0 +1,14 @@
+{
+  "id": "tu_hoang",
+  "name": "Từ Hoảng",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Hỗ Trợ",
+  "quality": "R",
+  "image": "/assets/images/tu-hoang.png",
+  "description": "Võ tướng phe Ngụy, phẩm Lương Tướng, chức nghiệp Hỗ Trợ. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

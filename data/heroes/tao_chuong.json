@@ -1,0 +1,78 @@
+{
+  "id": "tao_chuong",
+  "name": "Tào Chương",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Phòng Thủ",
+  "quality": "SSR",
+  "image": "/assets/images/tao-chuong.png",
+  "description": "Võ tướng phe Ngụy, phẩm Thần Tướng, chức nghiệp Phòng Thủ. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [
+    {
+      "id": "tao_chuong_pho_cong",
+      "name": "Phổ Công — Thượng Thiêu",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 kẻ địch, gây 100% sát thương vật lý."
+    },
+    {
+      "id": "tao_chuong_no_cong",
+      "name": "Nộ Công — Thốn Kính Phá Loan",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 cột địch, gây 168% sát thương vật lý, đối với võ tướng hàng trước bị trúng đòn gây thêm sát thương chuẩn bằng 100% phòng thủ của bản thân, đồng thời thi triển cho võ tướng ở cột này trạng thái [Câu Hác] không thể chuyển dời, tử vong không bị xua tan, duy trì 2 hiệp."
+    },
+    {
+      "id": "tao_chuong_bi_dong_3_sao",
+      "name": "Bị động 3 sao — Hám Thiên Động Địa",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi thi triển phổ công và nộ công có 50% xác suất gây cho võ tướng địch ở hàng trước sát thương chuẩn bằng 60% phòng thủ của bản thân."
+    },
+    {
+      "id": "tao_chuong_bi_dong_5_sao",
+      "name": "Bị động 5 sao — Chí Ý Khảng Khái",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Võ tướng địch đang ở trạng thái [Câu Hác] sau khi chịu bạo kích, truy kích kẻ đó 1 lần sát thương vật lý bằng 80%, kèm theo hiệu quả sát thương của [Hám Thiên Động Địa], mỗi mục tiêu mỗi hiệp tối đa kích hoạt 3 lần; Tỷ lệ trúng cuối của kỹ năng này giảm 50%, nhưng đối với võ tướng địch đang ở trạng thái [Huyễn Vựng] thì chắc chắn trúng và chắc chắn bạo kích, đồng thời sát thương bạo kích tăng 50%."
+    },
+    {
+      "id": "tao_chuong_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "[Chí Ý Khảng Khái] nếu đánh trúng võ tướng đang có trạng thái [Huyễn Vựng], sẽ khuếch tán trạng thái [Huyễn Vựng] duy trì 1 hiệp sang toàn bộ võ tướng trong [Câu Hác], hiệu quả này không thể kháng cự."
+    },
+    {
+      "id": "tao_chuong_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "[Chí Ý Khảng Khái] kèm theo cho võ tướng địch bị đánh trúng hiệu quả giảm 10% tỷ lệ né tránh cuối và tăng 10% kết quả sát thương phải chịu, duy trì 2 hiệp, có thể cộng dồn 3 tầng."
+    },
+    {
+      "id": "tao_chuong_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Nộ công nếu đánh trúng võ tướng địch đang ở trạng thái [Câu Hác], sẽ thi triển thêm trạng thái [Câu Hác] cho 1 cột võ tướng địch ngẫu nhiên khác, duy trì 2 hiệp."
+    },
+    {
+      "id": "tao_chuong_duyen_phan_1",
+      "name": "Duyên Phận — Thủ Túc Tình Thâm",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi ra trận cùng Tào Thực, Tào Phi, kháng giảm nộ khí của Tào Chương tăng 50%. Khi bản thân có trên sân, khiến kháng trạng thái [Dị Thường] của toàn bộ võ tướng Ngụy quốc phe ta tăng 50%, tỷ lệ trúng trạng thái [Dị Thường] tăng 30%, Tào Thực và Tào Phi được tăng thêm 50% kháng giảm nộ khí; Trong 2 hiệp đầu, võ tướng hàng trước địch sau khi chịu bạo kích có 30% xác suất bị gán trạng thái [Trầm Mặc] duy trì đến kết thúc hiệp, nếu mục tiêu đã ở trạng thái khống chế thì xua tan ngẫu nhiên 1 trạng thái tăng ích của kẻ đó."
+    },
+    {
+      "id": "tao_chuong_huyen_vu",
+      "name": "Huyễn Vũ",
+      "type": "passive",
+      "cooldown": null,
+      "description": "**Lược Hữu Tiểu Thành**: Võ tướng địch đang ở trạng thái [Huyễn Vựng] khi chịu tấn công, tỷ lệ kháng bạo cuối giảm 50%, [Chí Ý Khảng Khái] sẽ khiến trạng thái [Huyễn Vựng] của mục tiêu kéo dài thêm 1 hiệp, mỗi hiệp tối đa kích hoạt 2 lần. (Kích hoạt khi trang bị lên Tào Chương).\n\n**Lư Hỏa Thuần Thanh**: [Chí Ý Khảng Khái] khi gây sát thương, sẽ gây thêm cho mục tiêu đang ở trạng thái [Câu Hác] 1 lần sát thương chuẩn bằng 50% phòng thủ bản thân, xua tan 2 tầng hộ thuẫn trên người mục tiêu, giảm của mục tiêu và tăng cho bản thân 15% phòng thủ, tối đa cộng dồn 2 tầng, duy trì 1 hiệp. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Cam bất kỳ).\n\n**Thần Hồ Kỳ Kỹ**: Khi bắt đầu chiến đấu, lập tức thi triển 1 lần nộ công. Võ tướng địch đang ở trạng thái [Câu Hác] khi chịu phổ công của võ tướng Ngụy quốc sẽ nhận trạng thái [Huyễn Vựng] không thể kháng cự duy trì 1 hiệp, mỗi võ tướng trong toàn trận chiến tối đa kích hoạt 1 lần; Kết quả sát thương do võ tướng địch đang ở trạng thái [Câu Hác] gây ra giảm 30%; Mỗi khi thi triển [Chí Ý Khảng Khái], khiến miễn thương cuối của mục tiêu giảm 30%, tối đa cộng dồn 2 lần. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Chuyên thuộc bất kỳ và 1 Huyễn vũ Cam bất kỳ)."
+    }
+  ]
+}

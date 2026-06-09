@@ -1,0 +1,78 @@
+{
+  "id": "dang_ngai",
+  "name": "Đặng Ngải",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Đột Kích",
+  "quality": "SSR",
+  "image": "/assets/images/dang-ngai.png",
+  "description": "Võ tướng phe Ngụy, phẩm Thần Tướng, chức nghiệp Đột Kích. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [
+    {
+      "id": "dang_ngai_pho_cong",
+      "name": "Phổ Công — Ám Tập",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 kẻ địch, gây 100% sát thương vật lý."
+    },
+    {
+      "id": "dang_ngai_no_cong",
+      "name": "Nộ Công — Tạc Hiểm Ám Độ",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công hàng sau địch, gây 132% sát thương vật lý, thi triển [Cấp Tập] cho mục tiêu, duy trì 2 hiệp."
+    },
+    {
+      "id": "dang_ngai_bi_dong_3_sao",
+      "name": "Bị động 3 sao — Đồn Điền Súc Tư",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi bắt đầu mỗi hiệp, hồi phục 300 điểm nộ khí; mỗi khi chịu hiệu ứng giảm nộ khí ngoại trừ nộ công, khiến giá trị nộ khí bị giảm hạ xuống 50%, và hồi phục 5% Sinh lực tối đa."
+    },
+    {
+      "id": "dang_ngai_bi_dong_5_sao",
+      "name": "Bị động 5 sao — Suất Tiên Thùy Phạm",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi nộ công, sát thương bạo kích tăng 40%; mỗi hiệp sau khi Đặng Ngải nộ công lần đầu, khiến toàn bộ phe ta trong hiệp này khi tấn công mục tiêu hàng sau địch, sát thương bạo kích tăng 40%."
+    },
+    {
+      "id": "dang_ngai_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "[Đồn Điền Súc Tư] có thể khiến đơn vị có tỷ lệ sinh lực thấp nhất ngoài bản thân hồi phục 5% Sinh lực tối đa."
+    },
+    {
+      "id": "dang_ngai_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Khi nộ công, căn cứ vào lượng máu còn lại của mục tiêu gây thêm hiệu quả: Huyết lượng mục tiêu dưới 80%, hấp thu thêm của mục tiêu 75 điểm nộ khí; Huyết lượng dưới 65%, nộ công lần này tăng thêm 15% sát thương cuối; Huyết lượng dưới 50%, nộ công lần này bỏ qua thêm 15% phòng thủ của mục tiêu (Ba hiệu quả có thể đồng thời kích hoạt)."
+    },
+    {
+      "id": "dang_ngai_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Khi nộ công, căn cứ vào lượng máu còn lại của mục tiêu gây thêm hiệu quả: Huyết lượng mục tiêu dưới 80%, hấp thu thêm của mục tiêu 150 điểm nộ khí; Huyết lượng dưới 65%, nộ công lần này tăng thêm 30% sát thương cuối; Huyết lượng dưới 50%, nộ công lần này bỏ qua thêm 30% phòng thủ của mục tiêu (Ba hiệu quả có thể đồng thời kích hoạt)."
+    },
+    {
+      "id": "dang_ngai_duyen_phan_1",
+      "name": "Duyên Phận — Phạt Thục Chi Công",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi ra trận cùng Chung Hội, Đặng Ngải tăng 15% sát thương; Khi Chung Hội có trên sân, khiến đơn vị hàng sau phe ta tăng 25% tỷ lệ hút máu."
+    },
+    {
+      "id": "dang_ngai_huyen_vu",
+      "name": "Huyễn Vũ",
+      "type": "passive",
+      "cooldown": null,
+      "description": "**Lược Hữu Tiểu Thành**: [Suất Tiên Thùy Phạm] tăng lên thành: Khi nộ công, sát thương bạo kích tăng 40%; mỗi hiệp sau khi Đặng Ngải nộ công lần đầu, hoàn trả 40% nộ khí bản thân, 1 lần tối đa hoàn trả 600 điểm. Và khiến toàn bộ phe ta trong hiệp này khi tấn công mục tiêu hàng sau địch, bạo kích tăng 25%, sát thương bạo kích tăng 60%. (Kích hoạt khi trang bị lên Đặng Ngải).\n\n**Lư Hỏa Thuần Thanh**: Kỹ năng thức tỉnh cấp 5 tăng lên thành: Khi nộ công, hấp thu thêm của mục tiêu 150 điểm nộ khí, nộ công lần này tăng thêm 30% sát thương cuối, và bỏ qua 30% phòng thủ của mục tiêu. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Cam bất kỳ).\n\n**Thần Hồ Kỳ Kỹ**: Tỷ lệ trúng trạng thái dị thường tăng 30%; mỗi khi thi triển nộ công, đều sẽ thi triển hiệu ứng [Cấp Tập·Thương] cho mục tiêu bị tấn công, duy trì đến kết thúc chiến đấu; khi bắt đầu chiến đấu thi triển 2 tầng hiệu ứng [Cấp Tập·Thương] lên mục tiêu hàng sau địch. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Chuyên thuộc bất kỳ và 1 Huyễn vũ Cam bất kỳ)."
+    }
+  ]
+}

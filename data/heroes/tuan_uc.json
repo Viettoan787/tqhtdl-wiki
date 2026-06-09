@@ -1,0 +1,71 @@
+{
+  "id": "tuan_uc",
+  "name": "Tuân Úc",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Hỗ Trợ",
+  "quality": "SSR",
+  "image": "/assets/images/tuan-uc.png",
+  "description": "Võ tướng phe Ngụy, phẩm Thần Tướng, chức nghiệp Hỗ Trợ. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [
+    {
+      "id": "tuan_uc_pho_cong",
+      "name": "Phổ Công — Ngôn Linh",
+      "type": "active",
+      "cooldown": null,
+      "description": "Gây sát thương pháp thuật bằng 100% lực công cho 1 kẻ địch."
+    },
+    {
+      "id": "tuan_uc_no_cong",
+      "name": "Nộ Công — Khu Hổ Thôn Lang",
+      "type": "active",
+      "cooldown": null,
+      "description": "Gây 168% sát thương pháp thuật cho kẻ địch có Lực Tấn Công cao nhất và 1 kẻ địch khác có phần trăm HP cao nhất.\n\nĐồng thời gắn hiệu ứng [Khu Hổ Thôn Lang] lên kẻ địch có Lực Tấn Công cao nhất, duy trì 2 hiệp."
+    },
+    {
+      "id": "tuan_uc_bi_dong_3_sao",
+      "name": "Bị động 3 sao — Vương Tá Chi Tài",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Trong 2 hiệp đầu, khi mỗi võ tướng phe ta lần đầu tiên chịu hiệu ứng [Khống chế] (trừ trạng thái [Đánh Bay]), có 100% xác suất xóa bỏ hiệu ứng đó. Khi bắt đầu hiệp 3, hồi phục 20% HP tối đa cho các đơn vị phe ta chưa từng kích hoạt hiệu ứng xóa khống chế.\n\n(Khống chế bao gồm: Choáng, Tê liệt, Mê hoặc, Đóng băng, Sương hỏa, Câm lặng)."
+    },
+    {
+      "id": "tuan_uc_bi_dong_5_sao",
+      "name": "Bị động 5 sao — Cử Hiền Nhậm Năng",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi tung Kỹ năng Nộ, tiêu hao 50% Nộ khí hiện có của bản thân để chuyển đều cho các võ tướng khác phe ta. Mỗi võ tướng hồi tối đa 200 điểm Nộ."
+    },
+    {
+      "id": "tuan_uc_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Trong 2 hiệp đầu, Miễn thương cuối cùng của bản thân tăng 15%. Mỗi khi Tuân Úc xóa 1 lần [Khống chế], hiệu quả miễn thương này giảm 5%, đồng thời hồi cho Tuân Úc 5% HP tối đa."
+    },
+    {
+      "id": "tuan_uc_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Trong 2 hiệp đầu, Miễn thương cuối cùng của bản thân tăng 30%. Mỗi khi Tuân Úc xóa 1 lần [Khống chế], hiệu quả miễn thương giảm 5%, đồng thời hồi cho Tuân Úc 5% HP tối đa."
+    },
+    {
+      "id": "tuan_uc_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Tỷ lệ chuyển hóa nộ khí của kỹ năng [Cử Hiền Nhậm Năng] tăng lên 80%, lượng nộ mỗi võ tướng nhận được tối đa tăng lên 300 điểm."
+    },
+    {
+      "id": "tuan_uc_huyen_vu",
+      "name": "Huyễn Vũ",
+      "type": "passive",
+      "cooldown": null,
+      "description": "**Lược Hữu Tiểu Thành**: Hiệu ứng [Khu Hổ Thôn Lang] không thể bị xóa bỏ. Khi kẻ địch mang trạng thái này tấn công, lượng sát thương chuyển hóa cho tướng phe ta tăng lên thành 15%.\n\n**Lư Hỏa Thuần Thanh**: Nộ khí ban đầu tăng 600. Kẻ địch mang trạng thái [Khu Hổ Thôn Lang] khi gây sát thương (đánh thường/nộ/long hồn) lên võ tướng phe ta, sẽ ngẫu nhiên xóa 1 buff xấu (debuff) cho võ tướng phe ta bị đánh. Nếu võ tướng đó không có buff xấu thì hồi 5% HP tối đa.\n\n**Thần Hồ Kỳ Kỹ**: Khi bắt đầu trận, tự động tung 1 lần [Khu Hổ Thôn Lang], kèm tăng 30% Tỷ lệ trúng trạng thái bất thường. Mỗi lần kích hoạt [Vương Tá Chi Tài], tăng 40% Tỷ lệ trúng trạng thái cho bản thân đến hết trận (tối đa 2 lần). Hiệu ứng [Khu Hổ Thôn Lang] có thể cộng dồn, kẻ địch mang 1 tầng trạng thái thì tỷ lệ chuyển hóa sát thương tăng 15%, tối đa 45%."
+    }
+  ]
+}

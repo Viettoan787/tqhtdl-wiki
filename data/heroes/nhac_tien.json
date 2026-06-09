@@ -1,0 +1,78 @@
+{
+  "id": "nhac_tien",
+  "name": "Nhạc Tiến",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Tấn Công",
+  "quality": "SSR",
+  "image": "/assets/images/nhac-tien.png",
+  "description": "Võ tướng phe Ngụy, phẩm Thần Tướng, chức nghiệp Tấn Công. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [
+    {
+      "id": "nhac_tien_pho_cong",
+      "name": "Phổ Công — Thiết Quyền",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 kẻ địch, gây 100% sát thương vật lý."
+    },
+    {
+      "id": "nhac_tien_no_cong",
+      "name": "Nộ Công — Liệt Không Quyền",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 kẻ địch, gây 240% sát thương vật lý, thi triển cho mục tiêu 2 tầng [Quyền Ấn], duy trì 2 hiệp."
+    },
+    {
+      "id": "nhac_tien_bi_dong_3_sao",
+      "name": "Bị động 3 sao — Hậu Phát Chế Nhân",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Bản thân khi chịu tấn công quần thể từ võ tướng địch (số lượng mục tiêu tấn công nhiều hơn 3 người), sẽ tiến hành 1 lần phản kích đối với võ tướng địch tấn công đó, gây 120% sát thương vật lý, thi triển 1 tầng [Quyền Ấn] và kèm theo 30% tỷ lệ bạo kích cuối."
+    },
+    {
+      "id": "nhac_tien_bi_dong_5_sao",
+      "name": "Bị động 5 sao — Phấn Toái Quyền",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Nhạc Tiến tăng 35% sát thương cuối đối với võ tướng đang có [Hộ Thuẫn], nếu khi tấn công đánh vỡ [Hộ Thuẫn] thành công, sẽ thi triển cho mục tiêu 1 tầng [Trí Manh], duy trì 2 hiệp."
+    },
+    {
+      "id": "nhac_tien_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Khi tấn công nếu đánh vỡ [Hộ Thuẫn] của địch thành công, vĩnh viễn tăng 25% sát thương cuối gia tăng của bản thân, tối đa cộng dồn 4 tầng, duy trì đến khi kết thúc chiến đấu."
+    },
+    {
+      "id": "nhac_tien_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Hiệu quả [Phấn Toái Quyền] tăng cường, sau khi tấn công bất kỳ nếu võ tướng mục tiêu không ở trạng thái [Hộ Thuẫn] thì kèm theo sát thương chuẩn bằng 60% sức tấn công của bản thân (nếu mục tiêu tấn công nhiều hơn 3 người, hệ số sát thương giảm xuống còn 25%)."
+    },
+    {
+      "id": "nhac_tien_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Hiệu quả [Phấn Toái Quyền] tăng cường, khi tấn công võ tướng không có [Hộ Thuẫn], tăng 30% tỷ lệ bạo kích cuối, 50% sát thương bạo kích và 20% bỏ qua phòng thủ."
+    },
+    {
+      "id": "nhac_tien_duyen_phan_1",
+      "name": "Duyên Phận — Sơn Cao Chí Viễn",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi ra trận cùng Vu Cấm, bạo kích tăng 20%; Toàn bộ võ tướng [Ngụy Quốc] phe ta khi bắt đầu mỗi hiệp nhận 150 điểm nộ khí, Ngũ Tử Lương Tướng (Trương Liêu, Từ Hoảng, Trương Cáp, Vu Cấm, Nhạc Tiến...) nhận thêm 150 điểm; Nếu bản thân sở hữu bị động [Phấn Toái Quyền], Ngũ Tử Lương Tướng khác phe ta khi mở màn nhận được hiệu quả của [Phấn Toái Quyền]."
+    },
+    {
+      "id": "nhac_tien_huyen_vu",
+      "name": "Huyễn Vũ",
+      "type": "passive",
+      "cooldown": null,
+      "description": "**Lược Hữu Tiểu Thành**: Mỗi khi thi triển [Hậu Phát Chế Nhân], khiến bội số sát thương của [Hậu Phát Chế Nhân] tăng 10%, duy trì đến khi kết thúc chiến đấu, tối đa cộng dồn 20 lần; trong môi trường không phải đối chiến với người chơi (PVE), võ tướng phe ta khi thi triển tấn công đơn thể, có 50% xác suất thi triển 1 lần [Hậu Phát Chế Nhân] lên võ tướng địch bị đòn tấn công lần này đánh trúng. (Kích hoạt khi trang bị lên Nhạc Tiến).\n\n**Lư Hỏa Thuần Thanh**: Ngũ Tử Lương Tướng phe ta nếu là võ tướng có tấn công cao nhất toàn trận, thì khi thi triển bất kỳ phổ công hoặc nộ công nào có 50% xác suất tăng bội số sát thương lần này, lượng tăng thêm bằng 10% số lần Nhạc Tiến thi triển [Hậu Phát Chế Nhân], tối đa tính là 20 lần. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Cam bất kỳ).\n\n**Thần Hồ Kỳ Kỹ**: [Hậu Phát Chế Nhân] chắc chắn trúng, từ hiệp 2 trở đi kèm theo 50% tỷ lệ bạo kích cuối; và [Trí Manh] mang theo hiệu ứng giảm 30% tỷ lệ né tránh cuối và tỷ lệ bạo kích cuối; Khi kết thúc mỗi hiệp, bản thân lần lượt theo thứ tự vị trí đứng từ trước ra sau, thi triển 1 lần [Hậu Phát Chế Nhân] lên từng võ tướng địch; khi bắt đầu hiệp tiếp theo, nếu chưa thông qua kỹ năng nói trên thi triển đủ 6 lần [Hậu Phát Chế Nhân], thì sẽ thi triển thêm 3 lần [Hậu Phát Chế Nhân] lên võ tướng đứng ở vị trí trên cùng của địch. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Chuyên thuộc bất kỳ và 1 Huyễn vũ Cam bất kỳ)."
+    }
+  ]
+}

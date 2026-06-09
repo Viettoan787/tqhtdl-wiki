@@ -1,0 +1,78 @@
+{
+  "id": "chung_hoi",
+  "name": "Chung Hội",
+  "name_cn": "",
+  "type": "normal",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Võ Tướng",
+  "profession": "Phòng Thủ",
+  "quality": "SSR",
+  "image": "/assets/images/chung-hoi.png",
+  "description": "Võ tướng phe Ngụy, phẩm Thần Tướng, chức nghiệp Phòng Thủ. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [
+    {
+      "id": "chung_hoi_pho_cong",
+      "name": "Phổ Công — Khiêu Hấn",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công 1 kẻ địch, gây 100% sát thương vật lý."
+    },
+    {
+      "id": "chung_hoi_no_cong",
+      "name": "Nộ Công — Tinh Luyện Sách Số",
+      "type": "active",
+      "cooldown": null,
+      "description": "Tấn công hàng trước địch, gây 132% sát thương vật lý, khiến tất cả kết quả sát thương bản thân phải chịu giảm 30%, hiệu quả không thể cộng dồn, và thi triển cho hàng trước địch [Trào Phúng], duy trì 2 hiệp."
+    },
+    {
+      "id": "chung_hoi_bi_dong_3_sao",
+      "name": "Bị động 3 sao — Quyền Mưu Bài Dị",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khiến sát thương cuối do hàng sau phe ta gây ra tăng 25%, và khi hàng sau phe ta nhận được trị liệu, 40% giá trị trị liệu chuyển dời sang bản thân."
+    },
+    {
+      "id": "chung_hoi_bi_dong_5_sao",
+      "name": "Bị động 5 sao — Cư Công Tự Ngạo",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Mỗi khi địch có 1 đơn vị lượng máu lần đầu tiên thấp hơn 50%, Chung Hội xua tan 1 trạng thái [Dị Thường] của bản thân, hồi phục 10% sinh lực tối đa."
+    },
+    {
+      "id": "chung_hoi_vo_song_1",
+      "name": "Vô Song 1",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Đơn vị địch đang ở trạng thái [Trào Phúng] khi tấn công đơn vị phe ta ngoại trừ Chung Hội, sát thương cuối gây ra giảm 15%."
+    },
+    {
+      "id": "chung_hoi_vo_song_3",
+      "name": "Vô Song 3",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Đơn vị địch đang ở trạng thái [Trào Phúng] khi tấn công đơn vị phe ta ngoại trừ Chung Hội, sát thương cuối gây ra giảm 30%."
+    },
+    {
+      "id": "chung_hoi_vo_song_5",
+      "name": "Vô Song 5",
+      "type": "ultimate",
+      "cooldown": null,
+      "description": "Sau khi [Cư Công Tự Ngạo] kích hoạt 2 lần, Chung Hội tăng 20% miễn thương cuối, và khiến nộ công của bản thân kèm theo sát thương bằng 20% sinh lực hiện tại."
+    },
+    {
+      "id": "chung_hoi_duyen_phan_1",
+      "name": "Duyên Phận — Phạt Thục Chi Công",
+      "type": "passive",
+      "cooldown": null,
+      "description": "Khi ra trận cùng Đặng Ngải, Chung Hội tăng 15% miễn thương; Khi Đặng Ngải có trên sân, khiến đơn vị hàng trước phe ta tăng 25% tỷ lệ kháng bạo."
+    },
+    {
+      "id": "chung_hoi_huyen_vu",
+      "name": "Huyễn Vũ",
+      "type": "passive",
+      "cooldown": null,
+      "description": "**Lược Hữu Tiểu Thành**: [Quyền Mưu Bài Dị] tăng lên thành: Khiến sát thương cuối do toàn bộ võ tướng phe ta gây ra tăng 25%, Chung Hội khi chuyển dời lượng trị liệu, không còn khấu trừ lượng trị liệu mà võ tướng hàng sau nhận được. (Kích hoạt khi trang bị lên Chung Hội).\n\n**Lư Hỏa Thuần Thanh**: Tỷ lệ trúng [Dị Thường] tăng 50%; Kỹ năng thức tỉnh cấp 3 tăng lên thành: Đơn vị địch đang ở trạng thái [Trào Phúng] khi tấn công đơn vị phe ta ngoại trừ Chung Hội, sát thương cuối gây ra giảm 40%. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Cam bất kỳ).\n\n**Thần Hồ Kỳ Kỹ**: Ghi lại tổng lượng sát thương Chung Hội phải chịu trong hiệp này, khi hiệp kết thúc, Chung Hội ban cho đơn vị có tấn công cao nhất phe ta hiệu quả [Âm Dương Nghịch Chuyển]. (Kích hoạt khi Hộ hữu thêm 1 Huyễn vũ Chuyên thuộc bất kỳ và 1 Huyễn vũ Cam bất kỳ)."
+    }
+  ]
+}

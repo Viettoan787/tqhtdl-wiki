@@ -1,0 +1,16 @@
+{
+  "id": "loi_dinh_trieu_van",
+  "name": "Triệu Vân",
+  "name_cn": "",
+  "type": "soul",
+  "country": "thuc",
+  "faction": "Thục",
+  "role": "Hồn Tướng",
+  "profession": "Chưa rõ",
+  "quality": "UR",
+  "image": "/assets/images/loi-dinh-trieu-van.png",
+  "description": "Hồn tướng ra mắt ngày 20/06/2021. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [],
+  "releaseDate": "2021-06-20",
+  "title": "Lôi Đình"
+}

@@ -1,9 +1,783 @@
+:root {
+  /* Surfaces */
+  --bg: #eef2f9;
+  --bg-accent: #e7ecf6;
+  --surface: #ffffff;
+  --surface-soft: #f7f9fc;
+  --surface-sunken: #f1f4f9;
+
+  /* Borders */
+  --border: #e3e8f0;
+  --border-strong: #d7deea;
+  --border-gold: #e3c987;
+
+  /* Text */
+  --text: #1f2733;
+  --text-muted: #67748a;
+  --text-soft: #8a96a8;
+
+  /* Brand / accents */
+  --primary: #3b5bd9;
+  --primary-strong: #2f49b8;
+  --primary-soft: #eef2ff;
+  --gold: #c79a3a;
+  --gold-soft: #f7eccb;
+
+  /* Shape */
+  --radius-sm: 0.375rem;
+  --radius: 0.625rem;
+  --radius-lg: 0.875rem;
+  --shadow-sm: 0 1px 2px rgba(31, 39, 51, 0.06);
+  --shadow: 0 2px 10px rgba(31, 39, 51, 0.08);
+  --shadow-lg: 0 8px 28px rgba(31, 39, 51, 0.12);
+}
+
 body {
-  background: #d6f3ff !important;
+  background: linear-gradient(180deg, var(--bg) 0%, var(--bg-accent) 100%) !important;
 }
 
 body > header {
-  background: #deb962 !important;
+  background: linear-gradient(180deg, #ffffff 0%, #fbf7ee 100%) !important;
+}
+
+.wiki-topbar {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(117, 89, 27, 0.28);
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
+}
+
+@media (min-width: 820px) {
+  .wiki-topbar {
+    grid-template-columns: auto minmax(14rem, 22rem) minmax(20rem, 1fr);
+    padding: 0.75rem 1.5rem;
+  }
+}
+
+.wiki-menu-button {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  border: 1px solid rgba(120, 82, 20, 0.35);
+  border-radius: 0.375rem;
+  background: rgba(255, 255, 255, 0.42);
+  cursor: pointer;
+}
+
+.wiki-menu-button span {
+  width: 1.125rem;
+  height: 2px;
+  display: block;
+  background: #3f2f12;
+  border-radius: 999px;
+}
+
+.wiki-brand {
+  min-width: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  color: #1e293b;
+  text-decoration: none;
+}
+
+.wiki-brand__mark {
+  width: 2.25rem;
+  height: 2.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  border-radius: 0.375rem;
+  background: rgba(255, 255, 255, 0.52);
+  color: #7c2d12;
+  font-weight: 900;
+}
+
+.wiki-brand strong,
+.wiki-brand small {
+  display: block;
+  line-height: 1.15;
+}
+
+.wiki-brand strong {
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.wiki-brand small {
+  margin-top: 0.125rem;
+  color: #475569;
+  font-size: 0.75rem;
+}
+
+.wiki-search {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.5rem;
+}
+
+@media (min-width: 820px) {
+  .wiki-search {
+    grid-column: auto;
+  }
+}
+
+.wiki-search input,
+.list-toolbar input,
+.list-toolbar select {
+  min-height: 2.5rem;
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.375rem;
+  background: #fff;
+  padding: 0.5rem 0.75rem;
+  color: #0f172a;
+  font-size: 0.875rem;
+}
+
+.wiki-search button,
+.list-toolbar button {
+  min-height: 2.5rem;
+  border: 1px solid #2563eb;
+  border-radius: 0.375rem;
+  background: #2563eb;
+  color: #fff;
+  padding: 0.5rem 0.875rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.wiki-main {
+  width: min(92rem, calc(100% - 2rem));
+  min-height: 60vh;
+  margin: 0 auto;
+  padding: 1.25rem 0 2rem;
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .wiki-main {
+    padding-top: 1.75rem;
+  }
+}
+
+.wiki-loading,
+.wiki-error {
+  padding: 3rem 1rem;
+  text-align: center;
+  color: #475569;
+}
+
+.wiki-error {
+  color: #be123c;
+}
+
+.wiki-footer {
+  width: min(92rem, calc(100% - 2rem));
+  margin: 1.5rem auto 0;
+  padding: 1rem 0 2rem;
+  border-top: 1px solid rgba(15, 23, 42, 0.15);
+  color: #475569;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.wiki-sidebar-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 48;
+  background: rgba(15, 23, 42, 0.28);
+}
+
+.wiki-sidebar {
+  position: fixed;
+  inset: 0 auto 0 0;
+  z-index: 50;
+  width: min(18rem, calc(100vw - 3rem));
+  transform: translateX(-100%);
+  background: #fff;
+  border-right: 1px solid #cbd5e1;
+  box-shadow: 8px 0 24px rgba(15, 23, 42, 0.16);
+  transition: transform 0.12s ease-out;
+}
+
+.wiki-sidebar.is-open {
+  transform: translateX(0);
+}
+
+.wiki-sidebar__header {
+  min-height: 3.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.875rem 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.wiki-sidebar__header button {
+  width: 2rem;
+  height: 2rem;
+  border: 0;
+  border-radius: 0.25rem;
+  background: transparent;
+  color: #64748b;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.wiki-sidebar__nav {
+  display: grid;
+  gap: 0.125rem;
+  padding: 0.75rem;
+}
+
+.wiki-sidebar__nav a {
+  display: block;
+  border-radius: 0.375rem;
+  padding: 0.625rem 0.75rem;
+  color: #334155;
+  font-size: 0.925rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.wiki-sidebar__nav a:hover,
+.wiki-sidebar__nav a.is-active {
+  background: #eff6ff;
+  color: #1d4ed8;
+}
+
+.portal-hero,
+.wiki-block,
+.hero-detail-page,
+.effect-entry {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.portal-hero {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding: 1.25rem;
+}
+
+@media (min-width: 760px) {
+  .portal-hero {
+    grid-template-columns: minmax(0, 1fr) 16rem;
+    align-items: center;
+  }
+}
+
+.portal-eyebrow {
+  margin: 0 0 0.375rem;
+  color: #0f766e;
+  font-size: 0.75rem;
+  font-weight: 850;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.portal-hero h1,
+.page-heading h1 {
+  margin: 0;
+  color: #0f172a;
+  font-size: clamp(1.7rem, 4vw, 2.5rem);
+  font-weight: 850;
+  line-height: 1.1;
+}
+
+.portal-hero p,
+.page-heading p {
+  max-width: 48rem;
+  margin: 0.625rem 0 0;
+  color: #475569;
+  line-height: 1.65;
+}
+
+.portal-hero--articles {
+  grid-template-columns: 1fr;
+}
+
+.portal-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 900px) {
+  .portal-grid {
+    grid-template-columns: minmax(0, 1.35fr) minmax(18rem, 0.65fr);
+  }
+
+  .wiki-block--wide {
+    grid-row: span 2;
+  }
+}
+
+.wiki-block {
+  padding: 1rem;
+}
+
+.wiki-block__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.625rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.wiki-block__header h2 {
+  margin: 0;
+  color: #0f172a;
+  font-size: 1rem;
+  font-weight: 850;
+}
+
+.wiki-block__header a,
+.breadcrumb a,
+.empty-state a {
+  color: #1d4ed8;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.portal-card-grid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.portal-card-grid--heroes {
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+}
+
+.portal-article-list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.portal-article-list li {
+  display: grid;
+  gap: 0.25rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.portal-article-list li:last-child {
+  border-bottom: 0;
+}
+
+.portal-article-list a {
+  color: #1d4ed8;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.portal-article-list span {
+  color: #475569;
+  font-size: 0.875rem;
+  line-height: 1.55;
+}
+
+.portal-hero-card,
+.hero-directory-card,
+.portal-list-item {
+  color: inherit;
+  text-decoration: none;
+}
+
+.portal-hero-card,
+.hero-directory-card {
+  display: grid;
+  gap: 0.5rem;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.portal-hero-card {
+  padding: 0.625rem;
+}
+
+.hero-directory-card {
+  align-items: center;
+  justify-items: stretch;
+  padding: 0.625rem;
+  transition: border-color 0.12s ease, transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.hero-directory-card__image-wrap {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+  background: #f1f5f9;
+}
+
+.hero-directory-card__image-wrap img {
+  transform-origin: center center;
+}
+
+.hero-directory-card:hover {
+  border-color: var(--border-gold);
+  box-shadow: var(--shadow);
+  transform: translateY(-2px);
+}
+
+.portal-hero-card img,
+.hero-directory-card img {
+  width: 100%;
+  aspect-ratio: 8 / 11;
+  display: block;
+  border-radius: 0.375rem;
+  object-fit: cover;
+  background: #f1f5f9;
+}
+
+.portal-hero-card span,
+.hero-directory-card__name {
+  color: #0f172a;
+  font-size: 0.875rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.portal-hero-card span {
+  text-align: center;
+}
+
+.hero-directory-card__label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.0625rem;
+  width: 100%;
+  text-align: center;
+}
+
+.hero-directory-card__title {
+  color: var(--text-soft);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.hero-directory-card__name {
+  color: var(--text);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-wrap: balance;
+  overflow-wrap: break-word;
+}
+
+.hero-directory-card__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+  align-items: center;
+}
+
+.hero-directory-badge {
+  display: inline-flex;
+  align-items: center;
+  width: max-content;
+  max-width: 100%;
+  min-height: 1.375rem;
+  border-radius: 0.25rem;
+  padding: 0.125rem 0.375rem;
+  font-size: 0.75rem;
+  font-weight: 650;
+  line-height: 1.1;
+}
+
+.hero-directory-badge--quality {
+  background: #f6e6b5;
+  color: #76520f;
+}
+
+.hero-directory-badge--profession {
+  background: #f7d5d2;
+  color: #93312c;
+}
+
+.hero-directory-badge--faction {
+  background: #dbeafe;
+  color: #1d4e89;
+}
+
+.hero-directory-card__date {
+  color: #64748b;
+  font-size: 0.75rem;
+  font-weight: 650;
+}
+
+.portal-hero-card small {
+  color: #475569;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.portal-list,
+.portal-link-list,
+.portal-timeline {
+  display: grid;
+  gap: 0.625rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.portal-list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.625rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  background: #f8fafc;
+}
+
+.portal-list-item img {
+  width: 3rem;
+  height: 3rem;
+  flex: 0 0 auto;
+  border-radius: 0.375rem;
+  object-fit: cover;
+}
+
+.portal-list-item strong,
+.portal-list-item small {
+  display: block;
+}
+
+.portal-list-item small,
+.portal-link-list span,
+.portal-timeline time,
+.muted-copy,
+.result-count {
+  color: #64748b;
+  font-size: 0.8125rem;
+}
+
+.portal-link-list li,
+.portal-timeline li {
+  display: grid;
+  gap: 0.125rem;
+  padding-bottom: 0.625rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.portal-link-list li:last-child,
+.portal-timeline li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.portal-link-list a {
+  color: #1d4ed8;
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.effect-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.effect-chip-list a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.75rem;
+  border-radius: 999px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  padding: 0.25rem 0.625rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.page-heading {
+  margin-bottom: 1rem;
+  padding: 0.5rem 0;
+}
+
+.page-heading--compact {
+  margin-bottom: 1rem;
+}
+
+.list-toolbar {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.625rem;
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 820px) {
+  .list-toolbar {
+    grid-template-columns: minmax(14rem, 1fr) repeat(3, minmax(9rem, auto)) auto;
+  }
+}
+
+.result-count {
+  margin: 0 0 0.875rem;
+}
+
+.hero-directory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  gap: 0.625rem;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 0.75rem;
+  color: #64748b;
+  font-size: 0.8125rem;
+}
+
+.hero-detail-page {
+  display: grid;
+  gap: 1.25rem;
+  padding: 1.125rem;
+}
+
+@media (min-width: 860px) {
+  .hero-detail-page {
+    grid-template-columns: minmax(18rem, 22rem) minmax(0, 1fr);
+    align-items: start;
+  }
+}
+
+@media (min-width: 1180px) {
+  .hero-detail-page {
+    grid-template-columns: minmax(20rem, 24rem) minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+.hero-profile {
+  display: grid;
+  gap: 0.875rem;
+}
+
+.hero-profile__image-wrap {
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  background: #f8fafc;
+}
+
+.hero-profile__image {
+  width: 100%;
+  display: block;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+.hero-detail-main {
+  width: 100%;
+  max-width: 56rem;
+}
+
+.hero-profile__meta {
+  display: grid;
+  gap: 0.5rem;
+  margin: 0;
+}
+
+.hero-profile__meta div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.5rem 0.625rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  background: #f8fafc;
+}
+
+.hero-profile__meta dt {
+  color: #64748b;
+  font-size: 0.75rem;
+}
+
+.hero-profile__meta dd {
+  margin: 0;
+  color: #0f172a;
+  font-size: 0.8125rem;
+  font-weight: 800;
+}
+
+.hero-name-cn {
+  margin-top: 0.25rem !important;
+  color: #64748b !important;
+}
+
+.skill-sections {
+  display: grid;
+  gap: 1rem;
+}
+
+.effect-directory {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.effect-entry {
+  padding: 1rem;
+}
+
+.effect-entry h2 {
+  margin: 0 0 0.375rem;
+  color: #0f172a;
+  font-size: 1rem;
+  font-weight: 850;
+}
+
+.effect-entry p {
+  margin: 0;
+  color: #475569;
+  font-size: 0.875rem;
+  line-height: 1.65;
+}
+
+.empty-state {
+  padding: 2rem;
+  text-align: center;
+}
+
+.empty-state h1 {
+  margin: 0 0 0.5rem;
+  color: #0f172a;
+  font-size: 1.5rem;
+  font-weight: 850;
 }
 
 /* —— Category navigation —— */
@@ -588,11 +1362,11 @@ body > header {
 .effect-popup__panel {
   position: relative;
   padding: 0.75rem 2rem 0.75rem 0.875rem;
-  background: #f8fafc;
+  background: #fffbe6;
   color: #1e293b;
-  border: 1px solid #cbd5e1;
+  border: 1px solid #f3d97a;
   border-radius: 0.5rem;
-  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.1);
+  box-shadow: 0 4px 12px rgba(31, 39, 51, 0.12);
 }
 
 .effect-popup__title {
@@ -1003,4 +1777,603 @@ body.effect-sheet-open {
   .pet-skill-table {
     min-width: 40rem;
   }
+}
+
+
+/* —— Admin (route #admin) —— */
+.admin-shell {
+  display: grid;
+  gap: 1rem;
+}
+
+.admin-shell__header {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 1rem 1.25rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.admin-shell__header h1 {
+  margin: 0.25rem 0 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.admin-shell__nav {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.admin-shell__nav a {
+  padding: 0.375rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 0.375rem;
+  background: var(--surface-soft);
+  color: var(--text-muted);
+  font-size: 0.8125rem;
+  text-decoration: none;
+}
+
+.admin-shell__nav a.is-active {
+  background: var(--primary-soft);
+  color: var(--primary);
+  border-color: var(--primary);
+  font-weight: 600;
+}
+
+.avatar-editor {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 1rem;
+  box-shadow: var(--shadow-sm);
+}
+
+@media (min-width: 920px) {
+  .avatar-editor {
+    grid-template-columns: 22rem minmax(0, 1fr);
+  }
+}
+
+.avatar-editor__side {
+  display: grid;
+  gap: 0.875rem;
+}
+
+.admin-field {
+  display: grid;
+  gap: 0.375rem;
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+}
+
+.admin-field select,
+.admin-field input[type='range'] {
+  width: 100%;
+}
+
+.admin-field select {
+  min-height: 2.25rem;
+  padding: 0.375rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 0.375rem;
+  background: var(--surface);
+  color: var(--text);
+}
+
+.admin-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.admin-btn {
+  padding: 0.5rem 0.875rem;
+  border-radius: 0.375rem;
+  border: 1px solid var(--border);
+  background: var(--surface-soft);
+  color: var(--text);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.admin-btn--primary {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+
+.admin-btn--primary:hover {
+  background: var(--primary-strong);
+}
+
+.admin-btn--secondary {
+  background: var(--primary-soft);
+  border-color: var(--primary-soft);
+  color: var(--primary);
+}
+
+.admin-btn--ghost {
+  background: transparent;
+}
+
+.admin-status {
+  margin: 0;
+  min-height: 1.25rem;
+  color: var(--text-muted);
+  font-size: 0.8125rem;
+}
+
+.admin-json summary {
+  cursor: pointer;
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+}
+
+.admin-json pre {
+  margin: 0.5rem 0 0;
+  padding: 0.625rem;
+  border-radius: 0.375rem;
+  background: var(--surface-sunken);
+  color: var(--text);
+  font-size: 0.75rem;
+  line-height: 1.5;
+  overflow: auto;
+  max-height: 18rem;
+}
+
+.avatar-editor__preview {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  align-content: start;
+}
+
+@media (min-width: 600px) {
+  .avatar-editor__preview {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+}
+
+.avatar-editor__panel h3 {
+  margin: 0 0 0.5rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.avatar-editor__big {
+  width: 100%;
+  max-width: 22rem;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--surface-sunken);
+}
+
+.avatar-editor__big img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transform-origin: center center;
+}
+
+
+/* —— Hero picker —— */
+.hero-picker {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.375rem;
+  align-items: center;
+}
+
+@media (min-width: 600px) {
+  .hero-picker {
+    grid-template-columns: minmax(0, 1fr) minmax(10rem, 14rem) auto;
+  }
+}
+
+.hero-picker input[type='search'],
+.hero-picker select {
+  min-height: 2.25rem;
+  padding: 0.375rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 0.375rem;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.875rem;
+}
+
+.hero-picker__count {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+
+/* —— Hero editor —— */
+.hero-editor {
+  display: grid;
+  gap: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 1rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.hero-editor__top {
+  display: grid;
+  gap: 0.625rem;
+  padding-bottom: 0.875rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.hero-editor__type {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.875rem;
+  color: var(--text);
+}
+
+.hero-editor__section {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.hero-editor__section h3 {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+.hero-editor__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.625rem;
+}
+
+@media (min-width: 720px) {
+  .hero-editor__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1080px) {
+  .hero-editor__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.admin-field input[type='text'],
+.admin-field input[type='date'],
+.admin-field textarea {
+  width: 100%;
+  padding: 0.5rem 0.625rem;
+  border: 1px solid var(--border);
+  border-radius: 0.375rem;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.875rem;
+}
+
+.admin-field textarea {
+  font-family: inherit;
+  resize: vertical;
+  min-height: 4rem;
+  line-height: 1.5;
+}
+
+.admin-field--full {
+  grid-column: 1 / -1;
+}
+
+.hero-editor__slot {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface-soft);
+  padding: 0.75rem 0.875rem;
+}
+
+.hero-editor__slot + .hero-editor__slot {
+  margin-top: 0.625rem;
+}
+
+.hero-editor__slot-head {
+  margin-bottom: 0.5rem;
+  color: var(--text);
+  font-size: 0.875rem;
+}
+
+.hero-editor__slot-body {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.hero-editor__level {
+  margin: 0;
+  padding: 0.625rem 0.75rem;
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+}
+
+.hero-editor__level legend {
+  padding: 0 0.375rem;
+  color: var(--primary);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.admin-skill-icon {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.62);
+}
+
+.admin-skill-icon input[type='file'] {
+  display: none;
+}
+
+.admin-skill-icon__button {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ef4444;
+  border-radius: 9999px;
+  background: #fff7f7;
+  color: #ef4444;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.admin-skill-icon__button img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.admin-skill-icon:focus-within {
+  border-color: #ef4444;
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.12);
+}
+
+.admin-skill-icon__path {
+  min-width: 0;
+}
+
+.admin-skill-icon__crop {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.admin-skill-icon__crop .admin-field {
+  gap: 0.25rem;
+}
+
+@media (max-width: 720px) {
+  .admin-skill-icon__crop {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* —— Skill card: icon tròn (skill.image) + badge Hán phân loại —— */
+.skill-card {
+  position: relative;
+  border-left-width: 4px;
+  border-left-style: solid;
+  border-left-color: #e2e8f0;
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+}
+
+/* Card gộp (Vô Song / Mệnh Hồn Đỏ) giữ layout khối, không flex ngang. */
+.skill-card--grouped {
+  display: block;
+}
+
+.skill-card__group-head {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.skill-card__body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.skill-card__aside {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.skill-card__icon-wrap {
+  position: relative;
+  flex: 0 0 auto;
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: 9999px;
+  overflow: visible;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+}
+
+.skill-card__icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 9999px;
+}
+
+.skill-card__icon-wrap--empty::before {
+  content: '';
+  position: absolute;
+  inset: 0.8rem;
+  border-radius: 9999px;
+  border: 1px dashed #cbd5e1;
+}
+
+.skill-card__badge {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.5rem;
+  height: 1.5rem;
+  padding: 0 0.4rem;
+  border-radius: 0.375rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  background: #64748b;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.15);
+  letter-spacing: 0.02em;
+}
+
+/* Khi có icon: badge overlay lên góc trên-phải icon (giống game). */
+.skill-card__icon-wrap .skill-card__badge {
+  top: -0.4rem;
+  right: -0.4rem;
+}
+
+/* Phổ Công — xanh ngọc */
+.skill-slot--pho_cong .skill-card { border-left-color: #10b981; }
+.skill-slot--pho_cong .skill-card__badge { background: #10b981; }
+
+/* Nộ Công — đỏ */
+.skill-slot--no_cong .skill-card { border-left-color: #ef4444; }
+.skill-slot--no_cong .skill-card__badge { background: #ef4444; }
+
+/* Long Hồn Kỹ — xanh tím (lam đậm) */
+.skill-slot--long_hon_ky .skill-card { border-left-color: #6366f1; }
+.skill-slot--long_hon_ky .skill-card__badge { background: #6366f1; }
+
+/* Bị động — vàng nâu */
+.skill-slot--passive_2_sao .skill-card,
+.skill-slot--passive_3_sao .skill-card,
+.skill-slot--passive_4_sao .skill-card,
+.skill-slot--passive_5_sao .skill-card { border-left-color: #ca8a04; }
+.skill-slot--passive_2_sao .skill-card__badge,
+.skill-slot--passive_3_sao .skill-card__badge,
+.skill-slot--passive_4_sao .skill-card__badge,
+.skill-slot--passive_5_sao .skill-card__badge { background: #ca8a04; }
+
+/* Vô Song — tím sáng */
+.skill-slot--vo_song .skill-card { border-left-color: #a855f7; }
+.skill-slot--vo_song .skill-card__badge { background: #a855f7; }
+
+/* Duyên Phận — hồng cam */
+.skill-slot--duyen_phan .skill-card { border-left-color: #f97316; }
+.skill-slot--duyen_phan .skill-card__badge { background: #f97316; }
+
+/* Huyễn Vũ — xám đen */
+.skill-slot--huyen_vu .skill-card { border-left-color: #475569; }
+.skill-slot--huyen_vu .skill-card__badge { background: #475569; }
+
+/* Mệnh Hồn Đỏ — đỏ thẫm */
+.skill-slot--menh_hon_do .skill-card { border-left-color: #b91c1c; }
+.skill-slot--menh_hon_do .skill-card__badge { background: #b91c1c; }
+
+/* —— Effect popup icon —— */
+.effect-popup__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-block;
+  border-radius: 0.25rem;
+  object-fit: cover;
+  vertical-align: -0.25em;
+  margin-right: 0.4rem;
+  background: #f1f5f9;
+}
+
+/* —— Aside Huyễn Vũ trong trang chi tiết tướng —— */
+.hero-profile__huyen-vu {
+  margin-top: 0.875rem;
+  padding-top: 0.875rem;
+  border-top: 1px dashed #cbd5e1;
+}
+
+.hero-profile__huyen-vu-label {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #64748b;
+  margin: 0 0 0.25rem;
+}
+
+.hero-profile__huyen-vu-name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #0f172a;
+  margin: 0 0 0.5rem;
+}
+
+.hero-profile__huyen-vu-image-wrap {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  border: 1px solid #e2e8f0;
+  background: #f1f5f9;
+}
+
+.hero-profile__huyen-vu-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* —— Avatar editor: target Huyễn Vũ —— */
+.avatar-editor__target {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  font-size: 0.875rem;
+}
+
+.avatar-editor__huyen-vu-image-field {
+  display: block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.625rem;
+  border-radius: 0.375rem;
+  background: #f8fafc;
+  border: 1px dashed #cbd5e1;
 }

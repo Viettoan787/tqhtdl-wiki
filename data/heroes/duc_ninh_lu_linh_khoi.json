@@ -1,0 +1,16 @@
+{
+  "id": "duc_ninh_lu_linh_khoi",
+  "name": "Lữ Linh Khởi",
+  "name_cn": "",
+  "type": "soul",
+  "country": "quan-hung",
+  "faction": "Quần Hùng",
+  "role": "Hồn Tướng",
+  "profession": "Chưa rõ",
+  "quality": "UR",
+  "image": "/assets/images/duc-ninh-lu-linh-khoi.png",
+  "description": "Hồn tướng ra mắt ngày 26/03/2025. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [],
+  "releaseDate": "2025-03-26",
+  "title": "Dực Ninh"
+}

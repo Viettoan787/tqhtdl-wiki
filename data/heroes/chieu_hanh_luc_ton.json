@@ -1,0 +1,16 @@
+{
+  "id": "chieu_hanh_luc_ton",
+  "name": "Lục Tốn",
+  "name_cn": "",
+  "type": "soul",
+  "country": "ngo",
+  "faction": "Ngô",
+  "role": "Hồn Tướng",
+  "profession": "Chưa rõ",
+  "quality": "UR",
+  "image": "/assets/images/chieu-hanh-luc-ton.png",
+  "description": "Hồn tướng ra mắt ngày 30/10/2024. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [],
+  "releaseDate": "2024-10-30",
+  "title": "Chiêu Hành"
+}

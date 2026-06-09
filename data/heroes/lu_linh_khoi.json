@@ -1,0 +1,14 @@
+{
+  "id": "lu_linh_khoi",
+  "name": "Lữ Linh Khởi",
+  "name_cn": "",
+  "type": "normal",
+  "country": "quan-hung",
+  "faction": "Quần Hùng",
+  "role": "Võ Tướng",
+  "profession": "Chưa rõ",
+  "quality": "SR",
+  "image": "/assets/images/lu-linh-khoi.png",
+  "description": "Võ tướng phe Quần Hùng, phẩm Danh Tướng, chưa rõ chức nghiệp. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "phuc_tho",
+  "name": "Phục Thọ",
+  "name_cn": "",
+  "type": "normal",
+  "country": "quan-hung",
+  "faction": "Quần Hùng",
+  "role": "Võ Tướng",
+  "profession": "Tấn Công",
+  "quality": "SSR",
+  "image": "/assets/images/phuc-tho.png",
+  "description": "Võ tướng phe Quần Hùng, phẩm Thần Tướng, chức nghiệp Tấn Công. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

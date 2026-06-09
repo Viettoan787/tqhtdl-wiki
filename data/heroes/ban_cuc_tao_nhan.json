@@ -1,0 +1,19 @@
+{
+  "id": "ban_cuc_tao_nhan",
+  "name": "Tào Nhân",
+  "name_cn": "",
+  "type": "soul",
+  "country": "nguy",
+  "faction": "Ngụy",
+  "role": "Hồn Tướng",
+  "profession": "Chưa rõ",
+  "quality": "UR",
+  "image": "/assets/images/ban-cuc-tao-nhan.jpg",
+  "description": "Hồn tướng ra mắt ngày 27/08/2024. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": [],
+  "releaseDate": "2024-08-27",
+  "title": "Bàn Cực",
+  "avatar": {
+    "objectPosition": "25% 29%"
+  }
+}

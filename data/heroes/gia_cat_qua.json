@@ -1,0 +1,14 @@
+{
+  "id": "gia_cat_qua",
+  "name": "Gia Cát Quả",
+  "name_cn": "",
+  "type": "normal",
+  "country": "thuc",
+  "faction": "Thục",
+  "role": "Võ Tướng",
+  "profession": "Hỗ Trợ",
+  "quality": "SSR",
+  "image": "/assets/images/gia-cat-qua.png",
+  "description": "Võ tướng phe Thục, phẩm Thần Tướng, chức nghiệp Hỗ Trợ. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}

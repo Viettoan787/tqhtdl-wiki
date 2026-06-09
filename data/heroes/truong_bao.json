@@ -1,0 +1,14 @@
+{
+  "id": "truong_bao",
+  "name": "Trương Bảo",
+  "name_cn": "",
+  "type": "normal",
+  "country": "thuc",
+  "faction": "Thục",
+  "role": "Võ Tướng",
+  "profession": "Đột Kích",
+  "quality": "SSR",
+  "image": "/assets/images/truong-bao.png",
+  "description": "Võ tướng phe Thục, phẩm Thần Tướng, chức nghiệp Đột Kích. Nội dung kỹ năng sẽ được cập nhật sau.",
+  "skills": []
+}
